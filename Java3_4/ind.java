@@ -29,16 +29,36 @@
 //  classes, interface, Arrays
 /* 
 
-DataTypes      
-char    
-boolean
-float
-double 
-byte 
-long
-short
-int 
+DataTypes      value             size  
+char          '\u0000'           2byte
+boolean         false             1 bit
+float           0.0f             4byte
+double          0.0d             8byte
+byte            0                 1byte
+long            0l                8byte
+short            0                 2byte
+int             0                   4byte
+
 */
+
+char a = 'a';
+System.out.println(a);
+boolean b = true;
+System.out.println(b);
+float c = 1.2f;
+System.out.println(c);
+double d = 1.2;
+System.out.println(d);
+byte e = 12;
+System.out.println(e);
+long f = 123l;
+System.out.println(f);
+short g = 129;
+System.out.println(g);
+int h = 1234;
+System.out.println(h);
+
+
 
 
 
