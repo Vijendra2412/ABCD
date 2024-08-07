@@ -288,28 +288,109 @@
 //         }
 //     }
 // }
-import java.util.*;
-class vj{
-    public static void main(String[] args) {
-        Scanner sc =  new Scanner(System.in);
-        System.out.println("enter the height");
-        int height = sc.nextInt();
-        for(int i =1;i<=height;i++ ){
-            for(int j= 1;j<=i;j++){
-                if(i==height || j==1 || j==i){
-                    System.out.print("* ");
-                }
-                else{
-                    System.out.print("  ");
-                }
-            }
-            System.out.println();
-        }
-    }
-}
 // import java.util.*;
-// class pascal{
+// class vj{
 //     public static void main(String[] args) {
-        
+//         Scanner sc =  new Scanner(System.in);
+//         System.out.println("enter the height");
+//         int height = sc.nextInt();
+//         for(int i =1;i<=height;i++ ){
+//             for(int j= 1;j<=i;j++){
+//                 if(i==height || j==1 || j==i){
+//                     System.out.print("* ");
+//                 }
+//                 else{
+//                     System.out.print("  ");
+//                 }
+//             }
+//             System.out.println();
+//         }
 //     }
 // }
+// // import java.util.*;
+// // class pascal{
+// //     public static void main(String[] args) {
+        
+// //     }
+// // }
+
+
+// Oops (object Oriented programming)
+// oops is paradigm that provide many concept such as 
+// inheritence, data binding, polymorphism,etc
+
+// object:- its a real-world entity such as pen...
+// Oriented programming :- it is a methodogly or paradigsm to design a program 
+// using classes and object 
+
+// class 
+// object 
+// inheritence 
+// polymorphism
+// Abstraction
+// Encapsulation
+
+// class is group of object which have common properties. it is a template or blue print from which object are created
+// it is a logical entity 
+// it can not be physical 
+
+// Object:- an entity has state and behaviour is known as an object 
+// class xyz {
+//     // field; //instance variable
+//     // method; it is like a function which is used to expose the behavior of object
+//     // advantages of method 
+//     // code resuability 
+//     // code Optimization
+
+//     // new :- it is used to allocate memory at runtime. All object get memory in heap memory area
+
+// }
+
+
+// class vj{
+//     int id = 1; 
+//     String name = "vijendra";
+// public static void main(String[] args) {
+//     vj obj = new vj();
+//     System.out.println(obj.id);
+//     System.out.println(obj.name);
+// }
+// }
+
+// 3 ways to initialize object 
+// 1.by refrence variable 
+// 2.by method 
+// 3.by constructor
+
+class details{
+    int id;
+    String name;
+    String Lname;
+}
+
+class index{
+    public static void main(String[] args) {
+        details obj = new details();
+        details obj1 = new details();
+
+        obj.id = 12;
+        obj.name = "vijendra";
+        obj.Lname = "Sharma";
+
+        obj1.id = 1;
+        obj1.name = "vijay";
+        obj1.Lname = "Shamra";
+
+        // System.out.println(obj.id);
+        // System.out.println(obj.name);
+        // System.out.println(obj.Lname);
+        System.out.println(obj.id + " " + obj.name +" " + obj.Lname );
+
+
+        System.out.println(obj1.id);
+        System.out.println(obj1.name);
+        System.out.println(obj1.Lname);
+
+
+    }
+}
