@@ -41,26 +41,47 @@ int             0                   4byte
 
 */
 
-char a = 'a';
-System.out.println(a);
-boolean b = true;
-System.out.println(b);
-float c = 1.2f;
-System.out.println(c);
-double d = 1.2;
-System.out.println(d);
-byte e = 12;
-System.out.println(e);
-long f = 123l;
-System.out.println(f);
-short g = 129;
-System.out.println(g);
-int h = 1234;
-System.out.println(h);
+// char a = 'a';
+// System.out.println(a);
+// boolean b = true;
+// System.out.println(b);
+// float c = 1.2f;
+// System.out.println(c);
+// double d = 1.2;
+// System.out.println(d);
+// byte e = 12;
+// System.out.println(e);
+// long f = 123l;
+// System.out.println(f);
+// short g = 129;
+// System.out.println(g);
+// int h = 1234;
+// System.out.println(h);
+/* 
+// -----Operators----- 
+Operator is a Symbol that is used to perform Operations 
+ex:- + - / * %
+there are many types of Operators 
 
+Unary Operators                   postfix(x++ ,x--) prefix(--x, ++x)
+Arthimetic Operators              + - / * %
+Shift Operators                   >>  << >>>
+relational operators              < > <= >= != ==
+Bitwise Operators                 ^   |  , &    
+Logical Operators                 && || !
+Ternary Operators                  ? :    [  conditions?"true":"false"  ]
+Assignment Operators              = += -= /= %= <<= >>= >>>=
 
+*/
 
+// int x =10;
+// System.out.println(x++);
+// System.out.println(++x);
+// System.out.println(x--);
+// System.out.println(--x);
 
+// System.out.println(x++ + ++x);
+// System.out.println(x++ + x++);
 
 
 }

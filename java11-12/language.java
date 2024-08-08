@@ -1730,30 +1730,30 @@ class vj {
         //     System.out.println("rest of code");
         // }
 
-        try {
+//         try {
 
-            try {
-                System.out.println("divide by 0");
-                int a = 10/0;
-                System.out.println(a);
-            } catch (ArithmeticException e) {
+//             try {
+//                 System.out.println("divide by 0");
+//                 int a = 10/0;
+//                 System.out.println(a);
+//             } catch (ArithmeticException e) {
                 
-                System.out.println(e);
-            }
+//                 System.out.println(e);
+//             }
 
-            try {
-                int a[] = new int[5];
-                a[5]= 4;
-            } catch (ArrayIndexOutOfBoundsException e) {
-                System.out.println(e);
-            }
-        } catch (Exception e) {
-           System.out.println("handled");
-        }
-// System.out.println("abc");
-finally{
-    System.out.println("abcd");
-}
+//             try {
+//                 int a[] = new int[5];
+//                 a[5]= 4;
+//             } catch (ArrayIndexOutOfBoundsException e) {
+//                 System.out.println(e);
+//             }
+//         } catch (Exception e) {
+//            System.out.println("handled");
+//         }
+// // System.out.println("abc");
+// finally{
+//     System.out.println("abcd");
+// }
 
-    }
-}
+//     }
+// }
