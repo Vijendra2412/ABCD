@@ -410,7 +410,7 @@
 //             result = n1/n2;
 //             System.out.println("result is:- " + result);
 //                 break;
-        
+
 //             default:
 //                 break;
 //         }
@@ -450,7 +450,7 @@
 
 //             default:
 //             System.out.println(" invalid months");
-                
+
 //         }
 //     }
 // }
@@ -503,7 +503,6 @@
 //     }
 // }
 
-
 // Syntax:- 
 // for(initilization, conditions, I/D){
 
@@ -549,7 +548,6 @@
 //                 }
 //         }
 // }
-
 
 // Syntax:- 
 // do{
@@ -607,3 +605,137 @@ Abstraction
 Encapsulation
 coupling
 */
+
+// Object :-\
+// State:
+// behavior:
+// identity:
+
+// class:- 
+// field
+// Methods 
+// Constructor 
+// Blocks 
+// nested class and Interface 
+
+// Instance Variable:-  
+// class vj{
+//         int x= 9; // instance variable
+//         public static void main(String[] args) {
+
+//         }
+// }
+
+// Method:- 
+// advantages of Method 
+// code Reusablity
+// Code Optimization
+
+// class vj{
+//         int x= 10;
+//         public static void main(String[] args) {
+//                 vj obj = new vj();
+//                 System.out.println(obj.x);
+//         }
+// }
+
+// new :- it is used to allocate memory at runtime. 
+// All object get memory in heap memory area 
+
+// class vj{
+//         // field
+//         int id;  // instance data member
+//         String name;
+
+//         // create main method
+//         public static void main(String[] args) {
+
+//                 //create object
+//                 vj obj = new vj();
+//                 vj obj1 = new vj();
+
+//                 System.out.println(obj.id);  
+//                 System.out.println(obj.name);
+//                 System.out.println(obj1.id);  
+//                 System.out.println(obj1.name);
+//         }
+// }
+
+// 3 way to initialize object 
+// 1. By refrence variable
+// 2.By method
+// 3.By Constructor
+
+// class vj{
+//         int id ;
+//         String name;
+// }
+
+// class abc{
+//         public static void main(String[] args) {
+//                 vj obj = new vj();
+//                 obj.id = 123;
+//                 obj.name = "vijendra Sharma";
+
+//                 System.out.println(obj.id + " " + obj.name);
+//         }
+// }
+
+// 2.initialize Through Method  
+// class vj {
+//         int rollno;
+//         String name;
+
+//         void abc(int r, String n) {
+//                 rollno = r;
+//                 name = n;
+//         } 
+//         void display(){
+//                 System.out.println(rollno + " " + name);
+//         }
+
+
+//         public static void main(String[] args) {
+//              vj obj = new vj();
+//              vj obj1 = new vj();
+
+//              obj.abc(123, "Vijendra");
+//              obj1.abc(456, "vijay");  
+//              obj.display(); 
+//              obj1.display(); 
+
+//         }
+// }
+
+
+
+
+// Object and Class:- 
+// initilization Through a Constructor
+
+
+// different way a create an object! 
+// by new keyword 
+// by newInstance() method 
+// by clone() method 
+// by deserialization 
+// by factory method
+
+// Anonymous object 
+
+
+class vj{
+        void abc(int n){
+                int x =1;
+
+                for(int i = 1; i<=n; i++){
+                        x = x*i;
+                }
+                System.out.println("x is " + x);
+        }
+        public static void main(String[] args) {
+                new vj().abc(3);
+        }
+}
+
+

@@ -1757,3 +1757,58 @@
 
 //     }
 // }
+
+
+// class abc{
+//     public static void valid(int age){
+//         if(age<18){
+//                 throw new ArithmeticException("not eligible for vote");
+//         }
+//         else{
+//                 System.out.println("give eligible age");
+//         }
+//     }
+//     public static void main(String[] args) {
+//         valid(17);
+//         System.out.println("complete");
+//     }
+// }
+
+
+// import java.io.*;
+
+// class abc{
+
+//     public static void method() throws FileNotFoundException{
+//         FileReader file = new FileReader("def.text");
+//         BufferedReader fileinput = new BufferedReader(file);
+//         System.out.println(fileinput);
+//         throw new FileNotFoundException();
+//     }
+   
+
+//     public static void main(String[] args) {
+//         try {
+//             method();
+//         } catch (Exception e) {
+//             e.printStackTrace();
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
