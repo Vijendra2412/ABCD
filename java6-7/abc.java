@@ -1,4 +1,4 @@
-// // public class index {
+// //  class index {
 // //     public static void main(String[] args) {
 // // //    int x = 10;
 // // //    int y=-10;
@@ -362,35 +362,102 @@
 // 2.by method 
 // 3.by constructor
 
-class details{
-    int id;
-    String name;
-    String Lname;
+// class details{
+//     int id;
+//     String name;
+//     String Lname;
+// }
+
+// class index{
+//     public static void main(String[] args) {
+//         details obj = new details();
+//         details obj1 = new details();
+
+//         obj.id = 12;
+//         obj.name = "vijendra";
+//         obj.Lname = "Sharma";
+
+//         obj1.id = 1;
+//         obj1.name = "vijay";
+//         obj1.Lname = "Shamra";
+
+//         // System.out.println(obj.id);
+//         // System.out.println(obj.name);
+//         // System.out.println(obj.Lname);
+//         System.out.println(obj.id + " " + obj.name +" " + obj.Lname );
+
+
+//         System.out.println(obj1.id);
+//         System.out.println(obj1.name);
+//         System.out.println(obj1.Lname);
+
+
+//     }
+// }
+
+// components of class
+// field 
+// methods 
+// constructors 
+// blocks 
+// nested class and interface 
+
+// object our class 
+// initialization through refrence :-
+
+
+// class vj{
+//     int id;
+//  String name;
+// }
+// class index{
+//     public static void main(String[] args) {
+//         vj obj = new vj();
+//         obj.id = 12;
+//         obj.name = "vijendra Sharma";
+//         System.out.println(obj.id + " " + obj.name);
+//     }
+// }
+
+//initilize through method 
+// class abc{
+//     int rollno;
+//     String name;
+//  void ab(int r, String s){
+//         rollno = r;
+//         String = s;
+    
+//  }
+//  void display(){
+//     System.out.println(rollno + " " + name);
+//  }
+// public static void main(String[] args) {
+//     abc obj = new abc(1,"abcdefg");
+//     abc obj1 = new abc(2,"ghi");
+    
+//     obj1.display();
+//     obj2.display();
+    
+// }
+// }
+
+
+
+class Student{
+        int rollno;
+        String name;
+        void insert(int r , String s){
+                rollno = r;
+                name = s;
+        }
+        void display(){
+                System.out.println(rollno + " " + name);
+        }
 }
-
-class index{
-    public static void main(String[] args) {
-        details obj = new details();
-        details obj1 = new details();
-
-        obj.id = 12;
-        obj.name = "vijendra";
-        obj.Lname = "Sharma";
-
-        obj1.id = 1;
-        obj1.name = "vijay";
-        obj1.Lname = "Shamra";
-
-        // System.out.println(obj.id);
-        // System.out.println(obj.name);
-        // System.out.println(obj.Lname);
-        System.out.println(obj.id + " " + obj.name +" " + obj.Lname );
-
-
-        System.out.println(obj1.id);
-        System.out.println(obj1.name);
-        System.out.println(obj1.Lname);
-
-
-    }
+class jkl{
+        public static void main(String[] args) {
+                Student obj = new Student();
+                obj.insert(1, "vijay");
+                obj.display();
+        }
 }

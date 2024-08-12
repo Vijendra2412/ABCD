@@ -1,9 +1,9 @@
 // public class index {public static void main(String[] args) {System.out.println("hello World");}}
 
- class index{
-    // instance variable 
-    // static variable
-    public static void main(String[] args) {
+//  class index{
+//     // instance variable 
+//     // static variable
+//     public static void main(String[] args) {
 // Variable :- it is container which hold the value while the program is executed.
 // a variable assigned with dataTypes
 // types of variable:- 

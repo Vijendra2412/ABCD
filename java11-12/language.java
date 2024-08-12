@@ -1601,11 +1601,11 @@
 //     }
 // }
 
-import java.util.*;
+// import java.util.*;
 
-class vj {
-    public static void main(String[] args) {
-        // int[] array = {1,2,3,4,5};
+// class vj {
+//     public static void main(String[] args) {
+//         // int[] array = {1,2,3,4,5};
         // System.out.println("Array Size"+ array.length);
         // ArrayList<Integer> al = new ArrayList<>();
         // al.add(1);
