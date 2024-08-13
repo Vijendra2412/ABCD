@@ -1799,12 +1799,117 @@
 
 
 
+// class vj{
+//     access specifier  return type method_name(parameters_list){
+
+//     }
+// }
+// access specifier:- public , private, protected,Default 
+
+// Types of Method :- 
+// predefiened
+// user - defined
 
 
+// class abc{
+//     public static void main(String[] args) {
+//         System.out.println(Math.max(12, 45));
+//     }
+// }
 
 
+// class abc{
+//     public static void even(int n){
+//         if(n%2 ==0){
+//             System.out.println("is even");
+//         }
+//         else{
+//             System.out.println("odd");
+//         }
+//     }
+
+//     public static void main(String[] args) {
+//         even(12345);
+//         even(12);
+
+//     }
+// }
+
+// import java.lang.Thread.State;
+
+// class abc{
+//     public static int add(int n1, int n2){
+//         // return n1+n2; 
+        
+//         int x;
+//         x =  n1+n2;
+//         return x;
+
+//     }
 
 
+//     public static void main(String[] args) {
+//         int a =8;
+//         int b = 3;
+//         int c = add(a,b);
+
+//         System.out.println(" sum is " + c);
+//     }
+
+ 
+// }
+
+// class abc{
+//     public static int minus(int x , int y){
+//         return x-y;
+//     }
+
+//     public static void main(String[] args) {
+//        int z = minus(2, 1);
+//        System.out.println(z);
+//     }
+// }
+
+// public class thredLife extends Thread{
+//         public void run(){
+//                 System.out.println("Thread is running");
+//         }
+//         public void ru(){
+//                 System.out.println("Thread is run");
+//         }
+//         public static void main(String[] args) {
+//                 thredLife obj = new thredLife();
+//                 obj.start();
+                
+
+//         }
+// }
+
+// class newThread implements Runnable{
+//         public void run(){
+//                 System.out.println("Runnnable is running");
+//         }
+
+//         public static void main(String[] args) {
+//                Thread obj  = new Thread(new newThread());
+//                 obj.start();
+//         }
+// }
+
+public class sleepthrd extends Thread{
+        public void run(){
+                try {
+                    System.out.println("Thread id sleeping");
+                    Thread.sleep(2000);
+                    System.out.println("thread is wokeUp");    
+                } catch (Exception e) {
+                        e.printStackTrace();
+                }
+        }
+        public static void main(String[] args) {
+                new sleepthrd().start();
+        }
+}
 
 
 
