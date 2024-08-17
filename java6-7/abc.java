@@ -443,21 +443,201 @@
 
 
 
-class Student{
-        int rollno;
-        String name;
-        void insert(int r , String s){
-                rollno = r;
-                name = s;
-        }
-        void display(){
-                System.out.println(rollno + " " + name);
-        }
-}
-class jkl{
+// class Student{
+//         int rollno;
+//         String name;
+//         void insert(int r , String s){
+//                 rollno = r;
+//                 name = s;
+//         }
+//         void display(){
+//                 System.out.println(rollno + " " + name);
+//         }
+// }
+// class jkl{
+//         public static void main(String[] args) {
+//                 Student obj = new Student();
+//                 obj.insert(1, "vijay");
+//                 obj.display();
+//         }
+// }
+
+// Static Method :- 
+
+// class abc{
+
+//         static void show(){
+//                 System.out.println(" it is an static method");
+//         }
+//         public static void main(String[] args) {
+//                 show();
+//         }
+// }
+
+
+// instance Method 
+
+// class abc{
+
+//         int x;
+//         public int add(int a , int b){
+//                x=  a+b;
+//                return x;
+//         }
+//         public static void main(String[] args) {
+//                 abc obj = new abc();
+//                 System.out.println(obj.add(1, 2));
+//         }
+// }
+
+// there are two types of instance method :
+// Accessor Method:- that read the instance variable is known as the accessor method .
+// mutator Method :- the insance avriable and also modify the values ,
+
+// class Student{
+//         private int roll;
+//         private String name;
+
+//         public int getRoll(){
+//                 return roll;
+//         }
+//         public void setRoll(int roll){
+//                 this.roll = roll;
+//         }
+
+//         public int getname(){
+//                 return name;
+//         }
+//         public void setname(String name){
+//                 this.name = name;
+//         }
+
+//         public void display(){
+//                 System.out.println("RollNo is:- " + roll);
+//                 System.out.println("Name is:- " + name);
+
+
+//         }
+//  public static void main(String[] args) {
+   
+        
+//  }
+
+// }
+
+// Loops 
+// for loop 
+// for-each loop or enhanced for loop 
+// labeled for loop  
+
+// for(ini..,condition,I/D){
+//         //code
+// }
+
+
+// class abc {
+//         public static void main(String[] args) {
+//                 for(int i =0; i<=10;i++){
+//                         System.out.println(i);
+//                 }
+//         }
+// }
+
+class abc{
         public static void main(String[] args) {
-                Student obj = new Student();
-                obj.insert(1, "vijay");
-                obj.display();
+                // for(int i =0; i<=3;i++){
+                //         // System.out.println("Outer Loop " + i);
+                //         for(int j =0;j<=3;j++){
+                //                 System.out.println(i + j);
+                //         }
+                // }
+
+                // for(int i =1;i<=5;i++){
+                //         for(int j = 1;j<=i;j++){
+                //                 System.out.print("* ");
+                //         }
+                //         System.out.println();
+                // }
+
+                // for(int i =1;i<=5;i++){
+                //         for(int j = 5;j>=i;j--){
+                //                 System.out.print("* ");
+                //         }
+                //         System.out.println();
+                // }
+
+
+                // for-each loop 
+                // for(D.T V.N : A.N){
+                //         //code
+                // }
+
+                // int [] x = {1,2,3,4,5,6,7};
+                // for(int i=0;i<x.length;i++){
+                //         System.out.println(x[i]);
+                // }
+
+                // for(int i : x){
+                //         System.out.println(i);
+                // }
+
+                // lableName:
+                // for(.........){
+
+                // }
+
+                // a:
+                // for(int i = 1;i<=3;i++){
+                //         b:
+                //         for(int j =1;j<=3;j++){
+                //                 if(i==1 && j==2){
+                //                         break b;
+                //                 }
+                //                 System.out.println(i + " "  + j);
+                //         }
+                // }
+
+                // for(;;){
+                //         System.out.print("vj");
+                // }
+
+                //while loop 
+                // while (condition) {
+                //         //code
+                // }
+
+                // int i =1;
+                // while (i<=10) {
+                //         System.out.println(i);
+                //         i++;
+                // }
+
+                // while (true) {
+                //         System.out.print("vj");
+                // }
+                // do{
+
+                // }while(conditions);
+
+                // int i = 1;
+                // do{
+                //         System.out.println(i);
+                //         i++;
+                // }while(i>=10);
+
+                // while (i<=5) {
+                //         while (j<=i) {
+                //                 System.out.print("*");
+                                
+                //         }
+                //         System.out.println();
+                // }
+
+                // do{
+                //         System.out.println("vj");
+                // }while(true);
+
+
+
         }
 }

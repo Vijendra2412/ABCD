@@ -225,17 +225,3 @@
 // }
 
 
-class vj{
-    public static void main(String[] args) {
-        
-// for(;;){
-//     System.out.print(" jai shree Ram ");
-// }
-
-// for(int i=0;i<=10;i--){
-//     System.out.print(" jai shree Ram ");
-// }
-
-
-    }
-}

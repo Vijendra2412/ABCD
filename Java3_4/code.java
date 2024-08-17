@@ -1,4 +1,5 @@
-// public class index {public static void main(String[] args) {System.out.println("hello World");}}
+// public class code {
+    // public class index {public static void main(String[] args) {System.out.println("hello World");}}
 
 //  class index{
 //     // instance variable 
@@ -84,5 +85,20 @@ Assignment Operators              = += -= /= %= <<= >>= >>>=
 // System.out.println(x++ + x++);
 
 
+// }s
+// }
+
+ class klm{
+    public static void main(String[] args) {
+        
+        // System.out.println((x<y)|(x>y));
+        // System.out.println(!((x<y)|(x>y)));
+        // System.out.println(!((x<y)&(x>y)));
+
+
+    }
 }
-}
+
+
+
+// }
