@@ -525,119 +525,153 @@
 
 // }
 
-// Loops 
-// for loop 
-// for-each loop or enhanced for loop 
-// labeled for loop  
+// constructor 
+// it is special type of method which is used to initialize the object 
 
-// for(ini..,condition,I/D){
-//         //code
-// }
+// there are two types constructor
+// 1. no arg/default constructor
+// 2. parameterized constructor 
+
+// there are two rules of constructor 
+// 1.constructor name must be the same as its class name 
+// 2.a constructor must have no explicit return type 
+// 3.A java constructor cannot be abstract, static,final,synchronized 
 
 
-// class abc {
+// class abc{
+//         abc(){
+//                 System.out.println("its a constructor");
+//         }
 //         public static void main(String[] args) {
-//                 for(int i =0; i<=10;i++){
-//                         System.out.println(i);
-//                 }
+//                 abc obj = new abc();
 //         }
 // }
 
-class abc{
-        public static void main(String[] args) {
-                // for(int i =0; i<=3;i++){
-                //         // System.out.println("Outer Loop " + i);
-                //         for(int j =0;j<=3;j++){
-                //                 System.out.println(i + j);
-                //         }
-                // }
+// class abc{
+//         int id;
+//         String name;
+//         void display(){
+//                 System.out.println(id + " " + name);
+//         }
+//         public static void main(String[] args) {
+//                 abc obj = new abc();
+//                 abc obj1 = new abc();
+//                 obj.display();
+//                 obj1.display();
+//         }
 
-                // for(int i =1;i<=5;i++){
-                //         for(int j = 1;j<=i;j++){
-                //                 System.out.print("* ");
-                //         }
-                //         System.out.println();
-                // }
+// }
 
-                // for(int i =1;i<=5;i++){
-                //         for(int j = 5;j>=i;j--){
-                //                 System.out.print("* ");
-                //         }
-                //         System.out.println();
-                // }
+// class abc{
+//         int id;
+//         String name;
 
+//         abc(int i, String n){
+//               id =i;
+//               name =n;  
+//         }
+//         void display(){
+//                 System.out.println(id + " " + name );
+//         }
+//         public static void main(String[] args) {
+//                 abc obj = new abc(1234,"vj");
+                
+//                 obj.display();
+//         }
+// }
 
-                // for-each loop 
-                // for(D.T V.N : A.N){
-                //         //code
-                // }
+// constructor Overloading 
+// class abc{
+//         int id ;
+//         String name;
+//         int age;
 
-                // int [] x = {1,2,3,4,5,6,7};
-                // for(int i=0;i<x.length;i++){
-                //         System.out.println(x[i]);
-                // }
+//         //create two args constructor
+//         abc(int i,String n){
+//                 id =i;
+//                 name =n;
 
-                // for(int i : x){
-                //         System.out.println(i);
-                // }
+//         }
+//         abc(int i,String n,int a){
+//                 id =i;
+//                 name = n;
+//                 age = a;
+//         }
 
-                // lableName:
-                // for(.........){
+//         void display(){
+//                 System.out.println(id + " "+ name+" " + age);
+//         }
 
-                // }
+//         public static void main(String[] args) {
+//                 abc obj = new abc(123, "vijay");
+//                 abc obj1 = new abc(1232345, "vijendra",67);
+//                 obj.display();
+//                 obj1.display();
 
-                // a:
-                // for(int i = 1;i<=3;i++){
-                //         b:
-                //         for(int j =1;j<=3;j++){
-                //                 if(i==1 && j==2){
-                //                         break b;
-                //                 }
-                //                 System.out.println(i + " "  + j);
-                //         }
-                // }
+//         }
 
-                // for(;;){
-                //         System.out.print("vj");
-                // }
+//         }
 
-                //while loop 
-                // while (condition) {
-                //         //code
-                // }
+// constructor VS Method 
 
-                // int i =1;
-                // while (i<=10) {
-                //         System.out.println(i);
-                //         i++;
-                // }
+//copy Constructor
+// by constructor 
+// one obj to another 
+// clone() 
 
-                // while (true) {
-                //         System.out.print("vj");
-                // }
-                // do{
+// class abc{
+//         int id ;
+//         String name;
+//         abc(int i , String n){
+//                 id =i;
+//                 name =n;
+//         }
+//         abc(abc x){
+//                 id = x.id;
+//                 name = x.name;
+//         }
 
-                // }while(conditions);
+//         void display(){
+//                 System.out.println(id +" "+ name);
+//         }
 
-                // int i = 1;
-                // do{
-                //         System.out.println(i);
-                //         i++;
-                // }while(i>=10);
-
-                // while (i<=5) {
-                //         while (j<=i) {
-                //                 System.out.print("*");
-                                
-                //         }
-                //         System.out.println();
-                // }
-
-                // do{
-                //         System.out.println("vj");
-                // }while(true);
+//         public static void main(String[] args) {
+//                 abc obj = new abc(123,"vj");
+//                 abc obj1 = new abc(obj);
+//                 obj.display();
+//                 obj1.display();
+//         }
+// }
 
 
+// class abc{
+//         int id;
+//         String name;
+//         abc(int i, String n){
+//                 id=i;
+//                 name=n;
+//         }
 
-        }
-}
+//         abc(){
+
+//         }
+
+//         void display(){
+                
+                
+//                 System.out.println(id +" "+ name);
+//         }
+
+//         public static void main(String[] args) {
+//                 abc obj = new abc(123,"vjiay");
+//                 abc obj1 = new abc();
+//                 obj1.id=obj.id;
+//                 obj1.name = obj.name;
+//                 obj.display();
+//                 obj1.display();
+
+//         }
+// }
+
+
+

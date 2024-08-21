@@ -1896,20 +1896,78 @@
 //         }
 // }
 
-public class sleepthrd extends Thread{
+// public class sleepthrd extends Thread{
+//         public void run(){
+//                 try {
+//                     System.out.println("Thread id sleeping");
+//                     Thread.sleep(2000);
+//                     System.out.println("thread is wokeUp");    
+//                 } catch (Exception e) {
+//                         e.printStackTrace();
+//                 }
+//         }
+//         public static void main(String[] args) {
+//                 new sleepthrd().start();
+//         }
+// }
+
+// class runmethod extends Thread{
+//         public void run(){
+//                 System.out.println(" thread is running....");
+//         }
+//         public static void main(String[] args) {
+//                 runmethod obj = new runmethod();
+//                 obj.run();
+//         }
+// }
+
+// class JoinThreadDemo extends Thread {
+//         @Override
+//         public void run() {
+//             try {
+//                 Thread.sleep(2000);
+//                 System.out.println(Thread.currentThread().getName() + " is running");
+//             } catch (InterruptedException e) {
+//                 System.err.println(Thread.currentThread().getName() + " was interrupted");
+//                 Thread.currentThread().interrupt(); // Preserve interrupt status
+//             }
+//         }
+    
+//         public static void main(String[] args) {
+//             JoinThreadDemo t1 = new JoinThreadDemo();
+//             JoinThreadDemo t2 = new JoinThreadDemo();
+    
+//             t1.setName("Thread 1");
+//             t2.setName("Thread 2");
+    
+//             try {
+//                 t1.start();
+//                 t1.join();
+//                 t2.start();
+//                 t2.join();
+//             } catch (InterruptedException e) {
+//                 System.err.println("Main thread was interrupted");
+//                 Thread.currentThread().interrupt(); // Preserve interrupt status
+//             }
+    
+//             System.out.println("All threads have finished execution");
+//         }
+//     }
+
+class daemon extends Thread{
         public void run(){
-                try {
-                    System.out.println("Thread id sleeping");
-                    Thread.sleep(2000);
-                    System.out.println("thread is wokeUp");    
-                } catch (Exception e) {
-                        e.printStackTrace();
+                while (true) {
+                        System.out.println("Daemon thread is running ");
                 }
         }
         public static void main(String[] args) {
-                new sleepthrd().start();
+                daemon t  = new daemon();
+                t.setDaemon(true);
+                t.start();
         }
 }
+
+// Thread Pool 
 
 
 
