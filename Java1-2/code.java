@@ -197,20 +197,6 @@ Scanner sc = new Scanner(System.in);
 // System.out.println("ur pin is: " + x);
 
 // Check if a number is positive, negative, or zero.
-System.out.println("Enter Your num");
-int x = sc.nextInt();
-
-if(x>0){
-    System.out.println("Positive");
-}
-else if(x<0){
-    System.out.println("Negative");
-}
-else{
-    System.out.println("Zero");
-}
-
-
 
 // Determine if a person is eligible to vote based on their age.
 
@@ -232,6 +218,35 @@ else{
 
 
 
+
+
+// Swit Statements:- 
+
+// syntax:- 
+// switch (expression) {
+//     case value:
+        
+//         break;
+
+//     default:
+//         break;
+// }
+
+int age = 18;
+switch (age) {
+    case 17:
+    System.out.println("its a eligible");
+        break;
+        case 19:
+        System.out.println("Its not eligible");
+        break;
+        case 12:
+        System.out.println("Its  eligible");
+        break;
+    default:
+    System.out.println("there is no case");
+        break;
+}
 
 
 
