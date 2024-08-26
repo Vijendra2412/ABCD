@@ -674,4 +674,45 @@
 // }
 
 
+// static keyword :- it is used for memory management mainly.
+// used with:- variable , methods , blocks and nested classes 
+
+
+// class abc{
+//         int roll_no;
+//         String name;
+//         static String college = "abc";
+
+//         abc(int r ,String n){
+//                 roll_no = r;
+//                 name = n;
+//         }
+//         void display(){
+//                 System.out.println(roll_no +" "+ name +" "+ college);
+//         }
+//         public static void main(String[] args) {
+//                 abc obj = new abc(123, "vj");
+//                 obj.display();
+//         }
+// }
+
+
+// public class Main{
+//         static int count =0;
+//         Main(){
+//             count++;
+//             System.out.println(count);
+//         }
+//             public static void main(String[] args) {
+//                     Main obj = new Main();
+//                     Main obj1 = new Main();
+//                     Main obj2 = new Main();
+//                     Main obj3 = new Main();
+
+//             }
+//     }
+
+
+
+
 

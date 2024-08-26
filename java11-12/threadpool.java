@@ -1954,20 +1954,60 @@
 //         }
 //     }
 
-class daemon extends Thread{
-        public void run(){
-                while (true) {
-                        System.out.println("Daemon thread is running ");
-                }
-        }
-        public static void main(String[] args) {
-                daemon t  = new daemon();
-                t.setDaemon(true);
-                t.start();
-        }
-}
 
-// Thread Pool 
+// class daemon extends Thread{
+//         public void run(){
+//                 while (true) {
+//                         System.out.println("Daemon thread is running ");
+//                 }
+//         }
+//         public static void main(String[] args) {
+//                 daemon t  = new daemon();
+//                 t.setDaemon(true);
+//                 t.start();
+//         }
+// }
+
+// ----Thread Pool ----
+// import java.util.concurrent.ExecutorService;
+// import java.util.concurrent.Executors;;
+
+// public class threadpool{
+//         public static void main(String[] args) {
+//                 ExecutorService executor = Executor.newFixedThreadpool(2);
+//                 executor.execute(()->System.out.println("Task1"));
+//                 executor.execute(()->System.out.println("Task2"));
+//                 executor.shutdown();
+
+//         }
+// // }
+
+// class threadGroup{
+//         public static void main(String[] args) {
+//                 ThreadGroup group = new ThreadGroup("Group");
+//                 Thread t1 = new Thread(group,()->System.out.println("Thread1"));
+//                 Thread t2 = new Thread(group,()->System.out.println("Thread2"));
+//                 t1.start();
+//                 t2.start();
+//                 System.out.println("Thread group name:- "+ group.getName());
+//         }
+// }
+
+//  class shutdownHook {
+//         public static void main(String[] args) {
+//                 Runtime.getRuntime().addShutdownHook(new Thread());
+//                 System.out.println("Application running ");
+//         } 
+// }
+
+// class garbage{
+//         public static void main(String[] args) {
+//                 Runtime runtime = Runtime.getRuntime();
+//                 System.out.println("Before gc: " + runtime.freeMemory());
+//                 System.gc();
+//                 System.out.println("After gc: " + runtime.freeMemory());
+//         }
+// }
 
 
 
