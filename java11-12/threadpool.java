@@ -2009,7 +2009,51 @@
 //         }
 // }
 
+import java.text.Format;
 
+class vj{
+        public static void main(String[] args) {
+                // String x = "vijendra Sharma";
+                // String y = new String("vj sharma");
+
+                // String x = "vijendra";
+                // String y = new String("vj sharma");
+
+                // String a = "vj";
+                // char b[] = {'m','n','o'};
+                // String z = new String(b);
+                // String m = new String("Shamra");
+
+                // System.out.println(x);
+                // System.out.println(y);
+                // System.out.println(a);
+                // System.out.println(b);
+                // System.out.println(z);
+                // System.out.println(m);
+
+                // String x = "Sharma";
+                // // char y = x.charAt(2);
+
+                // System.out.println(x.charAt(3));
+
+                // length();
+                // Format();
+
+                // String x = String.format("my name is %s and my age is %d", "vijendra",20);
+                // System.out.println(x);
+
+                // String x = "vijendra Shamra";
+                // String y = x.substring(4,9);
+                // System.out.println(y);
+
+                
+                
+
+
+
+
+        }
+}
 
 
 

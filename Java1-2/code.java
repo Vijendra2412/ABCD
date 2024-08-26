@@ -232,21 +232,21 @@ Scanner sc = new Scanner(System.in);
 //         break;
 // }
 
-int age = 18;
-switch (age) {
-    case 17:
-    System.out.println("its a eligible");
-        break;
-        case 19:
-        System.out.println("Its not eligible");
-        break;
-        case 12:
-        System.out.println("Its  eligible");
-        break;
-    default:
-    System.out.println("there is no case");
-        break;
-}
+// int age = 18;
+// switch (age) {
+//     case 17:
+//     System.out.println("its a eligible");
+//         break;
+//         case 19:
+//         System.out.println("Its not eligible");
+//         break;
+//         case 12:
+//         System.out.println("Its  eligible");
+//         break;
+//     default:
+//     System.out.println("there is no case");
+//         break;
+// }
 
 
 
