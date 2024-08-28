@@ -2010,6 +2010,7 @@
 // }
 
 import java.text.Format;
+import java.util.List;
 
 class vj{
         public static void main(String[] args) {
@@ -2047,6 +2048,56 @@ class vj{
                 // System.out.println(y);
 
                 
+                //contain()
+                // String x = "vj sharma";
+                // boolean y = x.contains("ar");
+                // System.out.println(y);
+
+                //join()
+                // String name = String.join("-", "1","2","3");
+                // System.out.println(name);
+
+                // List<String> list = List.of("A","B","C");
+                // String joined = String.join(",", list);
+                // System.out.println(joined);
+
+                // equal(),=,==,
+
+                // String x = "vj";
+                // String y = "vj";
+                // boolean z = x.equals(y);
+                // System.out.println(z);
+
+                // isEmpty()
+                // String x = " ";
+                // boolean isEmpty = x.isEmpty();
+                // System.out.println(isEmpty);
+
+                //replace()
+                // String x= "vj";
+                // String re = x.replace("vj", "vijendra");
+                // System.out.println(re);
+
+                // equalsIgonreCase()
+                // String x = "vijendra";
+                // String y = "VIJENDRA";
+                // boolean isEqual  = x.equalsIgnoreCase(y);
+                // System.out.println(isEqual);
+
+                
+                // String s= "1 2,3,4,5,6";
+                // String[] x = s.split("," , 3);
+
+                //     for(String i : x){
+                //         System.out.println(i);
+                //     }
+
+
+                //intern method
+
+
+
+
                 
 
 

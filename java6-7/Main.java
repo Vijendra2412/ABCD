@@ -713,6 +713,125 @@
 //     }
 
 
+// this keyword :- current class variable
+        //         current class method (implicitly)
+        //         current class constructor ()
+        //          method call
+        //         constructor 
+        //         current clas instance ko method se return karne ke lie
+
+
+// class vj {
+//         int age ;
+//         String name;
+//         double salary;
+
+//         vj(int age,String name,double salary){
+//                 this.age = age;
+//                 this.name = name;
+//                 this.salary = salary;
+//         }
+//         void display(){
+//                 System.out.println(age +" "+ name + " "+ salary);
+//         }
+//         public static void main(String[] args) {
+//                 vj obj  = new vj(30, "vijendra", 10000.50);
+//                 obj.display();
+//         }
+// }
 
 
 
+// class vj{
+//         void abc(){
+//                 System.out.println(" its vj class");
+//         }
+//         void xyz(){
+//                 this.abc();
+//                 System.out.println("its vijay class");
+                
+//         }
+
+//         public static void main(String[] args) {
+//                 vj obj = new vj();
+               
+//                 obj.xyz();
+//         }
+// }
+
+// class vj{
+//         vj(){
+//                 this(12);
+//                 System.out.println(" its constructor1");
+//         }
+//         vj(int x){
+                
+//                 System.out.println(x);
+//         }
+//         public static void main(String[] args) {
+//                 vj obj = new vj();
+//         }
+// }
+
+// this: to pass as an Argument in the method 
+
+// class vj{
+//         void abc( vj obj1){
+//                 System.out.println("its invoked");
+//         }
+//         void xyz(){
+//                abc(this); 
+//         }
+//         public static void main(String[] args) {
+//                 vj a = new vj();
+//                 a.xyz();
+//         }
+// }
+
+
+// class vj{
+//         abc obj;
+//         vj(abc obj){
+//                 this.obj=obj;
+//         }
+//         void display(){
+//                 System.out.println(obj.value);
+//         }
+// }
+// class abc{
+//         int value = 12;
+//         abc(){
+//                 vj x = new vj(this);
+//                 x.display();
+//         }
+//         public static void main(String[] args) {
+//                 abc obj = new abc();
+//         }
+// }
+
+
+// class vj{
+//         vj getx(){
+//                 return this;
+//         }
+
+//         void display(){
+//                 System.out.println("Its vj clss");
+//         }
+
+//         public static void main(String[] args) {
+//                 new vj().getx().display();
+//         }
+// }
+
+
+class vj{
+        void abc(){
+System.out.println(this);
+        }
+        public static void main(String[] args) {
+                vj obj = new vj();
+                System.out.println(obj);
+                obj.abc();
+        }
+}
