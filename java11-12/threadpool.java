@@ -2095,6 +2095,23 @@ class vj{
 
                 //intern method
 
+                // String x= new String("Vijendra Sharma");
+                // String y = x.intern();
+                // System.out.println(x == y);
+                // System.out.println(y == "Vijendra Sharma");
+
+                //indexOf()
+                // String x= "hello";
+                // System.out.println(x.indexOf("o"));
+
+                // String x= " vijendra Sharma";
+                // System.out.println(x.indexOf("rm"));
+
+                // String x= "example example";
+                // System.out.println(x.indexOf("amp",4 ));
+                
+
+
 
 
 

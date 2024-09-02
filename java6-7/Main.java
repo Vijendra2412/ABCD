@@ -825,13 +825,62 @@
 // }
 
 
-class vj{
-        void abc(){
-System.out.println(this);
-        }
-        public static void main(String[] args) {
-                vj obj = new vj();
-                System.out.println(obj);
-                obj.abc();
-        }
-}
+// class vj{
+//         void abc(){
+// System.out.println(this);
+//         }
+//         public static void main(String[] args) {
+//                 vj obj = new vj();
+//                 System.out.println(obj);
+//                 obj.abc();
+//         }
+// }
+
+
+
+// class vj{ // parent
+
+// }
+// class child extends vj{
+
+// }
+
+// class vj{
+//         double x = 1.234; 
+// }
+
+// class child extends vj{
+//         int y = 1000;
+//         public static void main(String[] args) {
+//                 child obj = new child();
+//                 System.out.println("its vj class " +obj.x);
+//                 System.out.println("its vj class1 " +obj.y);
+
+//         }
+// }
+
+// single inheritence:- 
+
+// class vj{
+//         void eat(){
+//                 System.out.println("eating...");
+//         }
+// }
+// class abc extends vj{
+//         void drink(){
+//                 System.out.println("talking..");
+//         } 
+
+//         public static void main(String[] args) {
+//                 abc obj = new abc();
+//                 obj.eat();
+//                 obj.drink();
+//         }
+// }
+
+
+
+
+
+
+

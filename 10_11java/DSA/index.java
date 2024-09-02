@@ -34,3 +34,47 @@ step 4: if a>b
 
 
 // divide and Conquer alogorithm. 
+
+
+class vj{
+   private int arr[];
+   private int top;
+   private int capacity;
+
+   vj(int size){
+      arr = new int[size];
+      capacity = size;
+      top = -1;
+   }
+
+   public void push(int x){
+      if(isFull()){
+         System.out.println("overflow\nprogram Terminated\n");
+         System.exit(1);
+      }
+      System.out.println("Inserting " + x);
+      arr[++top] = x; 
+   }
+
+   public int pop(){
+      if (isEmpty()){
+         System.out.println("stack empy");
+         System.exit(1);
+      }
+      return arr[top--];
+   }
+
+   public Boolean isEmpty(){
+      return top == -1;
+
+   }
+   public int size(){
+      return top +1;
+   }
+   public Boolean isFull(){
+      return top == capacity -1;
+   }
+}
+
+
+
