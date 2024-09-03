@@ -36,45 +36,140 @@ step 4: if a>b
 // divide and Conquer alogorithm. 
 
 
-class vj{
-   private int arr[];
-   private int top;
-   private int capacity;
+// class vj{
+//    private int arr[];
+//    private int top;
+//    private int capacity;
 
-   vj(int size){
-      arr = new int[size];
-      capacity = size;
-      top = -1;
+//    vj(int size){
+//       arr = new int[size];
+//       capacity = size;
+//       top = -1;
+//    }
+
+//    public void push(int x){
+//       if(isFull()){
+//          System.out.println("overflow\nprogram Terminated\n");
+//          System.exit(1);
+//       }
+//       System.out.println("Inserting " + x);
+//       arr[++top] = x; 
+//    }
+
+//    public int pop(){
+//       if (isEmpty()){
+//          System.out.println("stack empy");
+//          System.exit(1);
+//       }
+//       return arr[top--];
+//    }
+
+//    public Boolean isEmpty(){
+//       return top == -1;
+
+//    }
+//    public int size(){
+//       return top +1;
+//    }
+//    public Boolean isFull(){
+//       return top == capacity -1;
+//    }
+// }
+
+class Queue{
+   int size=5;
+   int item[]  = new int[size];
+   int front , rear;
+
+   Queue(){
+      front = -1;
+      rear = -1;
    }
 
-   public void push(int x){
+   boolean isFull(){
+      if(front ==0 && rear == size){
+         return true;
+      }
+      else{
+         return false;
+      }
+   }
+
+   boolean isEmpty(){
+      if(front == -1){
+         return true;
+      }
+      else{
+         return false;
+      }
+   }
+
+
+   void enQueue (int element){
       if(isFull()){
-         System.out.println("overflow\nprogram Terminated\n");
-         System.exit(1);
+      System.out.println("Queue is full");
       }
-      System.out.println("Inserting " + x);
-      arr[++top] = x; 
-   }
-
-   public int pop(){
-      if (isEmpty()){
-         System.out.println("stack empy");
-         System.exit(1);
+      else{
+         if(front == -1){
+            front = 0;
+            rear++;
+            item[rear] = element;
+            System.out.println(" inserted element:- " + element);
+         }
       }
-      return arr[top--];
    }
 
-   public Boolean isEmpty(){
-      return top == -1;
+   int deQueue(){
+      int element;
+      if(isEmpty()){
+         System.out.println(" Queue is empty ");
+         return (-1);
+      }
+      else{
+         element = item[front];
+         if(front >= rear){
+            front =-1;
+            rear =-1;
+         }
+         else{
+            front++;
+         }
+         System.out.println("Deleted -> " + element);
+         return (element);
+      }
+   }
 
+   void display(){
+      int i;
+      if (isEmpty()) {
+         System.out.println("Empty Queue");
+      }
+      else{
+         System.out.println("\nfront index-> " + front);
+         System.out.println("Item->");
+         for(i = front; i<=rear;i++ ){
+            System.out.println(item[i] + " ");
+            System.out.println("\n Rear index " + rear);
+         }
+      }
+      
    }
-   public int size(){
-      return top +1;
-   }
-   public Boolean isFull(){
-      return top == capacity -1;
+   public static void main(String[] args) {
+      Queue q = new Queue();
+      q.deQueue();
+      q.enQueue(1);
+      q.enQueue(2);
+      q.enQueue(3);
+      q.enQueue(4);
+      q.enQueue(5);
+
+      q.display();
+      q.deQueue();
+      q.display();
+
+
+
+
    }
 }
-
-
 

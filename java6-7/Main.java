@@ -8,7 +8,7 @@
 // // // System.out.println(~y);
 // // // System.out.println(!c);
 // // // System.out.println(!d);
-   
+
 // // // System.out.println(10*10/5+3-1*4/2);
 
 // // // <<
@@ -21,7 +21,6 @@
 // // // System.out.println(10>>2);
 // // // System.out.println(20>>2);
 // // // System.out.println(20>>3);
-
 
 // // // System.out.println(20>>2);
 // // // System.out.println(20>>>2);
@@ -50,7 +49,6 @@
 // //         //     System.out.println("wrong code");
 // //         // }
 
-
 // //         // int x =10;
 // //         // int y = 12;
 // //         // if(x+y <10){
@@ -59,12 +57,9 @@
 // //         // else{
 // //         //     System.out.println("x+y is greater ");
 // //         // }
-        
+
 // //     }
 // // }
-
-
-
 
 // public class GradingSystem {
 //     public static void main(String[] args) {
@@ -98,10 +93,6 @@
 //     }
 // }
 
-
-
-
-
 //  class DayOfWeek {
 //     public static void main(String[] args) {
 //         int day = 3; // Let's assume 1 = Monday, 2 = Tuesday, ..., 7 = Sunday
@@ -126,8 +117,6 @@
 //     }
 // }
 
-
-
 // import java.util.Scanner;
 
 //  class VowelCount {
@@ -136,7 +125,7 @@
 //         System.out.print("Enter a string: ");
 //         String str = scanner.nextLine();
 //         int vowelCount = 0;
-        
+
 //         for (int i = 0; i < str.length(); i++) {
 //             char ch = str.charAt(i);
 //             if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
@@ -144,7 +133,7 @@
 //                 vowelCount++;
 //             }
 //         }
-        
+
 //         System.out.println("Number of vowels: " + vowelCount);
 //     }
 // }
@@ -173,7 +162,6 @@
 //     }
 // }
 
-
 // public class PyramidPattern {
 //     public static void main(String[] args) {
 //         int rows = 5;
@@ -189,20 +177,18 @@
 //     }
 // }
 
-
-
 // public class DiamondPattern {
 //     public static void main(String[] args) {
 //         int rows = 5;
-        // for (int i = 1; i <= rows; i++) {
-        //     for (int j = rows; j > i; j--) {
-        //         System.out.print(" ");
-        //     }
-        //     for (int k = 1; k <= i; k++) {
-        //         System.out.print("* ");
-        //     }
-        //     System.out.println();
-        // }
+// for (int i = 1; i <= rows; i++) {
+//     for (int j = rows; j > i; j--) {
+//         System.out.print(" ");
+//     }
+//     for (int k = 1; k <= i; k++) {
+//         System.out.print("* ");
+//     }
+//     System.out.println();
+// }
 //         for (int i = rows - 1; i >= 1; i--) {
 //             for (int j = rows; j > i; j--) {
 //                 System.out.print(" ");
@@ -241,11 +227,9 @@
 //     System.out.println("hello");
 // }
 
-
 // for(true){
 //     System.out.print("hello");
 // }
-
 
 // do{
 //     //code
@@ -261,7 +245,6 @@
 //     }
 // }
 
-
 // class vj{
 //     public static void main(String[] args) {
 //         for(int i =0;i<=10;i++){
@@ -272,7 +255,6 @@
 //         }
 //     }
 // }
-
 
 // class vj{
 //     public static void main(String[] args) {
@@ -310,10 +292,9 @@
 // // import java.util.*;
 // // class pascal{
 // //     public static void main(String[] args) {
-        
+
 // //     }
 // // }
-
 
 // Oops (object Oriented programming)
 // oops is paradigm that provide many concept such as 
@@ -345,7 +326,6 @@
 //     // new :- it is used to allocate memory at runtime. All object get memory in heap memory area
 
 // }
-
 
 // class vj{
 //     int id = 1; 
@@ -386,11 +366,9 @@
 //         // System.out.println(obj.Lname);
 //         System.out.println(obj.id + " " + obj.name +" " + obj.Lname );
 
-
 //         System.out.println(obj1.id);
 //         System.out.println(obj1.name);
 //         System.out.println(obj1.Lname);
-
 
 //     }
 // }
@@ -404,7 +382,6 @@
 
 // object our class 
 // initialization through refrence :-
-
 
 // class vj{
 //     int id;
@@ -426,7 +403,7 @@
 //  void ab(int r, String s){
 //         rollno = r;
 //         String = s;
-    
+
 //  }
 //  void display(){
 //     System.out.println(rollno + " " + name);
@@ -434,14 +411,12 @@
 // public static void main(String[] args) {
 //     abc obj = new abc(1,"abcdefg");
 //     abc obj1 = new abc(2,"ghi");
-    
+
 //     obj1.display();
 //     obj2.display();
-    
+
 // }
 // }
-
-
 
 // class Student{
 //         int rollno;
@@ -473,7 +448,6 @@
 //                 show();
 //         }
 // }
-
 
 // instance Method 
 
@@ -516,11 +490,9 @@
 //                 System.out.println("RollNo is:- " + roll);
 //                 System.out.println("Name is:- " + name);
 
-
 //         }
 //  public static void main(String[] args) {
-   
-        
+
 //  }
 
 // }
@@ -536,7 +508,6 @@
 // 1.constructor name must be the same as its class name 
 // 2.a constructor must have no explicit return type 
 // 3.A java constructor cannot be abstract, static,final,synchronized 
-
 
 // class abc{
 //         abc(){
@@ -575,7 +546,7 @@
 //         }
 //         public static void main(String[] args) {
 //                 abc obj = new abc(1234,"vj");
-                
+
 //                 obj.display();
 //         }
 // }
@@ -643,7 +614,6 @@
 //         }
 // }
 
-
 // class abc{
 //         int id;
 //         String name;
@@ -657,8 +627,7 @@
 //         }
 
 //         void display(){
-                
-                
+
 //                 System.out.println(id +" "+ name);
 //         }
 
@@ -673,10 +642,8 @@
 //         }
 // }
 
-
 // static keyword :- it is used for memory management mainly.
 // used with:- variable , methods , blocks and nested classes 
-
 
 // class abc{
 //         int roll_no;
@@ -696,7 +663,6 @@
 //         }
 // }
 
-
 // public class Main{
 //         static int count =0;
 //         Main(){
@@ -712,14 +678,12 @@
 //             }
 //     }
 
-
 // this keyword :- current class variable
-        //         current class method (implicitly)
-        //         current class constructor ()
-        //          method call
-        //         constructor 
-        //         current clas instance ko method se return karne ke lie
-
+//         current class method (implicitly)
+//         current class constructor ()
+//          method call
+//         constructor 
+//         current clas instance ko method se return karne ke lie
 
 // class vj {
 //         int age ;
@@ -740,8 +704,6 @@
 //         }
 // }
 
-
-
 // class vj{
 //         void abc(){
 //                 System.out.println(" its vj class");
@@ -749,12 +711,12 @@
 //         void xyz(){
 //                 this.abc();
 //                 System.out.println("its vijay class");
-                
+
 //         }
 
 //         public static void main(String[] args) {
 //                 vj obj = new vj();
-               
+
 //                 obj.xyz();
 //         }
 // }
@@ -765,7 +727,7 @@
 //                 System.out.println(" its constructor1");
 //         }
 //         vj(int x){
-                
+
 //                 System.out.println(x);
 //         }
 //         public static void main(String[] args) {
@@ -788,7 +750,6 @@
 //         }
 // }
 
-
 // class vj{
 //         abc obj;
 //         vj(abc obj){
@@ -809,7 +770,6 @@
 //         }
 // }
 
-
 // class vj{
 //         vj getx(){
 //                 return this;
@@ -824,7 +784,6 @@
 //         }
 // }
 
-
 // class vj{
 //         void abc(){
 // System.out.println(this);
@@ -836,51 +795,44 @@
 //         }
 // }
 
-
-
-// class vj{ // parent
-
-// }
-// class child extends vj{
-
-// }
+// Accesss Modifires 
+// there are 4 different types of access modifire 
+// default 
+// private 
+// protected 
+// public 
 
 // class vj{
-//         double x = 1.234; 
-// }
-
-// class child extends vj{
-//         int y = 1000;
-//         public static void main(String[] args) {
-//                 child obj = new child();
-//                 System.out.println("its vj class " +obj.x);
-//                 System.out.println("its vj class1 " +obj.y);
-
+//         String x = "vijendra";
+//         boolean age(){
+//                 return true;
 //         }
 // }
 
-// single inheritence:- 
+// method 
+// variable 
+// constructor
 
-// class vj{
-//         void eat(){
-//                 System.out.println("eating...");
-//         }
-// }
-// class abc extends vj{
-//         void drink(){
-//                 System.out.println("talking..");
-//         } 
+// class vj {
+//         private int age = 12;
 
-//         public static void main(String[] args) {
-//                 abc obj = new abc();
-//                 obj.eat();
-//                 obj.drink();
+//         int get(int a) {
+//                 return age;
 //         }
+
 // }
 
-
-
-
-
-
-
+public class Main{
+    private String name;
+    public String get(){
+        return name;
+    }
+    public void set(String name){
+        this.name = name;
+    }
+    public static void main(String[] args) {
+        Main obj = new Main();
+        obj.set("vj");
+        System.out.println(obj.get());
+    }
+}

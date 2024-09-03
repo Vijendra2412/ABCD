@@ -1606,129 +1606,127 @@
 // class vj {
 //     public static void main(String[] args) {
 //         // int[] array = {1,2,3,4,5};
-        // System.out.println("Array Size"+ array.length);
-        // ArrayList<Integer> al = new ArrayList<>();
-        // al.add(1);
-        // al.add(2);
-        // al.add(3);
-        // al.add(4);
-        // al.add(5);
+// System.out.println("Array Size"+ array.length);
+// ArrayList<Integer> al = new ArrayList<>();
+// al.add(1);
+// al.add(2);
+// al.add(3);
+// al.add(4);
+// al.add(5);
 
-        // System.out.println(al.size());
+// System.out.println(al.size());
 
-        // ArrayList<String> al = new ArrayList<>();
-        // al.add("apple");
-        // al.add("orange");
-        // al.add("grapes");
-        // al.add("pineapple");
-        // al.add("banana");
-        // System.out.println(al);
+// ArrayList<String> al = new ArrayList<>();
+// al.add("apple");
+// al.add("orange");
+// al.add("grapes");
+// al.add("pineapple");
+// al.add("banana");
+// System.out.println(al);
 
-        // LinkedList <String> linkedList = new LinkedList<>();
-        // linkedList.add("Cherry");
-        // linkedList.add("abc");
-        // System.out.println(linkedList);
+// LinkedList <String> linkedList = new LinkedList<>();
+// linkedList.add("Cherry");
+// linkedList.add("abc");
+// System.out.println(linkedList);
 
-        // ArrayList<String> al = new ArrayList<>();
-        // List <String> linkedList = new LinkedList<>();
-        // System.out.println(al.getClass());
-        // System.out.println(linkedList.getClass());
+// ArrayList<String> al = new ArrayList<>();
+// List <String> linkedList = new LinkedList<>();
+// System.out.println(al.getClass());
+// System.out.println(linkedList.getClass());
 
-        // ArrayList<String> al = new ArrayList<>();
-        // Vector<String> vector = new Vector<>();
-        // System.out.println("ArrayList implementations: " + al.getClass());
-        // System.out.println("vector : " + vector.getClass());
+// ArrayList<String> al = new ArrayList<>();
+// Vector<String> vector = new Vector<>();
+// System.out.println("ArrayList implementations: " + al.getClass());
+// System.out.println("vector : " + vector.getClass());
 
-        // ArrayList<String> al = new ArrayList<>();
-        // ArrayList<String> al2 = new ArrayList<>();
+// ArrayList<String> al = new ArrayList<>();
+// ArrayList<String> al2 = new ArrayList<>();
 
-        // al.add("apple");
-        // al.add("orange");
-        // al2.add("apple");
-        // al2.add("orange");
+// al.add("apple");
+// al.add("orange");
+// al2.add("apple");
+// al2.add("orange");
 
-        // if(al.equals(al2)){
-        // System.out.println("both r equal");
-        // }
-        // else{
-        // System.out.println("not euqal");
-        // }
+// if(al.equals(al2)){
+// System.out.println("both r equal");
+// }
+// else{
+// System.out.println("not euqal");
+// }
 
-        // ArrayList<String> al = new ArrayList<>();
-        // al.add("apple");
-        // al.add("orange");
-        // al.add("grapes");
-        // al.add("pineapple");
+// ArrayList<String> al = new ArrayList<>();
+// al.add("apple");
+// al.add("orange");
+// al.add("grapes");
+// al.add("pineapple");
 
-        // Collections.reverse(al);
-        // System.out.println(al);
+// Collections.reverse(al);
+// System.out.println(al);
 
-        // HashSet<String> hs = new HashSet<>();
-        // hs.add("abc");
-        // hs.add("def");
-        // hs.add("ghi");
-        // hs.add("jkl");
+// HashSet<String> hs = new HashSet<>();
+// hs.add("abc");
+// hs.add("def");
+// hs.add("ghi");
+// hs.add("jkl");
 
-        // System.out.println(hs);
-        // System.out.println(hs.contains("def"));
+// System.out.println(hs);
+// System.out.println(hs.contains("def"));
 
-        // try {
-    
-        // } catch (NumberFormatException e) {
-        //     System.out.println(e);
-        // }
+// try {
 
-        // System.out.println("handled");
+// } catch (NumberFormatException e) {
+//     System.out.println(e);
+// }
 
-        // try {
-        //             String s = "123";
-        //     int i = Integer.parseInt(s);
-        //     System.out.println(i);
-        // } catch (NumberFormatException e) {
-        //         System.out.println(e);
-        //     }
-        // finally{
-        //     System.out.println("its vj class");
+// System.out.println("handled");
 
-        // }
-        // int i =50;
-        // int j=0;
-        // int data;
-        // try {
-        //     data = i/j;
-        // } catch (Exception e) {
-        //     System.out.println(i/(j+2));
-        // }
+// try {
+//             String s = "123";
+//     int i = Integer.parseInt(s);
+//     System.out.println(i);
+// } catch (NumberFormatException e) {
+//         System.out.println(e);
+//     }
+// finally{
+//     System.out.println("its vj class");
 
-        // ------Multiple catch block---------
-        // try {
-        //     int a[] = new int[5];
-        //     a[5] = 30/2;
-        // } catch (ArithmeticException e) {
-        //     System.out.println("Arithmetic Exception occur");
-        // }
-        // catch(ArrayIndexOutOfBoundsException e){
-        //     System.out.println("ArrayIndexOutOfBoundsException");
-        // }
-        // catch(Exception e){
-        //     System.out.println("rest of code");
-        // }
+// }
+// int i =50;
+// int j=0;
+// int data;
+// try {
+//     data = i/j;
+// } catch (Exception e) {
+//     System.out.println(i/(j+2));
+// }
 
+// ------Multiple catch block---------
+// try {
+//     int a[] = new int[5];
+//     a[5] = 30/2;
+// } catch (ArithmeticException e) {
+//     System.out.println("Arithmetic Exception occur");
+// }
+// catch(ArrayIndexOutOfBoundsException e){
+//     System.out.println("ArrayIndexOutOfBoundsException");
+// }
+// catch(Exception e){
+//     System.out.println("rest of code");
+// }
 
+// try {
+//     String s = null;
+//     System.out.println(s.length());
 
-        // try {
-        //     String s = null;
-        //     System.out.println(s.length());
-
-        // } catch (ArithmeticException e) {
-        //      System.out.println("Arithmetic Exception occur");
-        // }
-        // catch(ArrayIndexOutOfBoundsException e){
-        //     System.out.println("ArrayIndexOutOfBoundsException");
-        // }
-        // catch(Exception e){
-        //     System.out.println("rest of code");
-        // }
+// } catch (ArithmeticException e) {
+//      System.out.println("Arithmetic Exception occur");
+// }
+// catch(ArrayIndexOutOfBoundsException e){
+//     System.out.println("ArrayIndexOutOfBoundsException");
+// }
+// catch(Exception e){
+//     System.out.println("rest of code");
+// }
 
 //         try {
 
@@ -1737,7 +1735,7 @@
 //                 int a = 10/0;
 //                 System.out.println(a);
 //             } catch (ArithmeticException e) {
-                
+
 //                 System.out.println(e);
 //             }
 
@@ -1758,7 +1756,6 @@
 //     }
 // }
 
-
 // class abc{
 //     public static void valid(int age){
 //         if(age<18){
@@ -1774,7 +1771,6 @@
 //     }
 // }
 
-
 // import java.io.*;
 
 // class abc{
@@ -1785,7 +1781,6 @@
 //         System.out.println(fileinput);
 //         throw new FileNotFoundException();
 //     }
-   
 
 //     public static void main(String[] args) {
 //         try {
@@ -1795,9 +1790,6 @@
 //         }
 //     }
 // }
-
-
-
 
 // class vj{
 //     access specifier  return type method_name(parameters_list){
@@ -1810,13 +1802,11 @@
 // predefiened
 // user - defined
 
-
 // class abc{
 //     public static void main(String[] args) {
 //         System.out.println(Math.max(12, 45));
 //     }
 // }
-
 
 // class abc{
 //     public static void even(int n){
@@ -1840,13 +1830,12 @@
 // class abc{
 //     public static int add(int n1, int n2){
 //         // return n1+n2; 
-        
+
 //         int x;
 //         x =  n1+n2;
 //         return x;
 
 //     }
-
 
 //     public static void main(String[] args) {
 //         int a =8;
@@ -1856,7 +1845,6 @@
 //         System.out.println(" sum is " + c);
 //     }
 
- 
 // }
 
 // class abc{
@@ -1880,7 +1868,6 @@
 //         public static void main(String[] args) {
 //                 thredLife obj = new thredLife();
 //                 obj.start();
-                
 
 //         }
 // }
@@ -1932,14 +1919,14 @@
 //                 Thread.currentThread().interrupt(); // Preserve interrupt status
 //             }
 //         }
-    
+
 //         public static void main(String[] args) {
 //             JoinThreadDemo t1 = new JoinThreadDemo();
 //             JoinThreadDemo t2 = new JoinThreadDemo();
-    
+
 //             t1.setName("Thread 1");
 //             t2.setName("Thread 2");
-    
+
 //             try {
 //                 t1.start();
 //                 t1.join();
@@ -1949,11 +1936,10 @@
 //                 System.err.println("Main thread was interrupted");
 //                 Thread.currentThread().interrupt(); // Preserve interrupt status
 //             }
-    
+
 //             System.out.println("All threads have finished execution");
 //         }
 //     }
-
 
 // class daemon extends Thread{
 //         public void run(){
@@ -2012,7 +1998,7 @@
 import java.text.Format;
 import java.util.List;
 
-class vj{
+class vj {
         public static void main(String[] args) {
                 // String x = "vijendra Sharma";
                 // String y = new String("vj sharma");
@@ -2047,13 +2033,12 @@ class vj{
                 // String y = x.substring(4,9);
                 // System.out.println(y);
 
-                
-                //contain()
+                // contain()
                 // String x = "vj sharma";
                 // boolean y = x.contains("ar");
                 // System.out.println(y);
 
-                //join()
+                // join()
                 // String name = String.join("-", "1","2","3");
                 // System.out.println(name);
 
@@ -2073,7 +2058,7 @@ class vj{
                 // boolean isEmpty = x.isEmpty();
                 // System.out.println(isEmpty);
 
-                //replace()
+                // replace()
                 // String x= "vj";
                 // String re = x.replace("vj", "vijendra");
                 // System.out.println(re);
@@ -2081,26 +2066,24 @@ class vj{
                 // equalsIgonreCase()
                 // String x = "vijendra";
                 // String y = "VIJENDRA";
-                // boolean isEqual  = x.equalsIgnoreCase(y);
+                // boolean isEqual = x.equalsIgnoreCase(y);
                 // System.out.println(isEqual);
 
-                
                 // String s= "1 2,3,4,5,6";
                 // String[] x = s.split("," , 3);
 
-                //     for(String i : x){
-                //         System.out.println(i);
-                //     }
+                // for(String i : x){
+                // System.out.println(i);
+                // }
 
-
-                //intern method
+                // intern method
 
                 // String x= new String("Vijendra Sharma");
                 // String y = x.intern();
                 // System.out.println(x == y);
                 // System.out.println(y == "Vijendra Sharma");
 
-                //indexOf()
+                // indexOf()
                 // String x= "hello";
                 // System.out.println(x.indexOf("o"));
 
@@ -2109,21 +2092,36 @@ class vj{
 
                 // String x= "example example";
                 // System.out.println(x.indexOf("amp",4 ));
-                
 
 
+                // String x = "Vijendra";
+                // x=x.concat("Sharma");
+                // System.out.println(x);
+                // System.out.println(x);
 
 
+                // equal()
+                // ==
+                // compareTo()
 
-                
+                // String x = "Vijendra";
+                // String y = "Vijendra";
+                // String z = new String("Vijendra");
+                // String a = "Vijendr";
+                // System.out.println(x.equals(y));
+                // System.out.println(x.equals(z));
+                // System.out.println(x.equals(a));
+
+                // System.out.println(x==y);
+                // System.out.println(x==z);
+                // System.out.println(x==a);
+
+                // System.out.println(x.compareTo(y));
+                // System.out.println(x.compareTo(z));
+                // System.out.println(a.compareTo(x));
 
 
 
 
         }
 }
-
-
-
-
-
