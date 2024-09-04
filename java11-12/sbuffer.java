@@ -1995,11 +1995,11 @@
 //         }
 // }
 
-import java.text.Format;
-import java.util.List;
+// import java.text.Format;
+// import java.util.List;
 
-class vj {
-        public static void main(String[] args) {
+// class vj {
+//         public static void main(String[] args) {
                 // String x = "vijendra Sharma";
                 // String y = new String("vj sharma");
 
@@ -2121,7 +2121,47 @@ class vj {
                 // System.out.println(a.compareTo(x));
 
 
+//         }
+// }
 
 
-        }
-}
+
+// class Tv{
+//         public static void main(String[] args) {
+//                 // String x= 1 + " Vijendra " +"Shamra"  + " and  age is " + 40 ;
+//                 //  String y = "Shamra";
+//                 //System.out.println(x);
+//                 String x = "Vijendra " ;
+//                 String y = "Sharma ";
+//                 int z = 12;
+
+//                 System.out.println(y.concat(x));
+                
+//         }
+// }
+
+
+// public class stringbuffer{
+// public static void main(String[] args) {
+//     StringBuffer obj = new StringBuffer("Its vj class");
+//     // obj.append("vjjj");
+//     // obj.insert(2, "vjj");
+//     // System.out.println(obj);
+//     // System.out.println(obj);
+//     // obj.replace(1,3, "Python");
+//     // obj.delete(1, 3);
+//     // obj.reverse();
+//     // System.out.println(obj);
+// }
+// }
+
+
+
+
+
+
+
+
+
+
+

@@ -822,17 +822,237 @@
 
 // }
 
-public class Main{
-    private String name;
-    public String get(){
-        return name;
+// public class Main{
+//     private String name;
+//     public String get(){
+//         return name;
+//     }
+//     public void set(String name){
+//         this.name = name;
+//     }
+//     public static void main(String[] args) {
+//         Main obj = new Main();
+//         obj.set("vj");
+//         System.out.println(obj.get());
+//     }
+// }
+
+
+// Access Modifire 
+// class Main{
+//     int x = 5;
+//     public static void main(String[] args) {
+        
+//     }
+// }
+
+// Default 
+// private:- method, variable, COnstructor
+// protected:- method, variable, COnstructor
+// public
+
+// class Main{
+//     private int age ;
+//     public int get(){
+//         return this.age;
+//     }
+//     public void set(int age){
+//         this.age = age;
+//     }
+    
+//     public static void main(String[] args) {
+//         Main obj = new Main();
+//         obj.set(12);
+//         System.out.println(obj.get());
+
+//     }
+// }
+
+// class one{
+//     protected void print1(){
+//         System.out.println(" its one class");
+//     }
+// }
+
+
+// class child extends one{
+        
+//     public static void main(String[] args) {
+//         one obj = new one();
+//     obj.print1();
+//     }
+// }
+
+
+
+
+// inheritence 
+// class Cal{
+//     int z;
+//     public void add(int x, int y){
+//         z = x+y;
+//         System.out.println(" sum is:- " + z);
+//     }
+//     public void sub(int x, int y){
+//         z = x-y;
+//         System.out.println(" sub is:- " + z);
+//     }
+// }
+
+
+// class child extends Cal{
+//     public void multi(int x , int y){
+//         z = x*y;
+//         System.out.println("multi:- " + z);
+//     }
+
+    
+// public static void main(String[] args) {
+//     int a =10, b= 10;
+//     child obj = new child();
+//     obj.add(a,b);
+//     obj.sub(a, b);
+//     obj.multi(a, b);
+// }
+// }
+
+
+// Types of inheritence:- 
+// single
+// multilevel 
+// hierachcl
+
+
+// class G_parent{
+//     void height(){
+//         System.out.println(" 6inch");
+//     }
+// }
+// class parent extends G_parent{
+//     void color(){
+//         System.out.println(" white");
+//     }
+// }
+// class child extends parent{
+//     void voice(){
+//         System.out.println(" sweet voice");
+//     }
+// }
+
+// class Main{
+//     public static void main(String[] args) {
+//         child obj = new child();
+//         obj.height();
+//         // obj.color();
+//         obj.voice();
+//     }
+// }
+
+// Aggregation 
+// class vehicle{
+//     private String x;
+//     public String get(){
+//         return x;
+//     }
+//     public void setx(String x){
+//         this.x = x;
+//     }
+// }
+
+// class Speed{
+//     private double max;
+//     public double getmax(){
+//         return max;
+//     }
+//     public void setmax(){
+//         this.max=max;
+//     }
+// }
+
+// class abc extends vehicle{
+//     private Speed speed;
+//     public Speed getSpeed(){
+//         return speed;
+//     }
+//     public void setSpeed(){
+//         this.speed = speed;
+//     }
+//     public void print(){
+//         System.out.println("x:- " + this.getx() + "max speed" + speed.getmax());
+//     }
+
+//     public static void main(String[] args) {
+//         Speed speed = new Speed();
+//         speed.setmax(100);
+//         abc obj = new abc();
+//         obj.setSpeed("123");
+//         obj.print();
+//     }
+// }
+
+// class Operation{  
+//     int square(int n){  
+//      return n*n;  
+//     }  
+//    }  
+     
+//    class Circle{  
+//     Operation op;//aggregation  
+//     double pi=3.14;  
+       
+//     double area(int radius){  
+//       op=new Operation();  
+//       int rsquare=op.square(radius);//code reusability (i.e. delegates the method call).  
+//       return pi*rsquare;  
+//     }  
+     
+        
+       
+//     public static void main(String args[]){  
+//       Circle c=new Circle();  
+//       double result=c.area(5);  
+//       System.out.println(result);  
+//     }  
+//    }  
+
+// method overloading :-  same name with different parameter
+// class raj{
+//     static int add(int a, int b){
+//         return a+b;
+//     }
+//     static int add(int a, int b,int c){
+//         return a+b+c;
+//     }
+//     public static void main(String[] args) {
+//         System.out.println(raj.add(1, 2));
+//         System.out.println(raj.add(2, 3, 4));
+//     }
+// }
+
+// class raj{
+//     static int add(int a, int b){
+//         return a+b;
+//     }
+//     static double add(double a, double b){
+//         return a+b;
+//     }
+//     public static void main(String[] args) {
+//         System.out.println(raj.add(1, 2));
+//         System.out.println(raj.add(2.3, 3.3));
+//     }
+// }
+
+class java{
+    void abc(){
+        System.out.println("vj is java trainer");
     }
-    public void set(String name){
-        this.name = name;
+}
+class child extends java{
+    void abc(){
+        System.out.println("vijendra is java trainer");
     }
     public static void main(String[] args) {
-        Main obj = new Main();
-        obj.set("vj");
-        System.out.println(obj.get());
+        child obj = new child();
+        obj.abc();
     }
 }
