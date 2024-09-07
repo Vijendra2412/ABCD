@@ -61,12 +61,18 @@ public class nihal {
 //     }
 // }
 
-public class mithoon {
-    public static void main(String[] args) {
-        System.out.println("Now ");
-    }
-}
+// public class mithoon {
+//     public static void main(String[] args) {
+//         System.out.println("Now ");
+//     }
+// }
 
+
+// class nihal{
+//     public static void main(String[] args) {
+      
+//     }
+// }
 
 
 
