@@ -249,18 +249,210 @@
 // }
 // }
 
-import java.util.Scanner;
-class practice {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-            System.out.println(" enter the value n :- ");
-            int n = sc.nextInt();
-            double sum = 0;
+// import java.util.Scanner;
+// class practice {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//             System.out.println(" enter the value n :- ");
+//             int n = sc.nextInt();
+//             double sum = 0;
 
-            for(int i = 1; i<=n ; i++){
-                    sum+= 1.0/i;
-            }
-            System.out.println("sum of series is:- " + sum);
+//             for(int i = 1; i<=n ; i++){
+//                     sum+= 1.0/i;
+//             }
+//             System.out.println("sum of series is:- " + sum);
     
-    }
-    }
+//     }
+//     }
+
+
+
+// import java.util.Scanner;
+// class practice {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//             System.out.println(" enter the 1st number ");
+//             int num1 = sc.nextInt();
+//             System.out.println(" enter the 2nd number ");
+//             int num2 = sc.nextInt();
+//             int a = num1,b =num2;
+//             while (b!=0) {
+//                 int remainder = a%b;
+//                 a=b;
+//                 b=remainder;
+//             }
+          
+//             System.out.println("our GCD of " + num1 + " and  " +num2 + " is " + a);
+//     }
+//     }
+
+// import java.util.Scanner;
+// class practice {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter rows:- ");
+//         // int n = sc.nextInt();
+//         int n = 5;
+
+//         for(int i=n;i>=1;i--){
+//             for(int j=1;j<=i;j++){
+//                 System.out.print("* ");
+//             }
+          
+//             System.out.println();
+
+//         }
+            
+//     }
+//     }
+
+// import java.util.Scanner;
+// class practice {
+//     public static void main(String[] args) {
+        
+    
+//         int n = 5, num =1;
+
+//         for(int i=1;i<=n;i++){
+//             for(int j=1;j<=n-i;j++){
+//                 System.out.print("  ");
+//             }
+//             for(int j=1;j<=(2*i-1);j++){
+//                 System.out.print("* ");
+//             }
+          
+//             System.out.println();
+
+//         }
+            
+//     }
+//     }
+
+
+
+//diamond 
+// import java.util.Scanner;
+// class practice {
+//     public static void main(String[] args) {
+        
+    
+//         int n = 5;
+//             //upper
+//         for(int i=1;i<=n;i++){
+//             for(int j=1;j<=n-i;j++){
+//                 System.out.print("  ");
+//             }
+//             for(int j=1;j<=(2*i-1);j++){
+//                 System.out.print("* ");
+//             }
+          
+//             System.out.println();
+
+//         }
+//         for(int i=n-1;i>=1;i--){
+//             for(int j=1;j<=n-i;j++){
+//                 System.out.print("  ");
+//             }
+//             for(int j=1;j<=(2*i-1);j++){
+//                 System.out.print("* ");
+//             }
+//         System.out.println();
+
+//         }
+            
+//     }
+//     }
+
+
+
+// number ryt angle triangle 
+// class practice {
+//     public static void main(String[] args) {
+//         int n = 5;
+
+//         for(int i=1;i<=n;i++){
+//             for(int j=1;j<=i;j++){
+//                 System.out.print(j + " ");
+//             }
+          
+//             System.out.println();
+
+//         }
+            
+//     }
+//     }
+
+// floyd triangle
+// class practice {
+//     public static void main(String[] args) {
+//         int n = 5 ,num =1;
+
+//         for(int i=1;i<=n;i++){
+//             for(int j=1;j<=i;j++){
+//                 System.out.print(num++ + " ");
+//             }
+          
+//             System.out.println();
+
+//         }
+            
+//     }
+//     }
+
+// butterfly pattern 
+// class practice {
+//     public static void main(String[] args) {
+//         int n = 5;
+//         //uuper
+//         for(int i =1;i<=n;i++){
+//             for(int j=1;j<=i;j++){
+//                 System.out.print("*");
+//             }
+//             for(int j =1;j<=2*(n-i);j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1;j<=i;j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//         //lower
+//         for(int i =n-1;i>=1;i--){
+//             for(int j=1;j<=i;j++){
+//                 System.out.print("*");
+//             }
+//             for(int j =1;j<=2*(n-i);j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j = 1;j<=i;j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+            
+//     }
+//     }
+
+// Square pattern 
+
+// class practice {
+//     public static void main(String[] args) {
+//         int n = 5 ;
+
+//         for(int i=1;i<=n;i++){
+//             for(int j=1;j<=n;j++){
+//                 if(i==1 || i==n || j==1 || j==n){
+//                     System.out.print("*");
+//                 }
+//                 else{
+//                     System.out.print(" ");
+//                 }
+               
+//             }
+          
+//             System.out.println();
+
+//         }
+            
+//     }
+//     }
