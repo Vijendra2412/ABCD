@@ -2155,6 +2155,18 @@
 // }
 // }
 
+// class a{
+//     public static void main(String[] args) {
+//         StringBuilder sb = new StringBuilder("Hello");
+//         sb.append(" vj");
+//         System.out.println(sb);
+
+//     }
+// }
+
+// DataTypes [] arrayname = {};
+
+
 
 
 

@@ -1042,17 +1042,91 @@
 //     }
 // }
 
-class java{
-    void abc(){
-        System.out.println("vj is java trainer");
+// class java{
+//     void abc(){
+//         System.out.println("vj is java trainer");
+//     }
+// }
+// class child extends java{
+//     void abc(){
+//         System.out.println("vijendra is java trainer");
+//     }
+//     public static void main(String[] args) {
+//         child obj = new child();
+//         obj.abc();
+//     }
+// }
+
+// Dynamic binding 
+// characteristics 
+// Linking 
+// resolve mechanism
+
+// class Animal{
+//     public void move(){
+//         System.out.println("Animal can move");
+//     }
+// }
+// class Dog extends Animal{
+//     public void move(){
+//         super.move();
+//         System.out.println("Dog can walk and run");
+//     }
+
+//     public static void main(String[] args) {
+//         Animal obj = new Animal();
+
+//         //Dynamic binding
+//         Animal obj1 = new Dog();
+// // obj.move();
+// obj1.move();
+
+    
+//     }
+// }
+
+// characteristics of static binding
+
+// linking
+// resolve mechanism
+
+
+// class abc {
+//     public static int add(int x, int y){
+//         return x+y;
+//     }
+//     public static int add(int x, int y , int z){
+//         return x+y+z;
+//     }
+//     public static void main(String[] args) {
+        
+//         System.out.println(abc.add(2, 3));
+//         System.out.println(abc.add(3, 4, 5));
+//     }
+// }
+
+// instance Initializer block 
+// class block{
+//     int x;
+//     {
+//         x = 12;
+//     }
+//     public static void main(String[] args) {
+//         vj obj = new vj();
+//         System.out.println(obj.x);
+//     }
+// }
+
+
+class ghi{
+    
+    ghi(){
+        System.out.println(" inside constructor");
     }
-}
-class child extends java{
-    void abc(){
-        System.out.println("vijendra is java trainer");
+    {
+        System.out.println(" Inside initializer block");
     }
     public static void main(String[] args) {
-        child obj = new child();
-        obj.abc();
+        ghi obj = new ghi();
     }
 }
