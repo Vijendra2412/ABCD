@@ -2166,7 +2166,19 @@
 
 // DataTypes [] arrayname = {};
 
-
+class b{
+    public static void main(String[] args) {
+        int x[] = {1,2,3,4,5,6};
+        System.out.println("For Loop");
+        for(int i=0;i<x.length;x++){
+            System.out.println(x[i]);
+        }
+        System.out.println("FOR EACH LOOP ");
+        for(int j :x){
+            System.out.println(j);
+        }
+    }
+}
 
 
 
