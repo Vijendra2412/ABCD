@@ -456,3 +456,22 @@
             
 //     }
 //     }
+
+
+class vj{
+    int x = 9234; // instance variable
+    public static void main(String[] args) {
+        vj obj  = new vj();
+        vj obj1  = new vj();
+        vj obj2  = new vj();
+        vj obj3  = new vj();
+
+
+        System.out.println(obj.x);
+        System.out.println(obj1.x);
+        System.out.println(obj2.x);
+        System.out.println(obj3.x);
+
+    }
+
+}

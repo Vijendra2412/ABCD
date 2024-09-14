@@ -23,15 +23,39 @@ public class nihal {
      */
 
     //  public class a{
+       
     //     public static void main(String[] args) {
-    //         // dataType variable_name = value 
-    //         int abc = 123;
-    //         System.out.println(abc);
+    //         int  = 9;
+    //         System.out.println();
     //     }
     //  }
 
-    
+/* 
+    DataTypes            Default value            Default size
+    boolean             false                       1bit
+    char                '\u0000'                    2byte
+    byte                    0                       byte
+    short                   0                       2byte
+    int                     0                       4byte
+    long                    0L                      8byte
+    float                   0.0f                    4byte
+    double                  0.0d                    8byte
 
+    
+*/
+
+// class z{
+  
+//     public static void main(String[] args) {
+//         // boolean a = true;
+//         // System.out.println(a);
+
+//         // long z  = 1243456781223452355L;
+//         // System.out.println(z);
+//     }
+// }
+
+// package :- 
     
 
 

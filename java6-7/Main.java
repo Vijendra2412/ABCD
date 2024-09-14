@@ -1118,15 +1118,172 @@
 // }
 
 
-class ghi{
+// class ghi{
     
-    ghi(){
-        System.out.println(" inside constructor");
-    }
+//     ghi(){
+//         System.out.println(" inside constructor");
+//     }
+//     {
+//         System.out.println(" Inside initializer block");
+//     }
+//     public static void main(String[] args) {
+//         ghi obj = new ghi();
+//     }
+// }
+
+
+// Abstraction 
+// abstract class employee{
+//     private String name;
+//     private String address;
+//     private int number;
+
+//     public employee(String name, String address, int number){
+//         System.out.println("constructing a z");
+//         this.address=address;
+//         this.name=name;
+//         this.number = number;
+
+//     }
+//     public double computepay(){
+//         System.out.println("inside employee computepay");
+//         return 0.0;
+//     }
+//     public void mailcheck(){
+//         System.out.println("mailing a check to " + this.name + " " + this.address);
+
+//     }
+
+//     public String toString(){
+//         return name + " " + address + " " + number;
+//     }
+//     public String getname(){
+//         return name;
+//     }
+//     public String getAddress(){
+//         return address;
+//     }
+//     public int getNumber(){
+//         return number;
+//     }
+//     public static void main(String[] args) {
+        
+
+//     }
+  
+// }
+
+// abstract class motor{
+//     abstract void bike();
+
+// }
+
+// class rider extends motor{
+//     void bike(){
+//         System.out.println("running safe");
+//     }
+//     public static void main(String[] args) {
+//         motor obj = new rider();
+//         obj.bike();
+        
+//     }
+// }
+
+//  class Main{
+//     public void msg(){
+//         System.out.println(" hello vj");
+//     }
+// }
+
+// access modifire 
+// non-access modifire 
+
+// private 
+// default 
+// protected 
+// public
+
+// class Account {  
+//     //private data members  
+//     private long acc_no;  
+//     private String name,email;  
+//     private float amount;  
+//     //public getter and setter methods  
+//     public long getAcc_no() {  
+//         return acc_no;  
+//     }  
+//     public void setAcc_no(long acc_no) {  
+//         this.acc_no = acc_no;  
+//     }  
+//     public String getName() {  
+//         return name;  
+//     }  
+//     public void setName(String name) {  
+//         this.name = name;  
+//     }  
+//     public String getEmail() {  
+//         return email;  
+//     }  
+//     public void setEmail(String email) {  
+//         this.email = email;  
+//     }  
+//     public float getAmount() {  
+//         return amount;  
+//     }  
+//     public void setAmount(float amount) {  
+//         this.amount = amount;  
+//     }  
+      
+//     }  
+
+//     public class TestEncapsulation {  
+//         public static void main(String[] args) {  
+//             //creating instance of Account class  
+//             Account acc=new Account();  
+//             //setting values through setter methods  
+//             acc.setAcc_no(7560504000L);  
+//             acc.setName("Sonoo Jaiswal");  
+//             acc.setEmail("sonoojaiswal@javatpoint.com");  
+//             acc.setAmount(500000f);  
+//             //getting values through getter methods  
+//             System.out.println(acc.getAcc_no()+" "+acc.getName()+" "+acc.getEmail()+" "+acc.getAmount());  
+//         }  
+//         }  
+
+
+// Java Program to demonstrate
+// Java Encapsulation
+ 
+// Person Class
+class Person {
+    // Encapsulating the name and age
+    // only approachable and used using
+    // methods defined
+    private String name;
+    private int age;
+ 
+    public String getName() { return name; }
+ 
+    public void setName(String name) { this.name = name; }
+ 
+    public int getAge() { return age; }
+ 
+    public void setAge(int age) { this.age = age; }
+}
+ 
+// Driver Class
+public class Main {
+    // main function
+    public static void main(String[] args)
     {
-        System.out.println(" Inside initializer block");
-    }
-    public static void main(String[] args) {
-        ghi obj = new ghi();
+        // person object created
+        Person person = new Person();
+        person.setName("John");
+        person.setAge(30);
+ 
+        // Using methods to get the values from the
+        // variables
+        System.out.println("Name: " + person.getName());
+        System.out.println("Age: " + person.getAge());
     }
 }
