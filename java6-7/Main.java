@@ -1254,36 +1254,80 @@
 // Java Program to demonstrate
 // Java Encapsulation
  
-// Person Class
-class Person {
-    // Encapsulating the name and age
-    // only approachable and used using
-    // methods defined
-    private String name;
-    private int age;
+// // Person Class
+// class Person {
+//     // Encapsulating the name and age
+//     // only approachable and used using
+//     // methods defined
+//     private String name;
+//     private int age;
  
-    public String getName() { return name; }
+//     public String getName() { return name; }
  
-    public void setName(String name) { this.name = name; }
+//     public void setName(String name) { this.name = name; }
  
-    public int getAge() { return age; }
+//     public int getAge() { return age; }
  
-    public void setAge(int age) { this.age = age; }
-}
+//     public void setAge(int age) { this.age = age; }
+// }
  
-// Driver Class
-public class Main {
-    // main function
-    public static void main(String[] args)
-    {
-        // person object created
-        Person person = new Person();
-        person.setName("John");
-        person.setAge(30);
+// // Driver Class
+// public class Main {
+//     // main function
+//     public static void main(String[] args)
+//     {
+//         // person object created
+//         Person person = new Person();
+//         person.setName("John");
+//         person.setAge(30);
  
-        // Using methods to get the values from the
-        // variables
-        System.out.println("Name: " + person.getName());
-        System.out.println("Age: " + person.getAge());
+//         // Using methods to get the values from the
+//         // variables
+//         System.out.println("Name: " + person.getName());
+//         System.out.println("Age: " + person.getAge());
+//     }
+// } 
+
+class vj{
+    // public static void main(String[] args) {
+        // int x[]  = {1,2,3,4,5,6};
+        // // for(int i =0;i<x.length;i++){
+        // //     System.out.println(x[i]);
+        // // }
+
+        // for(int i : x){
+        //     System.out.println(i);
+        // }
+
+        // int x[] = new int[5];
+
+        //  x[0] = 1;
+        //  x[1] = 2;
+        //  x[2] = 3;
+        //  x[3] = 4;
+        //  x[4] = 5;
+        //  x[5] = 6;
+
+
+        //    for(int i : x){
+        //     System.out.println(i);
+        // }
+
+       static void min(int arr[]){
+        int min = arr[0];
+        for(int i=1;i<arr.length;i++){
+            if(min>arr[i]){
+                min = arr[i];
+
+                System.out.println(min);
+            }
+            
+        }
+        
+       }
+       public static void main(String[] args) {
+        int a[] = {12,45,1,6};
+        min(a);
+       } 
     }
-}
+

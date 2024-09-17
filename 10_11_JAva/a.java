@@ -25,23 +25,23 @@ public class nihal {
      */
 
     //  public class a{
-       
     //     public static void main(String[] args) {
-    //         int  = 9;
-    //         System.out.println();
+    //         int  x= 9;
+    //         System.out.println(x);
     //     }
     //  }
 
+
 /* 
     DataTypes            Default value            Default size
-    boolean             false                       1bit
-    char                '\u0000'                    2byte
-    byte                    0                       byte
-    short                   0                       2byte
+    boolean :- T/F          false                       1bit
+    char :- ''            '\u0000'                    2byte
+    byte  :- number         0                       byte
+    short :-  num           0                       2byte
     int                     0                       4byte
     long                    0L                      8byte
-    float                   0.0f                    4byte
-    double                  0.0d                    8byte
+    float :- decimal        0.0f                    4byte
+    double:- decimal        0.0d                    8byte
 
     
 */
@@ -124,20 +124,6 @@ public class a{
 }
 */
 
-// main()  function/method
-
-
-// public class a{
-//     public static void main(String[] args) {
-//         System.out.println("vijendra Sharma");
-//     }
-// }
-
-// public class a{
-//     public static void main(String[] args) {
-//         System.out.println("vijendra Sharma");
-//     }
-// }
 
 
 /*
@@ -156,8 +142,8 @@ public class a{
  of bits specified by the right operand
  */
 
- class vj{
-    public static void main(String[] args) {
+//  class vj{
+//     public static void main(String[] args) {
         /* 
         if +ve number , so >> and >>> work same
         for -ve ,>>>change by bits(MSB) to 0
@@ -178,12 +164,12 @@ public class a{
          first condition is true or false
          */
 
-         int a =10;
-         int b =5;
-         int c = 20;
+        //  int a =10;
+        //  int b =5;
+        //  int c = 20;
 
-         System.out.println(a<b && a<c);
-         System.out.println(a<b & a<c);
+        //  System.out.println(a<b && a<c);
+        //  System.out.println(a<b & a<c);
 
-    }
- }
+//     }
+//  }
