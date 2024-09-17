@@ -458,20 +458,118 @@
 //     }
 
 
-class vj{
-    int x = 9234; // instance variable
-    public static void main(String[] args) {
-        vj obj  = new vj();
-        vj obj1  = new vj();
-        vj obj2  = new vj();
-        vj obj3  = new vj();
+// class vj{
+//     int x = 9234; // instance variable
+//     public static void main(String[] args) {
+//         vj obj  = new vj();
+//         vj obj1  = new vj();
+//         vj obj2  = new vj();
+//         vj obj3  = new vj();
 
 
-        System.out.println(obj.x);
-        System.out.println(obj1.x);
-        System.out.println(obj2.x);
-        System.out.println(obj3.x);
+//         System.out.println(obj.x);
+//         System.out.println(obj1.x);
+//         System.out.println(obj2.x);
+//         System.out.println(obj3.x);
 
+//     }
+
+// }
+
+
+// class clsname{
+//     // field
+//     // methods
+//     public static void main(String[] args) {
+        
+//     }
+// }
+
+
+// class Student{
+//     int id;
+//     String name;
+
+// }
+
+// class vj{
+//     public static void main(String[] args) {
+//         Student obj = new Student();
+//         obj.id = 123;
+//         obj.name = "Vijendra";
+//         System.out.println(obj.id + " " + obj.name);
+//     }
+// }
+
+
+
+
+
+// class Student{
+//     int id;
+//     String name;
+//      void abc(){
+//         System.out.println("its vj class");
+
+//     }
+
+// }
+
+// class vj{
+//     public static void main(String[] args) {
+//         Student obj = new Student();
+//         obj.id = 123;
+//         obj.name = "Vijendra";
+//         System.out.println(obj.id + " " + obj.name);
+//         obj.abc();
+//     }
+// }
+
+class Student{
+    int rollno;
+    String name;
+    void insertrecord(int r, String n){
+        rollno = r;
+        name = n;
     }
+void display(){
+    System.out.println(rollno + " " + name);
+}
+
+public static void main(String[] args) {
+    Student obj  = new Student();
+    Student obj1  = new Student();
+    obj.insertrecord(123,"vj");
+    obj.display();
+
+
 
 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

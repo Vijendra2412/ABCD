@@ -158,194 +158,194 @@
     // }
     //             }
 
-    import java.util.Scanner;
+//     import java.util.Scanner;
 
-class LinkedList {
-    class Node {
-        int data;
-        Node next;
+// class LinkedList {
+//     class Node {
+//         int data;
+//         Node next;
         
-        public Node(int data) {
-            this.data = data;
-            this.next = null;
-        }
-    }
+//         public Node(int data) {
+//             this.data = data;
+//             this.next = null;
+//         }
+//     }
 
-    Node head = null;
-    Scanner sc = new Scanner(System.in);
+//     Node head = null;
+//     Scanner sc = new Scanner(System.in);
 
-    // Insert at the beginning
-    public void beginsert() {
-        System.out.println("Enter value: ");
-        int item = sc.nextInt();
-        Node newNode = new Node(item);
-        newNode.next = head;
-        head = newNode;
-        System.out.println("Node inserted at the beginning");
-    }
+//     // Insert at the beginning
+//     public void beginsert() {
+//         System.out.println("Enter value: ");
+//         int item = sc.nextInt();
+//         Node newNode = new Node(item);
+//         newNode.next = head;
+//         head = newNode;
+//         System.out.println("Node inserted at the beginning");
+//     }
 
-    // Insert at the last
-    public void lastinsert() {
-        System.out.println("Enter value: ");
-        int item = sc.nextInt();
-        Node newNode = new Node(item);
-        if (head == null) {
-            head = newNode;
-        } else {
-            Node temp = head;
-            while (temp.next != null) {
-                temp = temp.next;
-            }
-            temp.next = newNode;
-        }
-        System.out.println("Node inserted at the last");
-    }
+//     // Insert at the last
+//     public void lastinsert() {
+//         System.out.println("Enter value: ");
+//         int item = sc.nextInt();
+//         Node newNode = new Node(item);
+//         if (head == null) {
+//             head = newNode;
+//         } else {
+//             Node temp = head;
+//             while (temp.next != null) {
+//                 temp = temp.next;
+//             }
+//             temp.next = newNode;
+//         }
+//         System.out.println("Node inserted at the last");
+//     }
 
-    // Insert at a random position
-    public void randominsert() {
-        System.out.println("Enter value: ");
-        int item = sc.nextInt();
-        System.out.println("Enter the position after which to insert: ");
-        int loc = sc.nextInt();
+//     // Insert at a random position
+//     public void randominsert() {
+//         System.out.println("Enter value: ");
+//         int item = sc.nextInt();
+//         System.out.println("Enter the position after which to insert: ");
+//         int loc = sc.nextInt();
         
-        Node newNode = new Node(item);
-        Node temp = head;
-        for (int i = 0; i < loc; i++) {
-            if (temp == null) {
-                System.out.println("Can't insert at this position");
-                return;
-            }
-            temp = temp.next;
-        }
-        newNode.next = temp.next;
-        temp.next = newNode;
-        System.out.println("Node inserted at random position");
-    }
+//         Node newNode = new Node(item);
+//         Node temp = head;
+//         for (int i = 0; i < loc; i++) {
+//             if (temp == null) {
+//                 System.out.println("Can't insert at this position");
+//                 return;
+//             }
+//             temp = temp.next;
+//         }
+//         newNode.next = temp.next;
+//         temp.next = newNode;
+//         System.out.println("Node inserted at random position");
+//     }
 
-    // Delete from the beginning
-    public void begin_delete() {
-        if (head == null) {
-            System.out.println("List is empty");
-        } else {
-            head = head.next;
-            System.out.println("Node deleted from the beginning");
-        }
-    }
+//     // Delete from the beginning
+//     public void begin_delete() {
+//         if (head == null) {
+//             System.out.println("List is empty");
+//         } else {
+//             head = head.next;
+//             System.out.println("Node deleted from the beginning");
+//         }
+//     }
 
-    // Delete from the last
-    public void last_delete() {
-        if (head == null) {
-            System.out.println("List is empty");
-        } else if (head.next == null) {
-            head = null;
-            System.out.println("Last node deleted");
-        } else {
-            Node temp = head;
-            Node prev = null;
-            while (temp.next != null) {
-                prev = temp;
-                temp = temp.next;
-            }
-            prev.next = null;
-            System.out.println("Node deleted from the last");
-        }
-    }
+//     // Delete from the last
+//     public void last_delete() {
+//         if (head == null) {
+//             System.out.println("List is empty");
+//         } else if (head.next == null) {
+//             head = null;
+//             System.out.println("Last node deleted");
+//         } else {
+//             Node temp = head;
+//             Node prev = null;
+//             while (temp.next != null) {
+//                 prev = temp;
+//                 temp = temp.next;
+//             }
+//             prev.next = null;
+//             System.out.println("Node deleted from the last");
+//         }
+//     }
 
-    // Delete node after a random position
-    public void random_delete() {
-        System.out.println("Enter the location after which to delete: ");
-        int loc = sc.nextInt();
-        Node temp = head;
-        for (int i = 0; i < loc; i++) {
-            if (temp == null || temp.next == null) {
-                System.out.println("Can't delete");
-                return;
-            }
-            temp = temp.next;
-        }
-        temp.next = temp.next.next;
-        System.out.println("Node deleted after position " + loc);
-    }
+//     // Delete node after a random position
+//     public void random_delete() {
+//         System.out.println("Enter the location after which to delete: ");
+//         int loc = sc.nextInt();
+//         Node temp = head;
+//         for (int i = 0; i < loc; i++) {
+//             if (temp == null || temp.next == null) {
+//                 System.out.println("Can't delete");
+//                 return;
+//             }
+//             temp = temp.next;
+//         }
+//         temp.next = temp.next.next;
+//         System.out.println("Node deleted after position " + loc);
+//     }
 
-    // Search for an element
-    public void search() {
-        System.out.println("Enter the item to search for: ");
-        int item = sc.nextInt();
-        Node temp = head;
-        int i = 1;
-        boolean found = false;
-        while (temp != null) {
-            if (temp.data == item) {
-                System.out.println("Item found at position " + i);
-                found = true;
-                break;
-            }
-            temp = temp.next;
-            i++;
-        }
-        if (!found) {
-            System.out.println("Item not found");
-        }
-    }
+//     // Search for an element
+//     public void search() {
+//         System.out.println("Enter the item to search for: ");
+//         int item = sc.nextInt();
+//         Node temp = head;
+//         int i = 1;
+//         boolean found = false;
+//         while (temp != null) {
+//             if (temp.data == item) {
+//                 System.out.println("Item found at position " + i);
+//                 found = true;
+//                 break;
+//             }
+//             temp = temp.next;
+//             i++;
+//         }
+//         if (!found) {
+//             System.out.println("Item not found");
+//         }
+//     }
 
-    // Display the list
-    public void display() {
-        if (head == null) {
-            System.out.println("List is empty");
-        } else {
-            Node temp = head;
-            System.out.println("Printing values:");
-            while (temp != null) {
-                System.out.println(temp.data + " ");
-                temp = temp.next;
-            }
-        }
-    }
+//     // Display the list
+//     public void display() {
+//         if (head == null) {
+//             System.out.println("List is empty");
+//         } else {
+//             Node temp = head;
+//             System.out.println("Printing values:");
+//             while (temp != null) {
+//                 System.out.println(temp.data + " ");
+//                 temp = temp.next;
+//             }
+//         }
+//     }
 
-    public static void main(String[] args) {
-        LinkedList list = new LinkedList();
-        Scanner sc = new Scanner(System.in);
-        int choice = 0;
+//     public static void main(String[] args) {
+//         LinkedList list = new LinkedList();
+//         Scanner sc = new Scanner(System.in);
+//         int choice = 0;
 
-        while (choice != 9) {
-            System.out.println("\n*********Main Menu*********");
-            System.out.println("1. Insert in beginning\n2. Insert at last\n3. Insert at random\n4. Delete from beginning\n5. Delete from last\n6. Delete node after location\n7. Search\n8. Display\n9. Exit");
-            System.out.println("Enter your choice:");
-            choice = sc.nextInt();
+//         while (choice != 9) {
+//             System.out.println("\n*********Main Menu*********");
+//             System.out.println("1. Insert in beginning\n2. Insert at last\n3. Insert at random\n4. Delete from beginning\n5. Delete from last\n6. Delete node after location\n7. Search\n8. Display\n9. Exit");
+//             System.out.println("Enter your choice:");
+//             choice = sc.nextInt();
 
-            switch (choice) {
-                case 1:
-                    list.beginsert();
-                    break;
-                case 2:
-                    list.lastinsert();
-                    break;
-                case 3:
-                    list.randominsert();
-                    break;
-                case 4:
-                    list.begin_delete();
-                    break;
-                case 5:
-                    list.last_delete();
-                    break;
-                case 6:
-                    list.random_delete();
-                    break;
-                case 7:
-                    list.search();
-                    break;
-                case 8:
-                    list.display();
-                    break;
-                case 9:
-                    System.out.println("Exiting...");
-                    break;
-                default:
-                    System.out.println("Please enter a valid choice.");
-            }
-        }
-    }
-}
+//             switch (choice) {
+//                 case 1:
+//                     list.beginsert();
+//                     break;
+//                 case 2:
+//                     list.lastinsert();
+//                     break;
+//                 case 3:
+//                     list.randominsert();
+//                     break;
+//                 case 4:
+//                     list.begin_delete();
+//                     break;
+//                 case 5:
+//                     list.last_delete();
+//                     break;
+//                 case 6:
+//                     list.random_delete();
+//                     break;
+//                 case 7:
+//                     list.search();
+//                     break;
+//                 case 8:
+//                     list.display();
+//                     break;
+//                 case 9:
+//                     System.out.println("Exiting...");
+//                     break;
+//                 default:
+//                     System.out.println("Please enter a valid choice.");
+//             }
+//         }
+//     }
+// }
 
             
