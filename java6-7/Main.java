@@ -1288,7 +1288,7 @@
 //     }
 // } 
 
-class vj{
+// class vj{
     // public static void main(String[] args) {
         // int x[]  = {1,2,3,4,5,6};
         // // for(int i =0;i<x.length;i++){
@@ -1313,21 +1313,69 @@ class vj{
         //     System.out.println(i);
         // }
 
-       static void min(int arr[]){
-        int min = arr[0];
-        for(int i=1;i<arr.length;i++){
-            if(min>arr[i]){
-                min = arr[i];
+    //    static void min(int arr[]){
+    //     int min = arr[0];
+    //     for(int i=1;i<arr.length;i++){
+    //         if(min>arr[i]){
+    //             min = arr[i];
 
-                System.out.println(min);
-            }
+    //             System.out.println(min);
+    //         }
             
-        }
+    //     }
         
-       }
-       public static void main(String[] args) {
-        int a[] = {12,45,1,6};
-        min(a);
-       } 
-    }
+    //    }
+    //    public static void main(String[] args) {
+    //     int a[] = {12,45,1,6};
+    //     min(a);
+    //    } 
+    // }
 
+
+
+
+
+
+    // DataTypes[][] arrayname;
+    // DataTypes arrayname[][];
+    // DataTypes [][] arrayname;
+
+    // class vj{
+    //     public static void main(String[] args) {
+    //         // int [][] x = {
+    //         //     {1,2},
+    //         //     {3,4}
+    //         // };
+         
+    //         // for(int i=0;i<2;i++){
+    //         //     for(int j=0;j<2;j++){
+    //         //         System.out.print(x[i][j] + " ");
+    //         //     }
+    //         //     System.out.println();
+    //         // }
+
+    //         int [][]x = new int[3][];
+    //          x[0] = new int[3];
+    //          x[1] = new int[3];
+    //          x[2] = new int[3];
+
+    //          int count = 0;
+    //          for(int i = 0;i<x.length;i++){
+    //             for(int j = 0;j<x[i].length;j++){
+    //                 x[i][j] = count++;
+    //             }
+    //          }
+
+    //          for(int i =0;i<x.length;i++){
+    //             for(int j =0;j<x[i].length;j++){
+    //                 System.out.print(x[i][j] + " ");
+    //             }
+    //             System.out.println();
+    //         }
+
+    //     }
+    // }
+
+
+
+    

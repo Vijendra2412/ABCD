@@ -10,7 +10,7 @@ Multiple-inheritence       Support M-I                         does'nt support M
 */
 
 
-// public class nihal {
+//  class nihal {
 //     public static void main(String[] args) {
        
 //     }
@@ -82,12 +82,12 @@ public class nihal {
 
 
 // class hero{
-//     public static void main(String[] args) {
+    // public static void main(String[] args) {
         // int x =10;
         // System.out.println(++x);
         // System.out.println(x++);
         // System.out.println(x);
-        //------------------------------------------------
+        // //------------------------------------------------
         // System.out.println(x++);
         // System.out.println(++x);
         // System.out.println(x--);
@@ -126,11 +126,18 @@ public class a{
 
 
 
-/*
+/*        n2
+<<   n1*2^
+ >>   
+  >>>
+
+
  it is used to shift all of the bits in a value to the left side
   of a specified number of items
+
  */
-// class vj{
+
+// class v{
 //     public static void main(String[] args) {
 //         System.out.println(10<<3);
 //         System.out.println(5<<3);
@@ -140,10 +147,12 @@ public class a{
 /*
  it is used to move the value of the left operand to right by the number
  of bits specified by the right operand
+
+ n1/2^n2
  */
 
-//  class vj{
-//     public static void main(String[] args) {
+ class v{
+    public static void main(String[] args) {
         /* 
         if +ve number , so >> and >>> work same
         for -ve ,>>>change by bits(MSB) to 0
@@ -171,5 +180,57 @@ public class a{
         //  System.out.println(a<b && a<c);
         //  System.out.println(a<b & a<c);
 
-//     }
-//  }
+        // int x =7;
+        // int y=8;
+        // System.out.println(!((x<y)&&(x>y)));
+
+        // &&  &
+
+        // int x =10;
+        // int y =3;
+        // int z = 17;
+        // System.out.println(x<y && x<z);
+        // System.out.println(x<y & x<z);
+
+        // System.out.println(x<y || x<z);
+        // System.out.println(x<y | x<z);
+
+        //ternary operator ()?"true":"false"
+        // String x ="10";
+        // String y ="3";
+        // String z = (x==y)?"true":"false";
+        // System.out.println(z);
+
+        // += ,-= , /=, %= 
+        // int x =5;
+        // // x= x+9;
+        // x+=10;
+        // System.out.println(x);
+
+        /*
+        // Typecasting  
+
+        Widening Casting (automatically) - converting a smaller type to a larger type size
+byte -> short -> char -> int -> long -> float -> double
+
+Narrowing Casting (manually) - converting a larger type to a smaller size type
+double -> float -> long -> int -> char -> short -> byte
+ */
+
+
+// int x =10;
+// float y =x;
+// System.out.println(y);.
+
+// float x= 10.1f;
+// int y =(int)x;
+// System.out.println(y);
+
+
+//keywords
+// Java has a set of keywords that are reserved words 
+// that cannot be used as variables, methods, classes, or any other identifiers
+
+
+    }
+ }
