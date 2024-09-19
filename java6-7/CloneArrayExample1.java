@@ -1377,5 +1377,96 @@
     // }
 
 
+    // public class MatrixAdditionExample{  
+    //     public static void main(String args[]){  
+    //     //creating two matrices    
+    //     int a[][]={{1,3,4},{2,4,3},{3,4,5}};    
+    //     int b[][]={{1,3,4},{2,4,3},{1,2,4}};    
+            
+    //     //creating another matrix to store the sum of two matrices    
+    //     int c[][]=new int[3][3];  //3 rows and 3 columns  
+            
+    //     //adding and printing addition of 2 matrices    
+    //     for(int i=0;i<3;i++){    
+        
+    //     for(int j=0;j<3;j++){    
+    //     c[i][j]=a[i][j]+b[i][j];    //use - for subtraction  
+    //     System.out.print(c[i][j]+" ");    
+    //     }    
+    //     System.out.println();//new line    
+    //     }    
+    //     }}  
 
+
+    // public class CopyArray {    
+    //     public static void main(String[] args) {        
+    //              //Initialize array     
+    //         int [] arr1 = new int [] {1, 2, 3, 4, 5};     
+    //          //Create another array arr2 with size of arr1    
+    //         int arr2[] = new int[arr1.length];    
+    //         //Copying all elements of one array into another    
+    //         for (int i = 0; i < arr1.length; i++) {     
+    //             arr2[i] = arr1[i];     
+    //         }      
+    //          //Displaying elements of array arr1     
+    //         System.out.println("Elements of original array: ");    
+    //         for (int i = 0; i < arr1.length; i++) {     
+    //            System.out.print(arr1[i] + " ");    
+    //         }     
+                
+    //         System.out.println();    
+                
+    //         //Displaying elements of array arr2     
+    //         System.out.println("Elements of new array: ");    
+    //         for (int i = 0; i < arr2.length; i++) {     
+    //            System.out.print(arr2[i] + " ");    
+    //         }     
+    //     }    
+    // }    
     
+
+//     // import required classes and packages if any  
+// import java.util.Scanner;  
+// // create class CloneArrayExample1 to clone an array  
+// public class CloneArrayExample1 {  
+//     // main() method start  
+//     public static void main(String[] args)  
+//     {  
+//         // declare originalArray and cloneArray variables  
+//          int originalArray[];  
+//          int cloneArray[];  
+//          int size;  
+//          // create Scanner class object to take input from user  
+//          Scanner sc = new Scanner(System.in);  
+//          System.out.println("Enter the size of the array.");  
+//          size = sc.nextInt();  
+//          // initialize both the array with the given size  
+//          originalArray = new int[size];  
+//          cloneArray = new int[size];  
+//          System.out.println("Enter elements of the original array:");  
+//          //take input from user to fill originalArray  
+//          for(int i = 0; i < size; i++) {  
+//              originalArray[i] = sc.nextInt();  
+//          }  
+           
+//          // close scanner class object  
+//          sc.close();  
+//          // use for loop to copy elements from originalArray to cloneArray  
+//          for (int i = 0; i < originalArray.length; i++) {  
+//              cloneArray[i] = originalArray[i];  
+//          }    
+//          // display elements of the original array  
+//          System.out.println("Elements of the original array:");  
+      
+//          for (int i = 0; i < originalArray.length; i++) {  
+//              System.out.print(originalArray[i] + " ");  
+//          }  
+      
+//          // display elements of the cloned array  
+//          System.out.println("\n\nElements of the clone array:");  
+      
+//          for (int i = 0; i < cloneArray.length; i++) {  
+//              System.out.print(cloneArray[i] + " ");  
+//          }  
+//     }  
+// }  
