@@ -525,38 +525,200 @@
 //     }
 // }
 
-class Student{
-    int rollno;
-    String name;
-    void insertrecord(int r, String n){
-        rollno = r;
-        name = n;
-    }
-void display(){
-    System.out.println(rollno + " " + name);
-}
+// class Student{
+//     int rollno;
+//     String name;
+//     void insertrecord(int r, String n){
+//         rollno = r;
+//         name = n;
+//     }
+// void display(){
+//     System.out.println(rollno + " " + name);
+// }
 
-public static void main(String[] args) {
-    Student obj  = new Student();
-    Student obj1  = new Student();
-    obj.insertrecord(123,"vj");
-    obj.display();
-
-
-
-}
-}
+// public static void main(String[] args) {
+//     Student obj  = new Student();
+//     Student obj1  = new Student();
+//     obj.insertrecord(123,"vj");
+//     obj.display();
 
 
 
+// }
+// // }
+// class ListNode {
+//     int val;
+//     ListNode next;
+//     ListNode(int x) {
+//         val = x;
+//     }
+// }
+
+// public class ReverseList {
+//     public ListNode reverseList(ListNode head) {
+//         ListNode prev = null;
+//         ListNode current = head;
+//         while (current != null) {
+//             ListNode nextTemp = current.next;
+//             current.next = prev;
+//             prev = current;
+//             current = nextTemp;
+//         }
+//         return prev;
+//     }
+
+//     // Helper method to print the linked list
+//     public static void printList(ListNode head) {
+//         ListNode current = head;
+//         while (current != null) {
+//             System.out.print(current.val + " -> ");
+//             current = current.next;
+//         }
+//         System.out.println("null");
+//     }
+
+//     public static void main(String[] args) {
+//         // Create a sample linked list: 1 -> 2 -> 3 -> 4 -> 5
+//         ListNode head = new ListNode(1);
+//         head.next = new ListNode(2);
+//         head.next.next = new ListNode(3);
+//         head.next.next.next = new ListNode(4);
+//         head.next.next.next.next = new ListNode(5);
+
+//         System.out.println("Original list:");
+//         printList(head);
+
+//         ReverseList solution = new ReverseList();
+//         ListNode reversedHead = solution.reverseList(head);
+
+//         System.out.println("Reversed list:");
+//         printList(reversedHead);
+//     }
+// }
+
+// import java.util.List;
+
+// class ListNode {
+//     int val;
+//     ListNode next;
+//     ListNode(int x) {
+//         val = x;
+//         next = null;
+//     }
+// }
+
+// public class DetectCycle {
+//     public boolean hasCycle(ListNode head) {
+//         if (head == null || head.next == null) {
+//             return false;
+//         }
+//         ListNode slow = head;
+//         ListNode fast = head.next;
+//         while (slow != fast) {
+//             if (fast == null || fast.next == null) {
+//                 return false;
+//             }
+//             slow = slow.next;
+//             fast = fast.next.next;
+//         }
+//         return true;  // This line was missing in the original code
+//     }
+
+//     public static void main(String[] args) {
+//         DetectCycle solution = new DetectCycle();
+
+//         // Test case 1: No cycle
+//         ListNode head1 = new ListNode(1);
+//         head1.next = new ListNode(2);
+//         head1.next.next = new ListNode(3);
+//         head1.next.next.next = new ListNode(4);
+
+//         System.out.println("Test case 1 (No cycle): " + solution.hasCycle(head1));
+
+//         // Test case 2: Has cycle5
+//         ListNode head2 = new ListNode(1);
+//         head2.next = new ListNode(2);
+//         head2.next.next = new ListNode(3);
+//         head2.next.next.next = new ListNode(4);
+//         head2.next.next.next.next = head2.next;  // Create a cycle
+
+//         System.out.println("Test case 2 (Has cycle): " + solution.hasCycle(head2));
+//     }
+// }
 
 
 
+// class ListNode {
+//     int val;
+//     ListNode next;
+//     ListNode(int x) {
+//         val = x;
+//         next = null;
+//     }
+// }
 
+// public class MiddleNodeOfLL {
+//     public ListNode middleNode(ListNode head) {
+//         ListNode slow = head, fast = head;
+//         while (fast != null && fast.next != null) {
+//             slow = slow.next;
+//             fast = fast.next.next;
+//         }
+//         return slow;
+//     }
 
+//     // Helper method to create a linked list from an array
+//     private static ListNode createLinkedList(int[] arr) {
+//         if (arr == null || arr.length == 0) return null;
+//         ListNode head = new ListNode(arr[0]);
+//         ListNode current = head;
+//         for (int i = 1; i < arr.length; i++) {
+//             current.next = new ListNode(arr[i]);
+//             current = current.next;
+//         }
+//         return head;
+//     }
 
+//     // Helper method to print a linked list
+//     private static void printList(ListNode head) {
+//         ListNode current = head;
+//         while (current != null) {
+//             System.out.print(current.val + " -> ");
+//             current = current.next;
+//         }
+//         System.out.println("null");
+//     }
 
+//     public static void main(String[] args) {
+//         MiddleNodeOfLL solution = new MiddleNodeOfLL();
 
+//         // Test case 1: Odd number of nodes
+//         int[] arr1 = {1, 2, 3, 4, 5};
+//         ListNode head1 = createLinkedList(arr1);
+//         System.out.println("Test case 1 (Odd number of nodes):");
+//         System.out.print("Original list: ");
+//         printList(head1);
+//         ListNode middle1 = solution.middleNode(head1);
+//         System.out.println("Middle node: " + middle1.val);
+
+//         // Test case 2: Even number of nodes
+//         int[] arr2 = {1, 2, 3, 4, 5, 6};
+//         ListNode head2 = createLinkedList(arr2);
+//         System.out.println("\nTest case 2 (Even number of nodes):");
+//         System.out.print("Original list: ");
+//         printList(head2);
+//         ListNode middle2 = solution.middleNode(head2);
+//         System.out.println("Middle node: " + middle2.val);
+
+//         // Test case 3: Single node
+//         ListNode head3 = new ListNode(1);
+//         System.out.println("\nTest case 3 (Single node):");
+//         System.out.print("Original list: ");
+//         printList(head3);
+//         ListNode middle3 = solution.middleNode(head3);
+//         System.out.println("Middle node: " + middle3.val);
+//     }
+// }
 
 
 
