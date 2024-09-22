@@ -348,4 +348,300 @@
 //     }
 // }
 
+// }
+// // }
+// class ListNode {
+//     int val;
+//     ListNode next;
+//     ListNode(int x) {
+//         val = x;
+//     }
+// }
+
+// public class ReverseList {
+//     public ListNode reverseList(ListNode head) {
+//         ListNode prev = null;
+//         ListNode current = head;
+//         while (current != null) {
+//             ListNode nextTemp = current.next;
+//             current.next = prev;
+//             prev = current;
+//             current = nextTemp;
+//         }
+//         return prev;
+//     }
+
+//     // Helper method to print the linked list
+//     public static void printList(ListNode head) {
+//         ListNode current = head;
+//         while (current != null) {
+//             System.out.print(current.val + " -> ");
+//             current = current.next;
+//         }
+//         System.out.println("null");
+//     }
+
+//     public static void main(String[] args) {
+//         // Create a sample linked list: 1 -> 2 -> 3 -> 4 -> 5
+//         ListNode head = new ListNode(1);
+//         head.next = new ListNode(2);
+//         head.next.next = new ListNode(3);
+//         head.next.next.next = new ListNode(4);
+//         head.next.next.next.next = new ListNode(5);
+
+//         System.out.println("Original list:");
+//         printList(head);
+
+//         ReverseList solution = new ReverseList();
+//         ListNode reversedHead = solution.reverseList(head);
+
+//         System.out.println("Reversed list:");
+//         printList(reversedHead);
+//     }
+// }
+
+// import java.util.List;
+
+// class ListNode {
+//     int val;
+//     ListNode next;
+//     ListNode(int x) {
+//         val = x;
+//         next = null;
+//     }
+// }
+
+// public class DetectCycle {
+//     public boolean hasCycle(ListNode head) {
+//         if (head == null || head.next == null) {
+//             return false;
+//         }
+//         ListNode slow = head;
+//         ListNode fast = head.next;
+//         while (slow != fast) {
+//             if (fast == null || fast.next == null) {
+//                 return false;
+//             }
+//             slow = slow.next;
+//             fast = fast.next.next;
+//         }
+//         return true;  // This line was missing in the original code
+//     }
+
+//     public static void main(String[] args) {
+//         DetectCycle solution = new DetectCycle();
+
+//         // Test case 1: No cycle
+//         ListNode head1 = new ListNode(1);
+//         head1.next = new ListNode(2);
+//         head1.next.next = new ListNode(3);
+//         head1.next.next.next = new ListNode(4);
+
+//         System.out.println("Test case 1 (No cycle): " + solution.hasCycle(head1));
+
+//         // Test case 2: Has cycle5
+//         ListNode head2 = new ListNode(1);
+//         head2.next = new ListNode(2);
+//         head2.next.next = new ListNode(3);
+//         head2.next.next.next = new ListNode(4);
+//         head2.next.next.next.next = head2.next;  // Create a cycle
+
+//         System.out.println("Test case 2 (Has cycle): " + solution.hasCycle(head2));
+//     }
+// }
+
+
+
+// class ListNode {
+//     int val;
+//     ListNode next;
+//     ListNode(int x) {
+//         val = x;
+//         next = null;
+//     }
+// }
+
+// public class MiddleNodeOfLL {
+//     public ListNode middleNode(ListNode head) {
+//         ListNode slow = head, fast = head;
+//         while (fast != null && fast.next != null) {
+//             slow = slow.next;
+//             fast = fast.next.next;
+//         }
+//         return slow;
+//     }
+
+//     // Helper method to create a linked list from an array
+//     private static ListNode createLinkedList(int[] arr) {
+//         if (arr == null || arr.length == 0) return null;
+//         ListNode head = new ListNode(arr[0]);
+//         ListNode current = head;
+//         for (int i = 1; i < arr.length; i++) {
+//             current.next = new ListNode(arr[i]);
+//             current = current.next;
+//         }
+//         return head;
+//     }
+
+//     // Helper method to print a linked list
+//     private static void printList(ListNode head) {
+//         ListNode current = head;
+//         while (current != null) {
+//             System.out.print(current.val + " -> ");
+//             current = current.next;
+//         }
+//         System.out.println("null");
+//     }
+
+//     public static void main(String[] args) {
+//         MiddleNodeOfLL solution = new MiddleNodeOfLL();
+
+//         // Test case 1: Odd number of nodes
+//         int[] arr1 = {1, 2, 3, 4, 5};
+//         ListNode head1 = createLinkedList(arr1);
+//         System.out.println("Test case 1 (Odd number of nodes):");
+//         System.out.print("Original list: ");
+//         printList(head1);
+//         ListNode middle1 = solution.middleNode(head1);
+//         System.out.println("Middle node: " + middle1.val);
+
+//         // Test case 2: Even number of nodes
+//         int[] arr2 = {1, 2, 3, 4, 5, 6};
+//         ListNode head2 = createLinkedList(arr2);
+//         System.out.println("\nTest case 2 (Even number of nodes):");
+//         System.out.print("Original list: ");
+//         printList(head2);
+//         ListNode middle2 = solution.middleNode(head2);
+//         System.out.println("Middle node: " + middle2.val);
+
+//         // Test case 3: Single node
+//         ListNode head3 = new ListNode(1);
+//         System.out.println("\nTest case 3 (Single node):");
+//         System.out.print("Original list: ");
+//         printList(head3);
+//         ListNode middle3 = solution.middleNode(head3);
+//         System.out.println("Middle node: " + middle3.val);
+//     }
+// }
+
+
+// class ArrayStack{
+//     private int maxsize;
+//     private int[] stackArray;
+//     private int top;
+
+//     public ArrayStack(int size){
+//         maxsize = size;
+//         stackArray = new int[maxsize];
+//         top=-1;
+//     }
+
+//     public void push(int value){
+//         if(isFull()){
+//             System.out.println("Stack is full. Cannot push " + value);
+//             return;
+//         }
+//         top++;
+//         stackArray[top] = value;
+//     }
+
+//     public int pop(){
+//         if (isEmpty()) {
+//             System.out.println("Stack is empty. cannot pop.");
+//             return -1;
+//         }
+//         int poppedValue = stackArray[top];
+//         top--;
+//         return poppedValue;
+//     }
+
+//     public int peek(){
+//         if(isEmpty()){
+//             System.out.println("Stack is empty. cannot peek");
+//             return -1;
+//         }
+//         return stackArray[top];
+//     }
+//     public boolean isEmpty(){
+//         return (top == -1);
+//     }
+//     public boolean isFull(){
+//         return (top == maxsize - 1);
+//     }
+//     public static void main(String[] args) {
+//         ArrayStack stack = new ArrayStack(5);
+//         stack.push(1);
+//         stack.push(2);
+//         stack.push(3);
+//         stack.push(4);
+//         stack.push(5);
+//         stack.push(4);
+
+
+
+
+//         System.out.println("top element " + stack.peek());
+//         System.out.println("popped element " + stack.pop());
+//         System.out.println(" is empty ??" + stack.isEmpty() );
+
+//     }
+
+// }
             
+// import java.util.Stack;
+
+// class validparameter{
+// public static boolean isValid(String s){
+//     Stack<Character> stack = new Stack<>();
+//     for(char c: s.toCharArray()){
+//         if(c == '('){
+//             stack.push(')');
+//         }
+//         else if(c== '{'){
+//             stack.push('}');
+//         }
+//         else if(c =='['){
+//             stack.push(']');
+//         }
+//         else if(stack.isEmpty() || stack.pop() != c){
+//             return false;
+//         }
+//     }
+//     return stack.isEmpty();
+// }
+// public static void main(String[] args) {
+//     String[] testCases = {"()","()[]{}","(]","([)]","{[]}"};
+//     for(String testCase : testCases){
+//         System.out.println("Input:- " + testCase);
+//         System.out.println("Is valid:- " + isValid(testCase));
+//         System.out.println();
+//     }
+// }
+// }
+
+//String reversal 
+
+import java.util.Stack;
+
+class Stringreversal{
+    public static String reveString(String input){
+        Stack<Character> stack = new Stack<>();
+        for(char c: input.toCharArray()){
+            stack.push(c);
+        }
+        StringBuilder reversed = new StringBuilder();
+        while (!stack.isEmpty()) {
+            reversed.append(stack.pop());
+        }
+        return reversed.toString();
+
+    }
+    public static void main(String[] args) {
+        String[] testCases = {"Vijendra vj!","OpenAi","Java Stack","Sanya","kishan","Pintu"};
+        for(String testCase : testCases) {
+            System.out.println("Original:- " + testCase);
+            System.out.println("Reversed:- " +  reveString(testCase));
+            System.out.println();
+        }
+    }
+}
