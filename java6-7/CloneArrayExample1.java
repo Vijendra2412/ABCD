@@ -1470,3 +1470,24 @@
 //          }  
 //     }  
 // }  
+
+
+class vj{
+    public static void main(String[] args) {
+        // String x ="vijendra Sharma";
+        // System.out.println(x);
+        // System.out.println(x.length());
+        // x="vj";
+        // System.out.println(x);
+
+        // String x = "vijendra ";
+        // String y = "Sharma";
+        // int z = 1;
+        // System.out.println(x+y);
+        // System.out.println(x.concat(y));
+        // // System.out.println(x.concat(z));
+        // System.out.println(x+z);
+
+    
+    }
+}

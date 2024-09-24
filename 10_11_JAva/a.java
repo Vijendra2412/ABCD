@@ -151,8 +151,8 @@ public class a{
  n1/2^n2
  */
 
- class v{
-    public static void main(String[] args) {
+//  class v{
+//     public static void main(String[] args) {
         /* 
         if +ve number , so >> and >>> work same
         for -ve ,>>>change by bits(MSB) to 0
@@ -230,7 +230,315 @@ double -> float -> long -> int -> char -> short -> byte
 //keywords
 // Java has a set of keywords that are reserved words 
 // that cannot be used as variables, methods, classes, or any other identifiers
+/* 
+//---conrol flow statement---
+decision making statemetns
+        if statement
+        switch statement
+
+Loop statement
+        for loop
+        while loop
+        do while loop
+        for-each loop
+
+Jump Statement
+        break statement
+        continue statement
+
+------------------------------
+simple if statement
+if(condition){
+//code
+}
+
+if-else statement
+if(condition){
+//code
+}else{
+//code
+}
+
+if else-if statement
+if(condition){
+//code
+}else if(condition2){
+//code
+}
+
+nested if-statement
+if(condition){
+        if(condition1.1){
+        // code
+        }
+        else{
+        //code
+        }
+}
+else{
+        if(condiotion){
+        // code
+        }
+        else if(cond2){
+        //code
+        }
+        else{
+
+        }
+
+}
+*/
+
+// int x= 10;
+// int y =12;
+// int z =30;
+// // System.out.println(x<y);
+// if(z>x){
+//     if(x>y){
+//         System.out.println(" its smaller");
+//     }
+//     else if(x>z){
+//     System.out.println(" x is smaller");
+//     }
+//     else{
+//         System.out.println(" condition wrong");
+//     }
+// }
+// else{
+//     System.out.println("condition wrong");
+// }
 
 
+//     }
+//  }
+// class M {
+//     public static void main(String[] args) {
+//         int x = 10;
+//         int y = 12;
+//         int z = 30;
+        
+//         if (x < z) {
+//             if (x > y) {
+//                 System.out.println("x is the smallest");
+//             } else {
+//                 System.out.println("y is the smallest");
+//             }
+//         } else {
+//             System.out.println("z is not the largest");
+//         }
+//     }
+// }
+/* 
+// 1. Find the Largest of Three Numbers
+import java.util.Scanner;
+
+public class LargestOfThree {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter three numbers:");
+        int num1 = scanner.nextInt();
+        int num2 = scanner.nextInt();
+        int num3 = scanner.nextInt();
+        
+        if (num1 >= num2 && num1 >= num3) {
+            System.out.println(num1 + " is the largest number.");
+        } else if (num2 >= num1 && num2 >= num3) {
+            System.out.println(num2 + " is the largest number.");
+        } else {
+            System.out.println(num3 + " is the largest number.");
+        }
     }
- }
+}
+
+// 2. Check If a Number Is Even or Odd
+import java.util.Scanner;
+
+public class EvenOdd {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int num = scanner.nextInt();
+        
+        if (num % 2 == 0) {
+            System.out.println(num + " is even.");
+        } else {
+            System.out.println(num + " is odd.");
+        }
+    }
+}
+
+// 3. Grade Calculation
+import java.util.Scanner;
+
+public class GradeCalculation {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the marks:");
+        int marks = scanner.nextInt();
+        
+        if (marks >= 90) {
+            System.out.println("A");
+        } else if (marks >= 80) {
+            System.out.println("B");
+        } else if (marks >= 70) {
+            System.out.println("C");
+        } else if (marks >= 60) {
+            System.out.println("D");
+        } else {
+            System.out.println("F");
+        }
+    }
+}
+
+// 4. Check if a Year is a Leap Year
+import java.util.Scanner;
+
+public class LeapYear {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a year:");
+        int year = scanner.nextInt();
+        
+        if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+            System.out.println(year + " is a leap year.");
+        } else {
+            System.out.println(year + " is not a leap year.");
+        }
+    }
+}
+
+// 5. Number is Positive, Negative, or Zero
+import java.util.Scanner;
+
+public class NumberSign {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int num = scanner.nextInt();
+        
+        if (num > 0) {
+            System.out.println("The number is positive.");
+        } else if (num < 0) {
+            System.out.println("The number is negative.");
+        } else {
+            System.out.println("The number is zero.");
+        }
+    }
+}
+
+// 6. Find the Category of a Person's Age
+import java.util.Scanner;
+
+public class AgeCategory {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter age:");
+        int age = scanner.nextInt();
+        
+        if (age < 13) {
+            System.out.println("Child");
+        } else if (age < 20) {
+            System.out.println("Teenager");
+        } else if (age < 60) {
+            System.out.println("Adult");
+        } else {
+            System.out.println("Senior");
+        }
+    }
+}
+
+// 7. Check Eligibility to Vote
+import java.util.Scanner;
+
+public class VotingEligibility {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter age:");
+        int age = scanner.nextInt();
+        
+        if (age >= 18) {
+            System.out.println("Eligible to vote.");
+        } else {
+            System.out.println("Not eligible to vote.");
+        }
+    }
+}
+
+// 8. Temperature Check
+import java.util.Scanner;
+
+public class TemperatureCheck {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter temperature:");
+        double temp = scanner.nextDouble();
+        
+        if (temp > 30) {
+            System.out.println("Hot Day");
+        } else if (temp >= 20) {
+            System.out.println("Warm Day");
+        } else if (temp >= 10) {
+            System.out.println("Cool Day");
+        } else {
+            System.out.println("Cold Day");
+        }
+    }
+}
+
+// 9. Check Whether a Character is a Vowel or Consonant
+import java.util.Scanner;
+
+public class VowelConsonant {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a character:");
+        char ch = scanner.next().charAt(0);
+        
+        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
+            ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
+            System.out.println(ch + " is a vowel.");
+        } else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
+            System.out.println(ch + " is a consonant.");
+        } else {
+            System.out.println(ch + " is not a letter.");
+        }
+    }
+}
+
+// 10. Calculate BMI (Body Mass Index)
+import java.util.Scanner;
+
+public class BMICalculator {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter weight in kg:");
+        double weight = scanner.nextDouble();
+        System.out.println("Enter height in meters:");
+        double height = scanner.nextDouble();
+        
+        double bmi = weight / (height * height);
+        
+        if (bmi < 18.5) {
+            System.out.println("Underweight");
+        } else if (bmi < 25) {
+            System.out.println("Normal weight");
+        } else if (bmi < 30) {
+            System.out.println("Overweight");
+        } else {
+            System.out.println("Obesity");
+        }
+    }
+}
+
+
+// */
+// import java.util.Scanner;
+// class q{
+//     public static void main(String[] args) {
+//         Scanner sc =  new Scanner(System.in);
+//         System.out.println("enter ur number:- ");
+//         int x =sc.nextInt();
+//         char y =sc.next()
+//         System.out.println("ur number is:- " + x);
+//     }
+// }

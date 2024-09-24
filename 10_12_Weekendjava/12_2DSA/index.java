@@ -621,27 +621,27 @@
 
 //String reversal 
 
-import java.util.Stack;
+// import java.util.Stack;
 
-class Stringreversal{
-    public static String reveString(String input){
-        Stack<Character> stack = new Stack<>();
-        for(char c: input.toCharArray()){
-            stack.push(c);
-        }
-        StringBuilder reversed = new StringBuilder();
-        while (!stack.isEmpty()) {
-            reversed.append(stack.pop());
-        }
-        return reversed.toString();
+// class Stringreversal{
+//     public static String reveString(String input){
+//         Stack<Character> stack = new Stack<>();
+//         for(char c: input.toCharArray()){
+//             stack.push(c);
+//         }
+//         StringBuilder reversed = new StringBuilder();
+//         while (!stack.isEmpty()) {
+//             reversed.append(stack.pop());
+//         }
+//         return reversed.toString();
 
-    }
-    public static void main(String[] args) {
-        String[] testCases = {"Vijendra vj!","OpenAi","Java Stack","Sanya","kishan","Pintu"};
-        for(String testCase : testCases) {
-            System.out.println("Original:- " + testCase);
-            System.out.println("Reversed:- " +  reveString(testCase));
-            System.out.println();
-        }
-    }
-}
+//     }
+//     public static void main(String[] args) {
+//         String[] testCases = {"Vijendra vj!","OpenAi","Java Stack","Sanya","kishan","Pintu"};
+//         for(String testCase : testCases) {
+//             System.out.println("Original:- " + testCase);
+//             System.out.println("Reversed:- " +  reveString(testCase));
+//             System.out.println();
+//         }
+//     }
+// }

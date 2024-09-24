@@ -2181,6 +2181,54 @@
 // }
 
 
+// class a{
+//     public static void main(String[] args) {
+//         int[] numbers = {1,2,3,4,5,6};
+//         int sum =0;
+//         double average;
+//         for(int i : numbers){
+//             sum+=i;
+//         }
+//         int arraylength = numbers.length;
+//         average  = (double)sum/(double)arraylength;
+//         System.out.println("sum is:- " + sum);
+//         System.out.println("Average is:- " + average);
+
+//     }
+// }
+// class q{
+//     public static void main(String[] args) {
+        // int x[][] = { 
+        //     {1,2},
+        //     {3,4}
+        // };
+
+
+
+    //     int x[][] = new int[5][];
+    //     x[0][0] =new int[1];
+    //     x[0][1] =new int[2];
+    //     x[0][2] =new int[3];
+
+
+    //    x[0][0] = 2;
+
+    //     System.out.println(x[0][0]);
+        // System.out.println("hello vj");
+        // for(int i=0;i<x.length;i++){
+        //    for(int j = 0;j<x[i].length;j++){
+        //     System.out.println(x[i][j]);
+        //    }
+        // }
+
+
+
+        
+                     
+//     }
+// }
+
+
 
 
 
