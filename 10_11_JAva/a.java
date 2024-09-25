@@ -1,7 +1,6 @@
 // java is programming language and a platform.
 // it is a high level , robust, object-oriented and secure programming language 
 
-
 /* 
 comaprision                    C++                            Java
 platform_independent         dependent                       independent
@@ -9,10 +8,9 @@ mainly used for             system programming             window-based,web-base
 Multiple-inheritence       Support M-I                         does'nt support M-I,by using interface
 */
 
-
 //  class nihal {
 //     public static void main(String[] args) {
-       
+
 //     }
 // }
 
@@ -24,13 +22,12 @@ public class nihal {
 }
      */
 
-    //  public class a{
-    //     public static void main(String[] args) {
-    //         int  x= 9;
-    //         System.out.println(x);
-    //     }
-    //  }
-
+//  public class a{
+//     public static void main(String[] args) {
+//         int  x= 9;
+//         System.out.println(x);
+//     }
+//  }
 
 /* 
     DataTypes            Default value            Default size
@@ -47,7 +44,7 @@ public class nihal {
 */
 
 // class z{
-  
+
 //     public static void main(String[] args) {
 //         // boolean a = true;
 //         // System.out.println(a);
@@ -58,10 +55,6 @@ public class nihal {
 // }
 
 // package :- 
-    
-
-
-
 
 // Operator is symbol that is used to perform operations. + - / * 
 
@@ -80,38 +73,35 @@ public class nihal {
 // negating an expression
 // inverting the value of a boolean
 
-
 // class hero{
-    // public static void main(String[] args) {
-        // int x =10;
-        // System.out.println(++x);
-        // System.out.println(x++);
-        // System.out.println(x);
-        // //------------------------------------------------
-        // System.out.println(x++);
-        // System.out.println(++x);
-        // System.out.println(x--);
-        // System.out.println(--x);
+// public static void main(String[] args) {
+// int x =10;
+// System.out.println(++x);
+// System.out.println(x++);
+// System.out.println(x);
+// //------------------------------------------------
+// System.out.println(x++);
+// System.out.println(++x);
+// System.out.println(x--);
+// System.out.println(--x);
 
-        // int a =10;
-        // int b =10;
-        // System.out.println(a++ + ++a);
-        // System.out.println(b++ + b++ );
+// int a =10;
+// int b =10;
+// System.out.println(a++ + ++a);
+// System.out.println(b++ + b++ );
 
-    //  !   ~  
+//  !   ~  
 
-        //  int a =10;
-        //  int b =-10;
-        //  boolean c = true;
-        //  boolean d = false;
+//  int a =10;
+//  int b =-10;
+//  boolean c = true;
+//  boolean d = false;
 
-        // System.out.println(~a);
-        // System.out.println(~b);
+// System.out.println(~a);
+// System.out.println(~b);
 
-        // System.out.println(!c);
-        // System.out.println(!d);
-
-
+// System.out.println(!c);
+// System.out.println(!d);
 
 //     }
 // }
@@ -123,8 +113,6 @@ public class a{
     }
 }
 */
-
-
 
 /*        n2
 <<   n1*2^
@@ -153,70 +141,69 @@ public class a{
 
 //  class v{
 //     public static void main(String[] args) {
-        /* 
-        if +ve number , so >> and >>> work same
-        for -ve ,>>>change by bits(MSB) to 0
-        */
-        // System.out.println(10>>2);
-        // System.out.println(10>>>2);
+/* 
+if +ve number , so >> and >>> work same
+for -ve ,>>>change by bits(MSB) to 0
+*/
+// System.out.println(10>>2);
+// System.out.println(10>>>2);
 
-        // System.out.println("---------------------");
-        // System.out.println(-10>>2);
-        // System.out.println(-10>>>2);
+// System.out.println("---------------------");
+// System.out.println(-10>>2);
+// System.out.println(-10>>>2);
 
-        /*
-        //---logical &&----
-         it doesnt check the second if th efirst condtion is false
+/*
+//---logical &&----
+ it doesnt check the second if th efirst condtion is false
 
-         bitwise & Operator
-         its always check both conditions whether 
-         first condition is true or false
-         */
+ bitwise & Operator
+ its always check both conditions whether 
+ first condition is true or false
+ */
 
-        //  int a =10;
-        //  int b =5;
-        //  int c = 20;
+//  int a =10;
+//  int b =5;
+//  int c = 20;
 
-        //  System.out.println(a<b && a<c);
-        //  System.out.println(a<b & a<c);
+//  System.out.println(a<b && a<c);
+//  System.out.println(a<b & a<c);
 
-        // int x =7;
-        // int y=8;
-        // System.out.println(!((x<y)&&(x>y)));
+// int x =7;
+// int y=8;
+// System.out.println(!((x<y)&&(x>y)));
 
-        // &&  &
+// &&  &
 
-        // int x =10;
-        // int y =3;
-        // int z = 17;
-        // System.out.println(x<y && x<z);
-        // System.out.println(x<y & x<z);
+// int x =10;
+// int y =3;
+// int z = 17;
+// System.out.println(x<y && x<z);
+// System.out.println(x<y & x<z);
 
-        // System.out.println(x<y || x<z);
-        // System.out.println(x<y | x<z);
+// System.out.println(x<y || x<z);
+// System.out.println(x<y | x<z);
 
-        //ternary operator ()?"true":"false"
-        // String x ="10";
-        // String y ="3";
-        // String z = (x==y)?"true":"false";
-        // System.out.println(z);
+//ternary operator ()?"true":"false"
+// String x ="10";
+// String y ="3";
+// String z = (x==y)?"true":"false";
+// System.out.println(z);
 
-        // += ,-= , /=, %= 
-        // int x =5;
-        // // x= x+9;
-        // x+=10;
-        // System.out.println(x);
+// += ,-= , /=, %= 
+// int x =5;
+// // x= x+9;
+// x+=10;
+// System.out.println(x);
 
-        /*
-        // Typecasting  
+/*
+// Typecasting  
 
-        Widening Casting (automatically) - converting a smaller type to a larger type size
+Widening Casting (automatically) - converting a smaller type to a larger type size
 byte -> short -> char -> int -> long -> float -> double
 
 Narrowing Casting (manually) - converting a larger type to a smaller size type
 double -> float -> long -> int -> char -> short -> byte
- */
-
+*/
 
 // int x =10;
 // float y =x;
@@ -225,7 +212,6 @@ double -> float -> long -> int -> char -> short -> byte
 // float x= 10.1f;
 // int y =(int)x;
 // System.out.println(y);
-
 
 //keywords
 // Java has a set of keywords that are reserved words 
@@ -308,7 +294,6 @@ else{
 //     System.out.println("condition wrong");
 // }
 
-
 //     }
 //  }
 // class M {
@@ -316,7 +301,7 @@ else{
 //         int x = 10;
 //         int y = 12;
 //         int z = 30;
-        
+
 //         if (x < z) {
 //             if (x > y) {
 //                 System.out.println("x is the smallest");
@@ -542,3 +527,298 @@ public class BMICalculator {
 //         System.out.println("ur number is:- " + x);
 //     }
 // }
+
+/*
+ 
+import java.util.Scanner;
+
+public class AdvancedConditionalExercises {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        // 1. Day of the Week
+        System.out.println("Enter a number (1-7):");
+        int day = scanner.nextInt();
+        if (day == 1) System.out.println("Monday");
+        else if (day == 2) System.out.println("Tuesday");
+        else if (day == 3) System.out.println("Wednesday");
+        else if (day == 4) System.out.println("Thursday");
+        else if (day == 5) System.out.println("Friday");
+        else if (day == 6) System.out.println("Saturday");
+        else if (day == 7) System.out.println("Sunday");
+        else System.out.println("Invalid input");
+
+        // 2. Triangle Type Checker
+        System.out.println("Enter three side lengths:");
+        int a = scanner.nextInt(), b = scanner.nextInt(), c = scanner.nextInt();
+        if (a == b && b == c) System.out.println("Equilateral");
+        else if (a == b || b == c || a == c) System.out.println("Isosceles");
+        else System.out.println("Scalene");
+
+        // 3. Quadrant of a Point
+        System.out.println("Enter x and y coordinates:");
+        int x = scanner.nextInt(), y = scanner.nextInt();
+        if (x > 0 && y > 0) System.out.println("First Quadrant");
+        else if (x < 0 && y > 0) System.out.println("Second Quadrant");
+        else if (x < 0 && y < 0) System.out.println("Third Quadrant");
+        else if (x > 0 && y < 0) System.out.println("Fourth Quadrant");
+        else if (x == 0 && y == 0) System.out.println("Origin");
+        else System.out.println("On an axis");
+
+        // 4. Simple Calculator
+        System.out.println("Enter two numbers and an operator (+, -, *, /):");
+        double num1 = scanner.nextDouble(), num2 = scanner.nextDouble();
+        char operator = scanner.next().charAt(0);
+        if (operator == '+') System.out.println(num1 + num2);
+        else if (operator == '-') System.out.println(num1 - num2);
+        else if (operator == '*') System.out.println(num1 * num2);
+        else if (operator == '/') {
+            if (num2 != 0) System.out.println(num1 / num2);
+            else System.out.println("Cannot divide by zero");
+        } else System.out.println("Invalid operator");
+
+        // 5. Season Determiner
+        System.out.println("Enter a month number (1-12):");
+        int month = scanner.nextInt();
+        if (month >= 3 && month <= 5) System.out.println("Spring");
+        else if (month >= 6 && month <= 8) System.out.println("Summer");
+        else if (month >= 9 && month <= 11) System.out.println("Autumn");
+        else if (month == 12 || month == 1 || month == 2) System.out.println("Winter");
+        else System.out.println("Invalid month");
+
+        // 6. Discount Calculator
+        System.out.println("Enter purchase amount:");
+        double amount = scanner.nextDouble();
+        if (amount > 5000) System.out.println("Final price: " + (amount * 0.8));
+        else if (amount > 2000) System.out.println("Final price: " + (amount * 0.9));
+        else if (amount > 1000) System.out.println("Final price: " + (amount * 0.95));
+        else System.out.println("Final price: " + amount);
+
+        // 7. Character Type Checker
+        System.out.println("Enter a character:");
+        char ch = scanner.next().charAt(0);
+        if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) System.out.println("Letter");
+        else if (ch >= '0' && ch <= '9') System.out.println("Digit");
+        else System.out.println("Special Character");
+
+        // 8. Time of Day Greeting
+        System.out.println("Enter current hour (0-23):");
+        int hour = scanner.nextInt();
+        if (hour >= 5 && hour < 12) System.out.println("Good Morning");
+        else if (hour >= 12 && hour < 17) System.out.println("Good Afternoon");
+        else if (hour >= 17 && hour < 21) System.out.println("Good Evening");
+        else System.out.println("Good Night");
+
+        // 9. Number to Word Converter
+        System.out.println("Enter a single-digit number (0-9):");
+        int digit = scanner.nextInt();
+        if (digit == 0) System.out.println("Zero");
+        else if (digit == 1) System.out.println("One");
+        else if (digit == 2) System.out.println("Two");
+        else if (digit == 3) System.out.println("Three");
+        else if (digit == 4) System.out.println("Four");
+        else if (digit == 5) System.out.println("Five");
+        else if (digit == 6) System.out.println("Six");
+        else if (digit == 7) System.out.println("Seven");
+        else if (digit == 8) System.out.println("Eight");
+        else if (digit == 9) System.out.println("Nine");
+        else System.out.println("Invalid input");
+
+        // 10. Traffic Light Simulator
+        System.out.println("Enter current light color (Red/Green/Yellow):");
+        String color = scanner.next().toLowerCase();
+        if (color.equals("red")) System.out.println("Next: Green");
+        else if (color.equals("green")) System.out.println("Next: Yellow");
+        else if (color.equals("yellow")) System.out.println("Next: Red");
+        else System.out.println("Invalid color");
+
+        // 11. Loan Approval Checker
+        System.out.println("Enter credit score and annual income:");
+        int creditScore = scanner.nextInt();
+        double income = scanner.nextDouble();
+        if (creditScore >= 700 && income >= 50000) System.out.println("Loan Approved");
+        else if (creditScore >= 650 && income >= 70000) System.out.println("Loan Approved");
+        else System.out.println("Loan Denied");
+
+        // 12. Rock-Paper-Scissors Game
+        System.out.println("Enter choices for two players (rock/paper/scissors):");
+        String player1 = scanner.next().toLowerCase();
+        String player2 = scanner.next().toLowerCase();
+        if (player1.equals(player2)) System.out.println("Tie");
+        else if ((player1.equals("rock") && player2.equals("scissors")) ||
+                 (player1.equals("scissors") && player2.equals("paper")) ||
+                 (player1.equals("paper") && player2.equals("rock")))
+            System.out.println("Player 1 wins");
+        else System.out.println("Player 2 wins");
+
+        // 13. Zodiac Sign Determiner
+        System.out.println("Enter birth month and day:");
+        month = scanner.nextInt();
+        int day = scanner.nextInt();
+        if ((month == 3 && day >= 21) || (month == 4 && day <= 19)) System.out.println("Aries");
+        else if ((month == 4 && day >= 20) || (month == 5 && day <= 20)) System.out.println("Taurus");
+        else if ((month == 5 && day >= 21) || (month == 6 && day <= 20)) System.out.println("Gemini");
+        else if ((month == 6 && day >= 21) || (month == 7 && day <= 22)) System.out.println("Cancer");
+        else if ((month == 7 && day >= 23) || (month == 8 && day <= 22)) System.out.println("Leo");
+        else if ((month == 8 && day >= 23) || (month == 9 && day <= 22)) System.out.println("Virgo");
+        else if ((month == 9 && day >= 23) || (month == 10 && day <= 22)) System.out.println("Libra");
+        else if ((month == 10 && day >= 23) || (month == 11 && day <= 21)) System.out.println("Scorpio");
+        else if ((month == 11 && day >= 22) || (month == 12 && day <= 21)) System.out.println("Sagittarius");
+        else if ((month == 12 && day >= 22) || (month == 1 && day <= 19)) System.out.println("Capricorn");
+        else if ((month == 1 && day >= 20) || (month == 2 && day <= 18)) System.out.println("Aquarius");
+        else System.out.println("Pisces");
+
+        // 14. Grade Point Calculator
+        System.out.println("Enter a letter grade (A, B, C, D, F):");
+        char grade = scanner.next().toUpperCase().charAt(0);
+        if (grade == 'A') System.out.println("4.0");
+        else if (grade == 'B') System.out.println("3.0");
+        else if (grade == 'C') System.out.println("2.0");
+        else if (grade == 'D') System.out.println("1.0");
+        else if (grade == 'F') System.out.println("0.0");
+        else System.out.println("Invalid grade");
+
+        // 15. Leap Year with Century Rule
+        System.out.println("Enter a year:");
+        int year = scanner.nextInt();
+        if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+            System.out.println("Leap Year");
+        else
+            System.out.println("Not a Leap Year");
+
+        scanner.close();
+    }
+}
+
+ */
+
+import java.util.Scanner;
+
+class z {
+    public static void main(String[] args) {
+        /* 
+        Scanner sc = new Scanner(System.in);
+        // day of the week
+        System.out.println("Enter ur day");
+        int day = sc.nextInt();
+        if(day==1){
+            System.out.println("Monday");
+        }
+        else if(day == 2){
+            System.out.println("Tuesday");
+        }
+        else if(day == 3){
+            System.out.println("Wednesday");
+        } else if(day == 4){
+            System.out.println("Thursday");
+        } else if(day == 5){
+            System.out.println("Friday");
+        } else if(day == 6){
+            System.out.println("Saturday");
+        } else if(day == 7){
+            System.out.println("Sunday");
+        }
+            
+
+        Scanner sc = new Scanner(System.in);
+
+            System.out.println("Enter three side lengths:");
+
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+           int  c = sc.nextInt();
+            if (a == b && b == c){
+             System.out.println("Equilateral");
+            }
+            else if (a == b || b == c || a == c){
+                System.out.println("Isosceles");
+            }
+            else{ 
+                System.out.println("Scalene");
+        }
+               
+
+                // 3. Quadrant of a Point
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter x and y coordinates:");
+        int x = sc.nextInt(), 
+        y = sc.nextInt();
+        if (x > 0 && y > 0) {
+            System.out.println("First Quadrant");
+        }
+        else if (x < 0 && y > 0){
+             System.out.println("Second Quadrant");
+        }
+        else if (x < 0 && y < 0){
+             System.out.println("Third Quadrant");
+        }
+        else if (x > 0 && y < 0) {
+            System.out.println("Fourth Quadrant");
+        }
+        else if (x == 0 && y == 0) {
+            System.out.println("Origin");
+        }
+        else {
+            System.out.println("On an axis");
+        }
+ 
+
+
+  // 4. Simple Calculator
+  Scanner sc = new Scanner(System.in);
+
+  System.out.println("Enter two numbers and an operator (+, -, *, /):");
+  System.out.println("enter 1st number");
+  double num1 = sc.nextDouble();
+  System.out.println("enter Symbol");
+
+  char operator = sc.next().charAt(0);
+
+  System.out.println("enter 2nd number");
+   double num2 = sc.nextDouble();
+  if (operator == '+'){
+     System.out.println(num1 + num2);
+  }
+  else if (operator == '-'){
+     System.out.println(num1 - num2);
+  }
+  else if (operator == '*') {
+    System.out.println(num1 * num2);
+  }
+  else if (operator == '/') {
+      if (num2 != 0) {
+        System.out.println(num1 / num2);
+      }
+      else {
+        System.out.println("Cannot divide by zero");
+      }
+  } else{
+     System.out.println("Invalid operator");
+  }
+      
+  // 5. Season Determiner
+  Scanner sc = new Scanner(System.in);
+  System.out.println("Enter a month number (1-12):");
+  int month = sc.nextInt();
+  if (month >= 3 && month <= 5) {
+    System.out.println("Summer");
+  }
+  else if (month >= 6 && month <= 8) {
+    System.out.println("Spring");
+  }
+  else if (month >= 9 && month <= 11) {
+    System.out.println("Autumn");
+  }
+  else if (month == 12 || month == 1 || month == 2) {
+    System.out.println("Winter");
+  }
+  else {
+     System.out.println("Invalid month");   
+  }
+
+  
+   */
+        
+    }
+}
