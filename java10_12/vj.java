@@ -627,6 +627,113 @@
 // Mutator method 
 
 
+// Absatract 
+// abstract class l {
+//     abstract void display();
+// }
+
+// public class vj extends l {
+//     public void display() {
+//         System.out.println("its vj class");
+//     }
+
+//     public static void main(String[] args) {
+//         l obj = new vj();
+//         obj.display(); 
+//     }
+// }
+
+// class w{
+//     w(){
+//         System.out.println(" its vj class");
+//     }
+//     public static void main(String[] args) {
+//         w obj = new W();
+
+//     }
+// }
+
+
+// class w{
+//     int x;
+//     String y;
+//     int z;
+//     w(int a , String b){
+//         x = a;
+//         y = b;
+//     }
+//     w(int a , String b, int c){
+//         x = a;
+//         y = b;
+//         z=c;
+//     }
+//     void display(){
+//         System.out.println(x + " " + y + " "+ z);
+//     }
+//     public static void main(String[] args) {
+//         w obj = new W(1,"vj");
+//         w obj1 = new W(1,"vijay",234);
+
+//         obj.display();
+//         obj1.display();
+//     }
+// }
+
+
+// class jkl{
+//     int x;
+//     String y;
+
+//     jkl(int a, String b){
+//         x=a;
+//         y=b;
+//     }
+//     jkl(jkl j){
+//         x=j.x;
+//         y=j.y;
+//     }
+
+//     void display(){
+//         System.out.println(x + " " + y);
+//     }
+//     public static void main(String[] args) {
+//         jkl obj = new jkl(1234, "vj");
+//         jkl obj1 = new jkl(obj);
+//         obj.display();
+//         obj1.display();
+//     }
+// }
+
+
+
+
+class jkl{
+    int x;
+    String y;
+
+    jkl(int a, String b){
+        x=a;
+        y=b;
+    }
+    jkl(){
+       
+    }
+
+    void display(){
+        System.out.println(x + " " + y);
+    }
+    public static void main(String[] args) {
+        jkl obj = new jkl(1234, "vj");
+        jkl obj1 = new jkl();
+        obj1.x = obj.x;
+        obj1.y = obj.y;
+        obj.display();
+        obj1.display();
+    }
+}
+
+
+
 
 
 

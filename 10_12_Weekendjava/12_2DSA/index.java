@@ -321,7 +321,7 @@
 //                     list.lastinsert();
 //                     break;
 //                 case 3:
-//                     list.randominsert();
+//                      list.randominsert();
 //                     break;
 //                 case 4:
 //                     list.begin_delete();
@@ -645,3 +645,11 @@
 //         }
 //     }
 // }
+
+
+
+
+
+
+
+

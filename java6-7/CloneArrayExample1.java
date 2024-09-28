@@ -1472,8 +1472,8 @@
 // }  
 
 
-class vj{
-    public static void main(String[] args) {
+// class vj{
+//     public static void main(String[] args) {
         // String x ="vijendra Sharma";
         // System.out.println(x);
         // System.out.println(x.length());
