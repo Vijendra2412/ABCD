@@ -646,10 +646,124 @@
 //     }
 // }
 
+// import java.util.List;
+// import java.util.Scanner;
+
+// class ListNode{
+//     int val;
+//     ListNode next;
+
+//     ListNode(int val){
+//         this.val=val;
+//         this.next = null;
+//     }
+// }
+
+// class solution{
+//     public ListNode reverselist(ListNode head){
+//         ListNode prev = null;
+//         ListNode current = head;
+//         while (current!=null) {
+//             ListNode nextNode = current.next;
+
+//             current.next = prev; //reverse the pointer of the current node to point to the previousnode
 
 
+//             // move the previous and current pointers one step forward
+//             prev = current;
+//             current = nextNode;
+//         }
+//         return prev;
+//     }
+//     public static void printList(ListNode head){
+//         ListNode temp = head;
+//         while (temp!= null) {
+//             System.out.print(temp.val + " ");
+//             temp = temp.next;
+//         }  
+// System.out.println();
+//     }
+//     public static void main(String[] args) {
+        
+//         ListNode head  = new ListNode(1);
+//         head.next = new ListNode(2);
+//         head.next.next = new ListNode(3);
+//         head.next.next.next = new ListNode(4);
+//         head.next.next.next.next = new ListNode(5);
 
+//         System.out.println("original Linked List: ");
+//         printList(head);
 
+//         solution sc = new solution();
+//         ListNode reversedHead = sc.reverselist(head);
 
+//         System.out.println("reverse linked list:- ");
+//         printList(reversedHead);
+
+//     }
+// }
+
+//merge two sort 
+class ListNode{
+    int val;
+    ListNode next;
+    ListNode(int val){
+        this.val = val;
+        this.next = null;
+    }
+}
+
+class mergeTwoSortList{
+    //merge two sortlist
+    public static ListNode mergeTwoList(ListNode list1, ListNode list2){
+        ListNode dummy  = new ListNode(-1);
+        ListNode current = dummy;
+
+        while (list1!=null && list2!=null) {
+            if(list1.val<=list2.val){
+                current.next = list1;
+                list1 = list1.next;
+            }
+            else{
+                current.next = list2;
+                list2 = list2.next;
+            }
+            current = current.next;
+        }
+        //if any node are left in one of the list , append them
+        if(list1!=null){
+            current.next = list1;
+
+        }
+        else{
+            current.next = list2;
+        }
+
+        return dummy.next;
+    }
+        public static void printList(ListNode head){
+        ListNode current = head;
+        while (current!= null) {
+            System.out.print(current.val + " ");
+            current = current.next;
+        }  
+System.out.println(" :-null");
+    }
+    public static void main(String[] args) {
+        ListNode list1 = new ListNode(1);
+       list1.next = new ListNode(2);
+       list1.next.next = new ListNode(4);
+
+       ListNode list2 = new ListNode(3);
+       list2.next = new ListNode(5);
+       list2.next.next = new ListNode(6);
+
+       ListNode mergedList = mergeTwoList(list1, list2);
+       System.out.println("Merged List:- ");
+       
+printList(mergedList);
+
+    }
+}
 
 

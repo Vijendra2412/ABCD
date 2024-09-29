@@ -230,7 +230,7 @@
 
 // class practice {
 // public static void main(String[] args) {
-    
+
 //     System.out.println(" enter ur Armstrong number btwn 1 and 1000:- ");
 //     for(int num =1;num<=1000;num++){
 //     int original = num;
@@ -261,11 +261,9 @@
 //                     sum+= 1.0/i;
 //             }
 //             System.out.println("sum of series is:- " + sum);
-    
+
 //     }
 //     }
-
-
 
 // import java.util.Scanner;
 // class practice {
@@ -281,7 +279,7 @@
 //                 a=b;
 //                 b=remainder;
 //             }
-          
+
 //             System.out.println("our GCD of " + num1 + " and  " +num2 + " is " + a);
 //     }
 //     }
@@ -298,19 +296,18 @@
 //             for(int j=1;j<=i;j++){
 //                 System.out.print("* ");
 //             }
-          
+
 //             System.out.println();
 
 //         }
-            
+
 //     }
 //     }
 
 // import java.util.Scanner;
 // class practice {
 //     public static void main(String[] args) {
-        
-    
+
 //         int n = 5, num =1;
 
 //         for(int i=1;i<=n;i++){
@@ -320,22 +317,19 @@
 //             for(int j=1;j<=(2*i-1);j++){
 //                 System.out.print("* ");
 //             }
-          
+
 //             System.out.println();
 
 //         }
-            
+
 //     }
 //     }
-
-
 
 //diamond 
 // import java.util.Scanner;
 // class practice {
 //     public static void main(String[] args) {
-        
-    
+
 //         int n = 5;
 //             //upper
 //         for(int i=1;i<=n;i++){
@@ -345,7 +339,7 @@
 //             for(int j=1;j<=(2*i-1);j++){
 //                 System.out.print("* ");
 //             }
-          
+
 //             System.out.println();
 
 //         }
@@ -359,11 +353,9 @@
 //         System.out.println();
 
 //         }
-            
+
 //     }
 //     }
-
-
 
 // number ryt angle triangle 
 // class practice {
@@ -374,11 +366,11 @@
 //             for(int j=1;j<=i;j++){
 //                 System.out.print(j + " ");
 //             }
-          
+
 //             System.out.println();
 
 //         }
-            
+
 //     }
 //     }
 
@@ -391,11 +383,11 @@
 //             for(int j=1;j<=i;j++){
 //                 System.out.print(num++ + " ");
 //             }
-          
+
 //             System.out.println();
 
 //         }
-            
+
 //     }
 //     }
 
@@ -429,7 +421,7 @@
 //             }
 //             System.out.println();
 //         }
-            
+
 //     }
 //     }
 
@@ -447,16 +439,15 @@
 //                 else{
 //                     System.out.print(" ");
 //                 }
-               
+
 //             }
-          
+
 //             System.out.println();
 
 //         }
-            
-//     }
-//     }
 
+//     }
+//     }
 
 // class vj{
 //     int x = 9234; // instance variable
@@ -465,7 +456,6 @@
 //         vj obj1  = new vj();
 //         vj obj2  = new vj();
 //         vj obj3  = new vj();
-
 
 //         System.out.println(obj.x);
 //         System.out.println(obj1.x);
@@ -476,15 +466,13 @@
 
 // }
 
-
 // class clsname{
 //     // field
 //     // methods
 //     public static void main(String[] args) {
-        
+
 //     }
 // }
-
 
 // class Student{
 //     int id;
@@ -500,10 +488,6 @@
 //         System.out.println(obj.id + " " + obj.name);
 //     }
 // }
-
-
-
-
 
 // class Student{
 //     int id;
@@ -542,9 +526,6 @@
 //     obj.insertrecord(123,"vj");
 //     obj.display();
 
-
-
-
 //Method 
 // Modifire datatypes method_name(parameters){
 
@@ -556,7 +537,6 @@
 //         System.out.println("maximum number " + Math.max(4, 6));
 //     }
 // }
-
 
 // class a{
 //     public static void findeven(int num){
@@ -607,8 +587,6 @@
 //     }
 // }
 
-
-
 // class instancemethod{
 //     int s;
 //     public int add(int a, int b){
@@ -625,7 +603,6 @@
 // there are two types of instancemethod 
 // Accessor method 
 // Mutator method 
-
 
 // Absatract 
 // abstract class l {
@@ -653,7 +630,6 @@
 //     }
 // }
 
-
 // class w{
 //     int x;
 //     String y;
@@ -679,7 +655,6 @@
 //     }
 // }
 
-
 // class jkl{
 //     int x;
 //     String y;
@@ -704,36 +679,136 @@
 //     }
 // }
 
+// class jkl{
+//     int x;
+//     String y;
 
+//     jkl(int a, String b){
+//         x=a;
+//         y=b;
+//     }
+//     jkl(){
 
+//     }
 
-class jkl{
-    int x;
-    String y;
+//     void display(){
+//         System.out.println(x + " " + y);
+//     }
+//     public static void main(String[] args) {
+//         jkl obj = new jkl(1234, "vj");
+//         jkl obj1 = new jkl();
+//         obj1.x = obj.x;
+//         obj1.y = obj.y;
+//         obj.display();
+//         obj1.display();
+//     }
+// }
 
-    jkl(int a, String b){
-        x=a;
-        y=b;
+//Static Keyword
+
+// class jkl{
+//    int pin; // instance variable
+//    String name;// instance variable
+//    static int  age = 40; //static variable
+
+//    jkl(int p, String n){
+//     pin = p;
+//     name = n;
+//    }
+//    void display(){
+//     System.out.println(pin +" " +age+" "+name);
+//    }
+//    public static void main(String[] args) {
+//     jkl obj = new jkl(123, "vijendra");
+//     obj.display();
+//    }
+// }
+
+// class counter{
+//     static int count = 0;
+
+//     counter(){
+//         count++;
+//         System.out.println(count);
+//     }
+//     public static void main(String[] args) {
+//         counter obj =new counter();
+//         counter obj1 =new counter();
+//         counter obj2 =new counter();
+//         counter obj3 =new counter();
+
+//     }
+// }
+
+// class av{
+//     int rollno;
+//     String name;
+//     static String age = "40";
+
+//     static void change(){
+//         age ="25";
+//     }
+
+//     av(int r,String n){
+//         rollno = r;
+//         name = n;
+//     }
+
+//     void display(){
+//         System.out.println(rollno +" " + name +" " + age);
+//     }
+
+//     public static void main(String[] args) {
+//         av.change();
+//         av obj = new av(123, "vijendra");
+//         av obj1 = new av(1234, "vijay");
+//         av obj2 = new av(12345, "vj");
+//         obj.display();
+//         obj1.display();
+//         obj2.display();
+//     }
+// }
+
+// class calculation {
+//     static int cube(int x) {
+//         return x * x * x;
+//     }
+//     public static void main(String[] args) {
+//        int x= calculation.cube(4);
+//        System.out.println(x);
+//     }
+// }
+
+// class jk{
+//     static int x =9;
+//     public static void main(String[] args) {
+//         System.out.println(x);
+//     }
+// }
+
+// class jk{
+//     static int x;
+//     static {
+//         x=9;
+//      }
+//     public static void main(String[] args) {
+//         System.out.println(x);
+//     }
+// }
+
+// class jk{
+//     static{
+//         System.out.println(" its vj class");
+//     }
+//     public static void main(String[] args) {
+//         System.out.println(" hello vj");
+//     }
+// }
+
+class jk{
+    static{
+        System.out.println("hey vj");
+        System.exit(0);
     }
-    jkl(){
-       
-    }
-
-    void display(){
-        System.out.println(x + " " + y);
-    }
-    public static void main(String[] args) {
-        jkl obj = new jkl(1234, "vj");
-        jkl obj1 = new jkl();
-        obj1.x = obj.x;
-        obj1.y = obj.y;
-        obj.display();
-        obj1.display();
-    }
+    
 }
-
-
-
-
-
-
