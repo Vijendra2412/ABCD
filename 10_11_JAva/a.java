@@ -692,10 +692,10 @@ public class AdvancedConditionalExercises {
 
  */
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-class z {
-    public static void main(String[] args) {
+// class z {
+//     public static void main(String[] args) {
         /* 
         Scanner sc = new Scanner(System.in);
         // day of the week
@@ -820,22 +820,123 @@ class z {
   
    */
   // 13. Zodiac Sign Determiner
-  Scanner sc = new Scanner(System.in);
-  System.out.println("Enter birth month and day:");
-  month = scanner.nextInt();
-  int day = scanner.nextInt();
-  if ((month == 3 && day >= 21) || (month == 4 && day <= 19)) System.out.println("Aries");
-  else if ((month == 4 && day >= 20) || (month == 5 && day <= 20)) System.out.println("Taurus");
-  else if ((month == 5 && day >= 21) || (month == 6 && day <= 20)) System.out.println("Gemini");
-  else if ((month == 6 && day >= 21) || (month == 7 && day <= 22)) System.out.println("Cancer");
-  else if ((month == 7 && day >= 23) || (month == 8 && day <= 22)) System.out.println("Leo");
-  else if ((month == 8 && day >= 23) || (month == 9 && day <= 22)) System.out.println("Virgo");
-  else if ((month == 9 && day >= 23) || (month == 10 && day <= 22)) System.out.println("Libra");
-  else if ((month == 10 && day >= 23) || (month == 11 && day <= 21)) System.out.println("Scorpio");
-  else if ((month == 11 && day >= 22) || (month == 12 && day <= 21)) System.out.println("Sagittarius");
-  else if ((month == 12 && day >= 22) || (month == 1 && day <= 19)) System.out.println("Capricorn");
-  else if ((month == 1 && day >= 20) || (month == 2 && day <= 18)) System.out.println("Aquarius");
-  else System.out.println("Pisces");
+//   Scanner sc = new Scanner(System.in);
+//   System.out.println("Enter birth month and day:");
+//   month = scanner.nextInt();
+//   int day = scanner.nextInt();
+//   if ((month == 3 && day >= 21) || (month == 4 && day <= 19)) System.out.println("Aries");
+//   else if ((month == 4 && day >= 20) || (month == 5 && day <= 20)) System.out.println("Taurus");
+//   else if ((month == 5 && day >= 21) || (month == 6 && day <= 20)) System.out.println("Gemini");
+//   else if ((month == 6 && day >= 21) || (month == 7 && day <= 22)) System.out.println("Cancer");
+//   else if ((month == 7 && day >= 23) || (month == 8 && day <= 22)) System.out.println("Leo");
+//   else if ((month == 8 && day >= 23) || (month == 9 && day <= 22)) System.out.println("Virgo");
+//   else if ((month == 9 && day >= 23) || (month == 10 && day <= 22)) System.out.println("Libra");
+//   else if ((month == 10 && day >= 23) || (month == 11 && day <= 21)) System.out.println("Scorpio");
+//   else if ((month == 11 && day >= 22) || (month == 12 && day <= 21)) System.out.println("Sagittarius");
+//   else if ((month == 12 && day >= 22) || (month == 1 && day <= 19)) System.out.println("Capricorn");
+//   else if ((month == 1 && day >= 20) || (month == 2 && day <= 18)) System.out.println("Aquarius");
+//   else System.out.println("Pisces");
+
+
         
-    }
+//     }
+// }
+import java.util.*;
+class mno{
+    public static void main(String[] args) {
+ // 15. Leap Year with Century Rule
+//  Scanner sc = new Scanner(System.in);
+
+//  System.out.println("Enter a year:");
+//  int year = sc.nextInt();
+//  if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+//      System.out.println("Leap Year");
+//  else{
+//      System.out.println("Not a Leap Year");
+
+
+
+
+  // 4. Simple Calculator
+//   Scanner sc = new Scanner(System.in);
+
+//   System.out.println("Enter two numbers and an operator (+, -, *, /):");
+//   System.out.println("enter 1st number");
+//   double num1 = sc.nextDouble();
+//   System.out.println("enter Symbol");
+
+//   char operator = sc.next().charAt(0);
+
+//   System.out.println("enter 2nd number");
+//    double num2 = sc.nextDouble();
+//   if (operator == '+'){
+//      System.out.println(num1 + num2);
+//   }
+//   else if (operator == '-'){
+//      System.out.println(num1 - num2);
+//   }
+//   else if (operator == '*') {
+//     System.out.println(num1 * num2);
+//   }
+//   else if (operator == '/') {
+//       if (num2 != 0) {
+//         System.out.println(num1 / num2);
+//       }
+//       else {
+//         System.out.println("Cannot divide by zero");
+//       }
+//   } else{
+//      System.out.println("Invalid operator");
+//   }
+
+//   Scanner sc = new Scanner(System.in);
+// System.out.println("Enter a character:");
+// char ch = scanner.next().charAt(0);
+// if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')){
+//     System.out.println("Letter");
+// } 
+// else if (ch >= '0' && ch <= '9') {
+//     System.out.println("Digit");
+// }
+// else {System.out.println("Special Character");
+// }
+
+// Scanner sc = new Scanner(System.in);
+// System.out.println("Enter current hour (0-23):");
+//         int hour = scanner.nextInt();
+//         if (hour >= 5 && hour < 12) {
+//             System.out.println("Good Morning");
+//     }
+//         else if (hour >= 12 && hour < 17) {
+//             System.out.println("Good Afternoon");
+//     }
+//         else if (hour >= 17 && hour < 21){ 
+//             System.out.println("Good Evening");
+//     }
+//         else {
+//             System.out.println("Good Night");
+//     }
+
+ // 12. Rock-Paper-Scissors Game
+Scanner sc = new Scanner(System.in);
+
+ System.out.println("Enter choices for two players (rock/paper/scissors):");
+ String player1 = scanner.next().toLowerCase();
+ String player2 = scanner.next().toLowerCase();
+ if (player1.equals(player2)){ 
+    System.out.println("Tie");
 }
+ else if ((player1.equals("rock") && player2.equals("scissors")) ||
+          (player1.equals("scissors") && player2.equals("paper")) ||
+          (player1.equals("paper") && player2.equals("rock")))
+    { 
+        System.out.println("Player 1 wins");
+    }
+ else {
+    System.out.println("Player 2 wins");
+    
+}
+}
+}
+
+//Switch 
