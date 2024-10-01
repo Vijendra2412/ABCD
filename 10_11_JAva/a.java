@@ -696,130 +696,130 @@ public class AdvancedConditionalExercises {
 
 // class z {
 //     public static void main(String[] args) {
-        /* 
-        Scanner sc = new Scanner(System.in);
-        // day of the week
-        System.out.println("Enter ur day");
-        int day = sc.nextInt();
-        if(day==1){
-            System.out.println("Monday");
-        }
-        else if(day == 2){
-            System.out.println("Tuesday");
-        }
-        else if(day == 3){
-            System.out.println("Wednesday");
-        } else if(day == 4){
-            System.out.println("Thursday");
-        } else if(day == 5){
-            System.out.println("Friday");
-        } else if(day == 6){
-            System.out.println("Saturday");
-        } else if(day == 7){
-            System.out.println("Sunday");
-        }
-            
+/* 
+Scanner sc = new Scanner(System.in);
+// day of the week
+System.out.println("Enter ur day");
+int day = sc.nextInt();
+if(day==1){
+    System.out.println("Monday");
+}
+else if(day == 2){
+    System.out.println("Tuesday");
+}
+else if(day == 3){
+    System.out.println("Wednesday");
+} else if(day == 4){
+    System.out.println("Thursday");
+} else if(day == 5){
+    System.out.println("Friday");
+} else if(day == 6){
+    System.out.println("Saturday");
+} else if(day == 7){
+    System.out.println("Sunday");
+}
+    
 
-        Scanner sc = new Scanner(System.in);
+Scanner sc = new Scanner(System.in);
 
-            System.out.println("Enter three side lengths:");
+    System.out.println("Enter three side lengths:");
 
-            int a = sc.nextInt();
-            int b = sc.nextInt();
-           int  c = sc.nextInt();
-            if (a == b && b == c){
-             System.out.println("Equilateral");
-            }
-            else if (a == b || b == c || a == c){
-                System.out.println("Isosceles");
-            }
-            else{ 
-                System.out.println("Scalene");
-        }
-               
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+   int  c = sc.nextInt();
+    if (a == b && b == c){
+     System.out.println("Equilateral");
+    }
+    else if (a == b || b == c || a == c){
+        System.out.println("Isosceles");
+    }
+    else{ 
+        System.out.println("Scalene");
+}
+       
 
-                // 3. Quadrant of a Point
-        Scanner sc = new Scanner(System.in);
+        // 3. Quadrant of a Point
+Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter x and y coordinates:");
-        int x = sc.nextInt(), 
-        y = sc.nextInt();
-        if (x > 0 && y > 0) {
-            System.out.println("First Quadrant");
-        }
-        else if (x < 0 && y > 0){
-             System.out.println("Second Quadrant");
-        }
-        else if (x < 0 && y < 0){
-             System.out.println("Third Quadrant");
-        }
-        else if (x > 0 && y < 0) {
-            System.out.println("Fourth Quadrant");
-        }
-        else if (x == 0 && y == 0) {
-            System.out.println("Origin");
-        }
-        else {
-            System.out.println("On an axis");
-        }
- 
+System.out.println("Enter x and y coordinates:");
+int x = sc.nextInt(), 
+y = sc.nextInt();
+if (x > 0 && y > 0) {
+    System.out.println("First Quadrant");
+}
+else if (x < 0 && y > 0){
+     System.out.println("Second Quadrant");
+}
+else if (x < 0 && y < 0){
+     System.out.println("Third Quadrant");
+}
+else if (x > 0 && y < 0) {
+    System.out.println("Fourth Quadrant");
+}
+else if (x == 0 && y == 0) {
+    System.out.println("Origin");
+}
+else {
+    System.out.println("On an axis");
+}
 
 
-  // 4. Simple Calculator
-  Scanner sc = new Scanner(System.in);
 
-  System.out.println("Enter two numbers and an operator (+, -, *, /):");
-  System.out.println("enter 1st number");
-  double num1 = sc.nextDouble();
-  System.out.println("enter Symbol");
+// 4. Simple Calculator
+Scanner sc = new Scanner(System.in);
 
-  char operator = sc.next().charAt(0);
+System.out.println("Enter two numbers and an operator (+, -, *, /):");
+System.out.println("enter 1st number");
+double num1 = sc.nextDouble();
+System.out.println("enter Symbol");
 
-  System.out.println("enter 2nd number");
-   double num2 = sc.nextDouble();
-  if (operator == '+'){
-     System.out.println(num1 + num2);
-  }
-  else if (operator == '-'){
-     System.out.println(num1 - num2);
-  }
-  else if (operator == '*') {
-    System.out.println(num1 * num2);
-  }
-  else if (operator == '/') {
-      if (num2 != 0) {
-        System.out.println(num1 / num2);
-      }
-      else {
-        System.out.println("Cannot divide by zero");
-      }
-  } else{
-     System.out.println("Invalid operator");
-  }
-      
-  // 5. Season Determiner
-  Scanner sc = new Scanner(System.in);
-  System.out.println("Enter a month number (1-12):");
-  int month = sc.nextInt();
-  if (month >= 3 && month <= 5) {
-    System.out.println("Summer");
-  }
-  else if (month >= 6 && month <= 8) {
-    System.out.println("Spring");
-  }
-  else if (month >= 9 && month <= 11) {
-    System.out.println("Autumn");
-  }
-  else if (month == 12 || month == 1 || month == 2) {
-    System.out.println("Winter");
-  }
-  else {
-     System.out.println("Invalid month");   
-  }
+char operator = sc.next().charAt(0);
 
-  
-   */
-  // 13. Zodiac Sign Determiner
+System.out.println("enter 2nd number");
+double num2 = sc.nextDouble();
+if (operator == '+'){
+System.out.println(num1 + num2);
+}
+else if (operator == '-'){
+System.out.println(num1 - num2);
+}
+else if (operator == '*') {
+System.out.println(num1 * num2);
+}
+else if (operator == '/') {
+if (num2 != 0) {
+System.out.println(num1 / num2);
+}
+else {
+System.out.println("Cannot divide by zero");
+}
+} else{
+System.out.println("Invalid operator");
+}
+
+// 5. Season Determiner
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter a month number (1-12):");
+int month = sc.nextInt();
+if (month >= 3 && month <= 5) {
+System.out.println("Summer");
+}
+else if (month >= 6 && month <= 8) {
+System.out.println("Spring");
+}
+else if (month >= 9 && month <= 11) {
+System.out.println("Autumn");
+}
+else if (month == 12 || month == 1 || month == 2) {
+System.out.println("Winter");
+}
+else {
+System.out.println("Invalid month");   
+}
+
+
+*/
+// 13. Zodiac Sign Determiner
 //   Scanner sc = new Scanner(System.in);
 //   System.out.println("Enter birth month and day:");
 //   month = scanner.nextInt();
@@ -837,13 +837,12 @@ public class AdvancedConditionalExercises {
 //   else if ((month == 1 && day >= 20) || (month == 2 && day <= 18)) System.out.println("Aquarius");
 //   else System.out.println("Pisces");
 
-
-        
 //     }
 // }
-import java.util.*;
-class mno{
-    public static void main(String[] args) {
+// import java.util.*;
+
+// class mno {
+//     public static void main(String[] args) {
  // 15. Leap Year with Century Rule
 //  Scanner sc = new Scanner(System.in);
 
@@ -918,25 +917,141 @@ class mno{
 //     }
 
  // 12. Rock-Paper-Scissors Game
-Scanner sc = new Scanner(System.in);
+// Scanner sc = new Scanner(System.in);
 
- System.out.println("Enter choices for two players (rock/paper/scissors):");
- String player1 = scanner.next().toLowerCase();
- String player2 = scanner.next().toLowerCase();
- if (player1.equals(player2)){ 
-    System.out.println("Tie");
-}
- else if ((player1.equals("rock") && player2.equals("scissors")) ||
-          (player1.equals("scissors") && player2.equals("paper")) ||
-          (player1.equals("paper") && player2.equals("rock")))
-    { 
-        System.out.println("Player 1 wins");
-    }
- else {
-    System.out.println("Player 2 wins");
+//  System.out.println("Enter choices for two players (rock/paper/scissors):");
+//  String player1 = scanner.next().toLowerCase();
+//  String player2 = scanner.next().toLowerCase();
+//  if (player1.equals(player2)){ 
+//     System.out.println("Tie");
+// }
+//  else if ((player1.equals("rock") && player2.equals("scissors")) ||
+//           (player1.equals("scissors") && player2.equals("paper")) ||
+//           (player1.equals("paper") && player2.equals("rock")))
+//     { 
+//         System.out.println("Player 1 wins");
+//     }
+//  else {
+//     System.out.println("Player 2 wins");
     
-}
-}
-}
+// }
+
+// Scanner sc = new Scanner(System.in);
+ // 15. Leap Year with Century Rule
+//  System.out.println("Enter a year:");
+//  int year = scanner.nextInt();
+//  if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+//      {
+//         System.out.println("Leap Year");
+//     }
+//  else
+//      {
+//         System.out.println("Not a Leap Year");
+//     }
+// }
+// }
 
 //Switch 
+// switch statement execute one statement from Multiple conditions.
+// switch (expression) {
+//     case value:
+        
+//         break;
+
+//     default:
+//         break;
+// } 
+// import java.util.*;
+// class jkl{
+//     public static void main(String[] args) {
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter ur day");
+        // int day = sc.nextInt();
+        // switch (day) {
+        //     case 1:
+        //         System.out.println("Monday");
+        //         break;
+        //     case 2:
+        //         System.out.println("Tuesday");
+        //         break;
+        //     case 3:
+        //         System.out.println("Wednesday");
+        //         break;
+        //     case 4:
+        //         System.out.println("thursday");
+        //         break;
+        //     case 5:
+        //         System.out.println("Friday");
+        //         break;
+        //     case 6:
+        //         System.out.println("saturday");
+        //         break;
+        //     case 7:
+        //         System.out.println("Sunnday");
+        //         break;
+        
+        //     default:
+        //     System.out.println("case not found");
+        //         break;
+        // }
+
+// int month = 3;
+// String mnthstrng = "";
+// switch (month) {
+//     case 1:
+//         mnthstrng ="1-jan";
+//         break;
+//     case 2:
+//     mnthstrng ="2-feb";
+        
+//         break;
+//     case 3:
+//     mnthstrng ="3-march";
+        
+//         break;
+//     case 4:
+//     mnthstrng ="4-april";
+        
+//         break;
+
+//     default:
+//     System.out.println("Month not found");
+//         break;
+// }
+// System.out.println(mnthstrng);
+
+        // char Branch = 'C';
+        // int collegeYear = 2;
+        // switch (collegeYear) {
+        //     case 1:
+        //         System.out.println("English,math, physcs,chemestry");
+        //         break;
+        //         case 2:
+        //             switch (Branch) {
+        //               case 'C':
+        //                 System.out.println("os,java,ds");
+        //                 break;
+        //               case 'E':
+        //                 System.out.println("abc,def, ghi");
+        //                 break;
+        //         }
+        //         case 3:
+        //         switch (Branch) {
+        //             case 'g':
+        //                 System.out.println("1,2,3,4,5");
+        //                 break;
+        //               case 'h':
+        //                 System.out.println("6,7,8,9");
+        //                 break;
+        //         }
+
+        
+        //     default:
+        //         break;
+        // }
+
+        // it is a class that represent the group of constant.
+
+//     }
+// }
+

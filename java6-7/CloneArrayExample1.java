@@ -1489,5 +1489,16 @@
         // System.out.println(x+z);
 
     
+//     }
+// }
+
+class q{
+    public static void main(String[] args) {
+        String x= "vijendra ";
+        x= "jai";
+        // System.out.println(x.concat(y));
+        System.out.println(x+y);
+        // equal(),split(),length(),etc
+
     }
 }
