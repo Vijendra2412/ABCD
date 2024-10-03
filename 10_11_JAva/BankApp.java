@@ -1055,3 +1055,134 @@ System.out.println("Invalid month");
 //     }
 // }
 
+// loops
+// it is used to iterate a part of program several times. 
+// there three types of loop
+// for loop 
+// while loop
+// do while loop 
+
+// for-each loop
+
+// syntax of forloop 
+// for(initilization, condition, i/d){
+    // code
+// }
+// class kl{
+//     public static void main(String[] args) {
+//         for(int i=0;i<=10;i++){
+//             System.out.println("2 * " + i + " = " + 2*i);
+//         }
+//     }
+// }
+
+// import java.util.Scanner;
+
+//  class CurrencyConverter {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+        
+//         // Input: amount in INR
+//         System.out.print("Enter amount in INR: ");
+//         double inrAmount = scanner.nextDouble();
+        
+//         // Input: target currency
+//         System.out.println("Choose the target currency (1 for USD, 2 for EUR, 3 for GBP): ");
+//         int currencyChoice = scanner.nextInt();
+        
+//         // Variable to store converted amount
+//         double convertedAmount = 0.0;
+        
+//         // Conversion rates
+//         double inrToUsd = 0.012;
+//         double inrToEur = 0.011;
+//         double inrToGbp = 0.0098;
+        
+//         // Switch case to handle currency conversion
+//         switch (currencyChoice) {
+//             case 1: // INR to USD
+//                 convertedAmount = inrAmount * inrToUsd;
+//                 System.out.println("Converted amount in USD: " + convertedAmount);
+//                 break;
+                
+//             case 2: // INR to EUR
+//                 convertedAmount = inrAmount * inrToEur;
+//                 System.out.println("Converted amount in EUR: " + convertedAmount);
+//                 break;
+                
+//             case 3: // INR to GBP
+//                 convertedAmount = inrAmount * inrToGbp;
+//                 System.out.println("Converted amount in GBP: " + convertedAmount);
+//                 break;
+                
+//             default:
+//                 System.out.println("Invalid currency choice.");
+//         }
+        
+//         scanner.close();
+//     }
+// }
+
+
+import java.util.Scanner;
+
+ class BankApp {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double balance = 0.0; // Initial balance
+        boolean exit = false; // To control the loop
+
+        while (!exit) {
+            // Display menu
+            System.out.println("\nBanking Menu:");
+            System.out.println("1. View Balance");
+            System.out.println("2. Deposit Money");
+            System.out.println("3. Withdraw Money");
+            System.out.println("4. Exit");
+            System.out.print("Choose an option (1-4): ");
+            
+            int choice = scanner.nextInt();
+
+            // Perform operations based on user choice
+            switch (choice) {
+                case 1: // View balance
+                    System.out.println("Current Balance: $" + balance);
+                    break;
+
+                case 2: // Deposit money
+                    System.out.print("Enter the amount to deposit: $");
+                    double depositAmount = scanner.nextDouble();
+                    if (depositAmount > 0) {
+                        balance += depositAmount;
+                        System.out.println("$" + depositAmount + " deposited successfully.");
+                    } else {
+                        System.out.println("Invalid deposit amount.");
+                    }
+                    break;
+
+                case 3: // Withdraw money
+                    System.out.print("Enter the amount to withdraw: $");
+                    double withdrawAmount = scanner.nextDouble();
+                    if (withdrawAmount > 0 && withdrawAmount <= balance) {
+                        balance -= withdrawAmount;
+                        System.out.println("$" + withdrawAmount + " withdrawn successfully.");
+                    } else if (withdrawAmount > balance) {
+                        System.out.println("Insufficient balance.");
+                    } else {
+                        System.out.println("Invalid withdrawal amount.");
+                    }
+                    break;
+
+                case 4: // Exit
+                    System.out.println("Exiting the program.");
+                    exit = true;
+                    break;
+
+                default: // Invalid input
+                    System.out.println("Invalid choice. Please choose between 1 and 4.");
+            }
+        }
+        
+        scanner.close();
+    }
+}
