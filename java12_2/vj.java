@@ -805,10 +805,80 @@
 //     }
 // }
 
-class jk{
-    static{
-        System.out.println("hey vj");
-        System.exit(0);
-    }
+// class jk{
+//     static{
+//         System.out.println("hey vj");
+//         System.exit(0);
+//     }
     
+// }
+// class ghi{
+//     int age;
+//     String name;
+//     String Address;
+//     ghi(int age, String name,String Address){
+// this.age = age;
+// this.name = name;
+// this.Address = Address;
+
+//     }
+//     void display(){
+//         System.out.println(age + "  " + name + " "+ Address);
+//     }
+//     public static void main(String[] args) {
+//         ghi obj = new ghi(40, "vijay", "noida");
+//         obj.display();
+//     }
+
+// }
+
+// class ghi{
+//     void abc(){
+//         System.out.println(" Its vj class");
+//     }
+//     void def(){
+//         System.out.println("its dsa class");
+//         this.abc();
+//     }
+//     public static void main(String[] args) {
+//         ghi obj = new ghi();
+//         obj.def();
+//     }
+// }
+
+// class ghi{
+//     ghi(){
+//         this(5);
+//         System.out.println(" its vj class");
+//     }
+//     ghi(int x){
+       
+//         System.out.println(x);
+//     }
+  
+   
+//     public static void main(String[] args) {
+//         ghi obj = new ghi();
+//     }
+// }
+
+class ghi{
+    nm obj;
+    ghi(nm obj){
+        this.obj =obj;
+
+    }
+    void display(){
+        System.out.println(obj.x);
+    }
+}
+class nm{
+    int x = 678;
+    nm(){
+        ghi obj1 = new ghi(this);
+    obj1.display();
+    }
+    public static void main(String[] args) {
+        nm ob = new nm();
+    }
 }
