@@ -862,23 +862,185 @@
 //     }
 // }
 
-class ghi{
-    nm obj;
-    ghi(nm obj){
-        this.obj =obj;
+// class ghi{
+//     nm obj;
+//     ghi(nm obj){
+//         this.obj =obj;
 
-    }
-    void display(){
-        System.out.println(obj.x);
+//     }
+//     void display(){
+//         System.out.println(obj.x);
+//     }
+// }
+// class nm{
+//     int x = 678;
+//     nm(){
+//         ghi obj1 = new ghi(this);
+//     obj1.display();
+//     }
+//     public static void main(String[] args) {
+//         nm ob = new nm();
+//     }
+// }
+
+
+// Interitence 
+
+// class parent{
+//     int age =9;
+//     void vj(){
+//         System.out.println("age is " + age);
+//     }
+// }
+
+// class child extends parent{
+//     void vjjj(){
+//         System.out.println("its vj class");
+//     }
+
+//     public static void main(String[] args) {
+//         child obj = new child();
+//         obj.vj();
+//         obj.vjjj();
+//     }
+// }
+
+
+// class GF{
+//     void eat(){
+//         System.out.println("they like juice");
+//     }
+// }
+// class F extends GF{
+//     void talk(){
+//         System.out.println(" talking");
+//     }
+// }
+// class Child extends F{
+//     void chocklate(){
+//         System.out.println(" want chocklate");
+//     }
+// }
+
+// class result{
+//     public static void main(String[] args) {
+//         Child obj = new Child();
+//         obj.chocklate();
+//         obj.eat();
+//         obj.talk();
+//     }
+// }
+
+// class GF{
+//     void eat(){
+//         System.out.println("they like juice");
+//     }
+// }
+// class Child extends GF{
+//     void talk(){
+//         System.out.println(" talking");
+//     }
+// } 
+// class Child1 extends GF{
+//     void chocklate(){
+//         System.out.println(" want chocklate");
+//     }
+// }
+// class result{
+//     public static void main(String[] args) {
+//         Child1 obj = new Child1();
+//         obj.chocklate();
+//         obj.eat();
+//         // obj.talk();
+//     }
+// }
+
+
+// class GF{
+//     void eat(){
+//         System.out.println("they like juice");
+//     }
+// }
+// class GF1 {
+//     void talk(){
+//         System.out.println(" talking");
+//     }
+// }
+// class Child1 extends GF{
+//     void chocklate(){
+//         System.out.println(" want chocklate");
+//     }
+// }
+
+// class result{
+//     public static void main(String[] args) {
+//         Child1 obj = new Child1();
+//         obj.chocklate();
+//         obj.eat();
+//         // obj.talk();
+//     }
+// }
+
+// method Overloading 
+
+// class PK{
+//     static int number(int x){
+//         return x;
+//     }
+//     static int number(int x,int y){
+//         return x + y;
+//     }static int number(int x,int y,int z){
+//         return x + y + z;
+//     }
+//     public static void main(String[] args) {
+//         System.out.println(PK.number(2));
+//         System.out.println(PK.number(2+3));
+//         System.out.println(PK.number(2+3+4));
+
+//     }
+// }
+// class PK{
+//     static int number(int x){
+//         return x;
+//     }
+//     static Double number(Double x){
+//         return x ;
+//     }static float number(float x){
+//         return x ;
+//     }
+//     public static void main(String[] args) {
+//       System.out.println(1);
+//       System.out.println(1.2);
+//       System.out.println(1.234);
+
+
+//     }
+// }
+
+// class kl{
+//     public static void main(String[] args) {
+//         System.out.println("hey vj");
+//     }
+//     public static void main(String args) {
+//         System.out.println("hello vj");
+//     }
+//     public static void main() {
+//         System.out.println("yo yo vj");
+//     }
+// }
+
+class kl{
+   static void math(){
+        System.out.println(" marks 12");
     }
 }
-class nm{
-    int x = 678;
-    nm(){
-        ghi obj1 = new ghi(this);
-    obj1.display();
+class child extends kl{
+  static  void math(){
+        System.out.println(" marks 19");
     }
-    public static void main(String[] args) {
-        nm ob = new nm();
+
+    public  void main(String[] args) {
+        child obj = new child();
+        obj.math();
     }
 }
