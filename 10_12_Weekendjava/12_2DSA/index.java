@@ -771,5 +771,12 @@
 //     struct node*left;
 //     struct node*right
 // }
-
+// search(root,item)
+// step 1:- 
+// if (item=root->data) or (root = Null)
+// return root
+// else if(item<root ->data)
+// return search(root -> left,item)
+// else 
+// return search(root ->right,item)
  
