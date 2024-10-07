@@ -843,7 +843,7 @@ System.out.println("Invalid month");
 
 // class mno {
 //     public static void main(String[] args) {
- // 15. Leap Year with Century Rule
+// 15. Leap Year with Century Rule
 //  Scanner sc = new Scanner(System.in);
 
 //  System.out.println("Enter a year:");
@@ -853,10 +853,7 @@ System.out.println("Invalid month");
 //  else{
 //      System.out.println("Not a Leap Year");
 
-
-
-
-  // 4. Simple Calculator
+// 4. Simple Calculator
 //   Scanner sc = new Scanner(System.in);
 
 //   System.out.println("Enter two numbers and an operator (+, -, *, /):");
@@ -916,7 +913,7 @@ System.out.println("Invalid month");
 //             System.out.println("Good Night");
 //     }
 
- // 12. Rock-Paper-Scissors Game
+// 12. Rock-Paper-Scissors Game
 // Scanner sc = new Scanner(System.in);
 
 //  System.out.println("Enter choices for two players (rock/paper/scissors):");
@@ -933,11 +930,11 @@ System.out.println("Invalid month");
 //     }
 //  else {
 //     System.out.println("Player 2 wins");
-    
+
 // }
 
 // Scanner sc = new Scanner(System.in);
- // 15. Leap Year with Century Rule
+// 15. Leap Year with Century Rule
 //  System.out.println("Enter a year:");
 //  int year = scanner.nextInt();
 //  if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
@@ -955,7 +952,7 @@ System.out.println("Invalid month");
 // switch statement execute one statement from Multiple conditions.
 // switch (expression) {
 //     case value:
-        
+
 //         break;
 
 //     default:
@@ -964,36 +961,36 @@ System.out.println("Invalid month");
 // import java.util.*;
 // class jkl{
 //     public static void main(String[] args) {
-        // Scanner sc = new Scanner(System.in);
-        // System.out.println("Enter ur day");
-        // int day = sc.nextInt();
-        // switch (day) {
-        //     case 1:
-        //         System.out.println("Monday");
-        //         break;
-        //     case 2:
-        //         System.out.println("Tuesday");
-        //         break;
-        //     case 3:
-        //         System.out.println("Wednesday");
-        //         break;
-        //     case 4:
-        //         System.out.println("thursday");
-        //         break;
-        //     case 5:
-        //         System.out.println("Friday");
-        //         break;
-        //     case 6:
-        //         System.out.println("saturday");
-        //         break;
-        //     case 7:
-        //         System.out.println("Sunnday");
-        //         break;
-        
-        //     default:
-        //     System.out.println("case not found");
-        //         break;
-        // }
+// Scanner sc = new Scanner(System.in);
+// System.out.println("Enter ur day");
+// int day = sc.nextInt();
+// switch (day) {
+//     case 1:
+//         System.out.println("Monday");
+//         break;
+//     case 2:
+//         System.out.println("Tuesday");
+//         break;
+//     case 3:
+//         System.out.println("Wednesday");
+//         break;
+//     case 4:
+//         System.out.println("thursday");
+//         break;
+//     case 5:
+//         System.out.println("Friday");
+//         break;
+//     case 6:
+//         System.out.println("saturday");
+//         break;
+//     case 7:
+//         System.out.println("Sunnday");
+//         break;
+
+//     default:
+//     System.out.println("case not found");
+//         break;
+// }
 
 // int month = 3;
 // String mnthstrng = "";
@@ -1003,15 +1000,15 @@ System.out.println("Invalid month");
 //         break;
 //     case 2:
 //     mnthstrng ="2-feb";
-        
+
 //         break;
 //     case 3:
 //     mnthstrng ="3-march";
-        
+
 //         break;
 //     case 4:
 //     mnthstrng ="4-april";
-        
+
 //         break;
 
 //     default:
@@ -1020,37 +1017,36 @@ System.out.println("Invalid month");
 // }
 // System.out.println(mnthstrng);
 
-        // char Branch = 'C';
-        // int collegeYear = 2;
-        // switch (collegeYear) {
-        //     case 1:
-        //         System.out.println("English,math, physcs,chemestry");
-        //         break;
-        //         case 2:
-        //             switch (Branch) {
-        //               case 'C':
-        //                 System.out.println("os,java,ds");
-        //                 break;
-        //               case 'E':
-        //                 System.out.println("abc,def, ghi");
-        //                 break;
-        //         }
-        //         case 3:
-        //         switch (Branch) {
-        //             case 'g':
-        //                 System.out.println("1,2,3,4,5");
-        //                 break;
-        //               case 'h':
-        //                 System.out.println("6,7,8,9");
-        //                 break;
-        //         }
+// char Branch = 'C';
+// int collegeYear = 2;
+// switch (collegeYear) {
+//     case 1:
+//         System.out.println("English,math, physcs,chemestry");
+//         break;
+//         case 2:
+//             switch (Branch) {
+//               case 'C':
+//                 System.out.println("os,java,ds");
+//                 break;
+//               case 'E':
+//                 System.out.println("abc,def, ghi");
+//                 break;
+//         }
+//         case 3:
+//         switch (Branch) {
+//             case 'g':
+//                 System.out.println("1,2,3,4,5");
+//                 break;
+//               case 'h':
+//                 System.out.println("6,7,8,9");
+//                 break;
+//         }
 
-        
-        //     default:
-        //         break;
-        // }
+//     default:
+//         break;
+// }
 
-        // it is a class that represent the group of constant.
+// it is a class that represent the group of constant.
 
 //     }
 // }
@@ -1066,7 +1062,7 @@ System.out.println("Invalid month");
 
 // syntax of forloop 
 // for(initilization, condition, i/d){
-    // code
+// code
 // }
 // class kl{
 //     public static void main(String[] args) {
@@ -1081,108 +1077,169 @@ System.out.println("Invalid month");
 //  class CurrencyConverter {
 //     public static void main(String[] args) {
 //         Scanner scanner = new Scanner(System.in);
-        
+
 //         // Input: amount in INR
 //         System.out.print("Enter amount in INR: ");
 //         double inrAmount = scanner.nextDouble();
-        
+
 //         // Input: target currency
 //         System.out.println("Choose the target currency (1 for USD, 2 for EUR, 3 for GBP): ");
 //         int currencyChoice = scanner.nextInt();
-        
+
 //         // Variable to store converted amount
 //         double convertedAmount = 0.0;
-        
+
 //         // Conversion rates
 //         double inrToUsd = 0.012;
 //         double inrToEur = 0.011;
 //         double inrToGbp = 0.0098;
-        
+
 //         // Switch case to handle currency conversion
 //         switch (currencyChoice) {
 //             case 1: // INR to USD
 //                 convertedAmount = inrAmount * inrToUsd;
 //                 System.out.println("Converted amount in USD: " + convertedAmount);
 //                 break;
-                
+
 //             case 2: // INR to EUR
 //                 convertedAmount = inrAmount * inrToEur;
 //                 System.out.println("Converted amount in EUR: " + convertedAmount);
 //                 break;
-                
+
 //             case 3: // INR to GBP
 //                 convertedAmount = inrAmount * inrToGbp;
 //                 System.out.println("Converted amount in GBP: " + convertedAmount);
 //                 break;
-                
+
 //             default:
 //                 System.out.println("Invalid currency choice.");
 //         }
-        
+
 //         scanner.close();
 //     }
 // }
 
+// import java.util.Scanner;
 
-import java.util.Scanner;
+//  class BankApp {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         double balance = 0.0; // Initial balance
+//         boolean exit = false; // To control the loop
 
- class BankApp {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        double balance = 0.0; // Initial balance
-        boolean exit = false; // To control the loop
+//         while (!exit) {
+//             // Display menu
+//             System.out.println("\nBanking Menu:");
+//             System.out.println("1. View Balance");
+//             System.out.println("2. Deposit Money");
+//             System.out.println("3. Withdraw Money");
+//             System.out.println("4. Exit");
+//             System.out.print("Choose an option (1-4): ");
 
-        while (!exit) {
-            // Display menu
-            System.out.println("\nBanking Menu:");
-            System.out.println("1. View Balance");
-            System.out.println("2. Deposit Money");
-            System.out.println("3. Withdraw Money");
-            System.out.println("4. Exit");
-            System.out.print("Choose an option (1-4): ");
-            
-            int choice = scanner.nextInt();
+//             int choice = scanner.nextInt();
 
-            // Perform operations based on user choice
-            switch (choice) {
-                case 1: // View balance
-                    System.out.println("Current Balance: $" + balance);
-                    break;
+//             // Perform operations based on user choice
+//             switch (choice) {
+//                 case 1: // View balance
+//                     System.out.println("Current Balance: $" + balance);
+//                     break;
 
-                case 2: // Deposit money
-                    System.out.print("Enter the amount to deposit: $");
-                    double depositAmount = scanner.nextDouble();
-                    if (depositAmount > 0) {
-                        balance += depositAmount;
-                        System.out.println("$" + depositAmount + " deposited successfully.");
-                    } else {
-                        System.out.println("Invalid deposit amount.");
-                    }
-                    break;
+//                 case 2: // Deposit money
+//                     System.out.print("Enter the amount to deposit: $");
+//                     double depositAmount = scanner.nextDouble();
+//                     if (depositAmount > 0) {
+//                         balance += depositAmount;
+//                         System.out.println("$" + depositAmount + " deposited successfully.");
+//                     } else {
+//                         System.out.println("Invalid deposit amount.");
+//                     }
+//                     break;
 
-                case 3: // Withdraw money
-                    System.out.print("Enter the amount to withdraw: $");
-                    double withdrawAmount = scanner.nextDouble();
-                    if (withdrawAmount > 0 && withdrawAmount <= balance) {
-                        balance -= withdrawAmount;
-                        System.out.println("$" + withdrawAmount + " withdrawn successfully.");
-                    } else if (withdrawAmount > balance) {
-                        System.out.println("Insufficient balance.");
-                    } else {
-                        System.out.println("Invalid withdrawal amount.");
-                    }
-                    break;
+//                 case 3: // Withdraw money
+//                     System.out.print("Enter the amount to withdraw: $");
+//                     double withdrawAmount = scanner.nextDouble();
+//                     if (withdrawAmount > 0 && withdrawAmount <= balance) {
+//                         balance -= withdrawAmount;
+//                         System.out.println("$" + withdrawAmount + " withdrawn successfully.");
+//                     } else if (withdrawAmount > balance) {
+//                         System.out.println("Insufficient balance.");
+//                     } else {
+//                         System.out.println("Invalid withdrawal amount.");
+//                     }
+//                     break;
 
-                case 4: // Exit
-                    System.out.println("Exiting the program.");
-                    exit = true;
-                    break;
+//                 case 4: // Exit
+//                     System.out.println("Exiting the program.");
+//                     exit = true;
+//                     break;
 
-                default: // Invalid input
-                    System.out.println("Invalid choice. Please choose between 1 and 4.");
-            }
-        }
-        
-        scanner.close();
-    }
-}
+//                 default: // Invalid input
+//                     System.out.println("Invalid choice. Please choose between 1 and 4.");
+//             }
+//         }
+
+//         scanner.close();
+//     }
+// }
+
+//while loop
+// it is used to iterate a part of the program repeatedly until the specified boolean is true .
+
+// while(condition){
+//     // code
+//     i/d
+// }
+// class vs {
+//     public static void main(String[] args) {
+        // int i=1;
+        // while (true) {
+        // System.out.print("hello ");
+
+        // }
+
+        // do{
+        // System.out.println(i);
+        // i++;
+
+        // }while(i<=10);
+
+        // for(int i=0;i<=10;i++){
+        // if(i==5){
+        // continue;
+        // }
+        // System.out.print(i);
+        // }
+
+        // Oops :-
+        // class:- collection of object is called class.it is a logical entity
+        // A class can also be defined as a blueprint from which you can create an
+        // individual object
+        // class doesn't consume any space
+
+        // Inheritence :- 
+        // when one object acquires all the properties and behaviour of a parents object ,
+        //  it is known as inheritence 
+
+        // Polymorphism :- 
+        // if one task is performed in different ways is known as polymorphism. 
+
+        // Abstraction:- 
+        // Hiding internal details and showing functionality is known as abstraction.
+
+        // coupling:- 
+        // its referes to the knowledge or information or  dependency of another class.
+
+//     }
+// }
+
+// object and class 
+// state:- represent the data of an object 
+// behaviour:- 
+// identity:-  it is used internally by the jvm to identify each object uniquely 
+
+// class:- 
+// field
+// method 
+// constructor 
+// block 
+// nested class and interface
