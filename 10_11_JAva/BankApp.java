@@ -1191,43 +1191,43 @@ System.out.println("Invalid month");
 // }
 // class vs {
 //     public static void main(String[] args) {
-        // int i=1;
-        // while (true) {
-        // System.out.print("hello ");
+// int i=1;
+// while (true) {
+// System.out.print("hello ");
 
-        // }
+// }
 
-        // do{
-        // System.out.println(i);
-        // i++;
+// do{
+// System.out.println(i);
+// i++;
 
-        // }while(i<=10);
+// }while(i<=10);
 
-        // for(int i=0;i<=10;i++){
-        // if(i==5){
-        // continue;
-        // }
-        // System.out.print(i);
-        // }
+// for(int i=0;i<=10;i++){
+// if(i==5){
+// continue;
+// }
+// System.out.print(i);
+// }
 
-        // Oops :-
-        // class:- collection of object is called class.it is a logical entity
-        // A class can also be defined as a blueprint from which you can create an
-        // individual object
-        // class doesn't consume any space
+// Oops :-
+// class:- collection of object is called class.it is a logical entity
+// A class can also be defined as a blueprint from which you can create an
+// individual object
+// class doesn't consume any space
 
-        // Inheritence :- 
-        // when one object acquires all the properties and behaviour of a parents object ,
-        //  it is known as inheritence 
+// Inheritence :- 
+// when one object acquires all the properties and behaviour of a parents object ,
+//  it is known as inheritence 
 
-        // Polymorphism :- 
-        // if one task is performed in different ways is known as polymorphism. 
+// Polymorphism :- 
+// if one task is performed in different ways is known as polymorphism. 
 
-        // Abstraction:- 
-        // Hiding internal details and showing functionality is known as abstraction.
+// Abstraction:- 
+// Hiding internal details and showing functionality is known as abstraction.
 
-        // coupling:- 
-        // its referes to the knowledge or information or  dependency of another class.
+// coupling:- 
+// its referes to the knowledge or information or  dependency of another class.
 
 //     }
 // }
@@ -1243,3 +1243,80 @@ System.out.println("Invalid month");
 // constructor 
 // block 
 // nested class and interface
+
+// syntax
+// class class_name{
+//     field;
+//     method;
+// new:- 
+// }
+
+// class yups{
+//     int age;
+//     String name;
+// }
+
+// class zz{
+//     public static void main(String[] args) {
+//         yups obj = new yups();
+//         System.out.println(obj.age);
+//         System.out.println(obj.name);
+//     }
+// }
+
+
+// by refrence variable 
+// by method 
+// by constructor
+
+// class yups{
+//     int age;
+//     String name;
+//     void abc(int a , String n){
+//         age = a;
+//         name = n;
+//     }
+//     void Display(){
+//         System.out.println(age + " "+ name);
+//     }
+// }
+// class zz{
+//     public static void main(String[] args) {
+//         yups obj = new yups();
+//         obj.abc(12, "vijendra");
+
+//         obj.Display();
+//     }
+// }
+
+
+import java.util.*;
+class rectangle{
+    int length;
+    int breadth;
+
+    void insert(int l , int b){
+        length =l;
+        breadth =b;
+    }
+    void area(){
+        System.out.println(length*breadth);
+    }
+   
+}
+
+class zz{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        rectangle obj = new rectangle();
+
+        System.out.println(" enter the length ");
+        int length = sc.nextInt();
+        
+        System.out.println(" enter ur breadth ");
+        int breadth = sc.nextInt();
+
+        obj.insert( length, breadth );
+        obj.area();
+    }
+}
