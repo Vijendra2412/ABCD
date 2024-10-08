@@ -779,4 +779,38 @@
 // return search(root -> left,item)
 // else 
 // return search(root ->right,item)
- 
+
+// import java.util.Arrays;
+
+// class pointers {
+//     public boolean twoSumProblem(int A[] , int N,int X){
+//         int left = 0;
+//         int right = N-1;
+
+//         Arrays.sort(A);
+
+//         while (left<right) {
+//             if(A[left] + A[right] == X){
+//                 return true;
+//             }
+//             else if(A[left] + A[right] < X){
+//                 left++;
+//             }
+//             else{
+//                 right--;
+//             }
+            
+//         }
+//         return false;
+//     }
+
+//     public static void main(String[] args) {
+//         pointers obj = new pointers();
+//         int [] arr = {10,20,30,40,50,60, 70,80};
+//         int target =70;
+//         boolean result  = obj.twoSumProblem(arr,arr.length,target);
+//         System.out.println(result);
+//     }
+// }
+
+
