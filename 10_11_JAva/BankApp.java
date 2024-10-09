@@ -1290,33 +1290,70 @@ System.out.println("Invalid month");
 // }
 
 
-import java.util.*;
-class rectangle{
-    int length;
-    int breadth;
+// import java.util.*;
+// class rectangle{
+//     int length;
+//     int breadth;
 
-    void insert(int l , int b){
-        length =l;
-        breadth =b;
-    }
-    void area(){
-        System.out.println(length*breadth);
-    }
+//     void insert(int l , int b){
+//         length =l;
+//         breadth =b;
+//     }
+//     void area(){
+//         System.out.println(length*breadth);
+//     }
    
-}
+// }
 
-class zz{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        rectangle obj = new rectangle();
+// class zz{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         rectangle obj = new rectangle();
 
-        System.out.println(" enter the length ");
-        int length = sc.nextInt();
+//         System.out.println(" enter the length ");
+//         int length = sc.nextInt();
         
-        System.out.println(" enter ur breadth ");
-        int breadth = sc.nextInt();
+//         System.out.println(" enter ur breadth ");
+//         int breadth = sc.nextInt();
 
-        obj.insert( length, breadth );
-        obj.area();
-    }
-}
+//         obj.insert( length, breadth );
+//         obj.area();
+//     }
+// }
+
+// access_modifire return-type method_name(parameter){
+
+// }
+
+// public void abc(int a, int b){
+
+// }
+
+// import java.util.*;
+// class m{
+//     public static void findoddeven(int x){
+
+//         if(x%2==0){
+//             System.out.println(" even number");
+//         }
+//         else{
+//             System.out.println("odd number");
+//         }
+//     }
+//     public static void main(String[] args) {
+//         Scanner sc =  new Scanner(System.in);
+      
+//         System.out.println(" enter your number ");
+//         int num = sc.nextInt();
+//        findoddeven(num);
+//     }
+// }
+
+// class m{
+//     public static int add(int x , int y){
+//         return x+y;
+//     }
+//     public static void main(String[] args) {
+//         System.out.println(add(2, 3));;
+//     }
+// }
