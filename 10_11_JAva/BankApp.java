@@ -1357,3 +1357,37 @@ System.out.println("Invalid month");
 //         System.out.println(add(2, 3));;
 //     }
 // }
+
+// there are two types of method:- 
+// Accessor method 
+// mutator method 
+
+// class q{
+//     private int roll;
+//     private String name;
+
+//     public int getroll(){
+//         return roll;
+//     }
+//     public void setroll(int roll){
+//         this.roll = roll;
+//     }
+//     public String getName(){
+//         return name;
+//     } 
+//     public void setname(String name){
+//         this.name = name;
+//     }
+
+//     public void Display(){
+//         System.out.println("Roll no :- " + roll);
+//         System.out.println(" name is:- " + name);
+//     }
+//     public static void main(String[] args) {
+//         q obj = new q();
+//         obj.setname("vj");
+//         obj.setroll(123);
+//        obj.Display();
+//     }
+    
+// }
