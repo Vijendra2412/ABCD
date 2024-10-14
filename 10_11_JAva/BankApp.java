@@ -1391,3 +1391,162 @@ System.out.println("Invalid month");
 //     }
     
 // }
+
+// class jdk{
+//     int age;
+//     String name;
+//     // jdk(){
+//     //     System.out.println(" this is constructor");
+
+//     // }
+//    void Display(){
+//         System.out.println(age + " " + name);
+//     }
+//     public static void main(String[] args) {
+//         jdk obj = new jdk();
+//         obj.Display();
+//     }
+// }
+
+// class jdk{
+//     int age;
+//     String name;
+//     int id;
+//     jdk(int a, String n){
+//         age = a;
+//         name = n;
+//     }
+//     jdk(int a, String n,int i){
+//         age = a;
+//         name = n;
+//         id = i;
+//     }
+//    void Display(){
+//         System.out.println(age + " " + name + " " + id);
+//     }
+//     public static void main(String[] args) {
+//         jdk obj = new jdk(12, "abc",1234);
+//         obj.Display();
+//     }
+// }
+
+
+
+
+// class jdk{
+//     int age;
+//     String name;
+//     // int id;
+//     jdk(int a, String n){
+//         age = a;
+//         name = n;
+//     }
+//     jdk(jdk j){
+//         age = j.age;
+//         name = j.name;
+
+//     }
+
+//    void Display(){
+//         System.out.println(age + " " + name );
+//     }
+//     public static void main(String[] args) {
+//         jdk obj = new jdk(12, "abc");
+//         jdk obj1 =  new jdk(obj);
+//         obj.Display();
+//         obj1.Display();
+//     }
+// }
+
+
+// class jdk{
+//     int age;
+//     String name;
+//     // int id;
+//     jdk(int a, String n){
+//         age = a;
+//         name = n;
+//     }
+//  jdk(){
+
+//  }
+//    void Display(){
+//         System.out.println(age + " " + name );
+//     }
+//     public static void main(String[] args) {
+//         jdk obj = new jdk(12, "abc");
+//         jdk obj1 =  new jdk();
+//         obj1.age = obj.age;
+//         obj1.name = obj.name;
+//         obj.Display();
+//         obj1.Display();
+//     }
+// }
+
+// class jdk{
+//     int rollno;
+//     String name;
+//     int age;
+
+//     jdk(int rollno, String name,int age){
+//         this.rollno = rollno;
+//         this.name = name;
+//         this.age = age;
+//     }
+
+//     void Display(){
+//         System.out.println(rollno +" " + name + " "+ age);
+//     }
+//     public static void main(String[] args) {
+//         jdk obj = new jdk(123, "vj", 30);
+//         obj.Display();
+
+
+//     }
+// }
+
+// class jdk{
+//     void a(){
+//         System.out.println("vj");
+//     }
+//     void b(){
+//         this.a();
+//         System.out.println("yoyo vj");
+
+//     }
+//     public static void main(String[] args) {
+//         jdk obj = new jdk();
+//         obj.b();
+       
+//     }
+// }
+
+// class jdk{
+//     jdk(){
+//         System.out.println(" this is vj");
+//     }
+//     jdk(int x){
+//         this();
+//         System.out.println(x);
+//     }
+//     public static void main(String[] args) {
+//         jdk obj  = new jdk(12);
+
+//     }
+// }
+
+// class jdk{
+//     jdk(){
+//         this(5);
+//         System.out.println(" hey vj ");
+//     }
+//     jdk(int x){
+//         System.out.println(x);
+//     }
+//     public static void main(String[] args) {
+//         jdk obj = new jdk();
+//     }
+// }
+
+
+// real usage of this() 
