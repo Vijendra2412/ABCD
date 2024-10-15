@@ -1550,3 +1550,159 @@ System.out.println("Invalid month");
 
 
 // real usage of this() 
+// class jdk{
+//     int rollno;
+//     String name;
+//     int age;
+//     jdk(int rollno,String name){
+//         this.rollno = rollno;
+//         this.name = name;
+//     }
+//     jdk(int rollno,String name,int age){
+//         this.rollno = rollno;
+//         this.name = name;
+//         this.age = age;
+//     }
+//     void Display(){
+//         System.out.println(rollno + " " + name+ " " + age);
+//     }
+// public static void main(String[] args) {
+//     jdk obj = new jdk(123, "vj");
+//     jdk obj1 = new jdk(1234, "vijendra", 20);
+//     obj.Display();
+//     obj1.Display(); 
+// }
+// }
+
+// class jdk{
+//     void m(jdk j){
+//         System.out.println(" method invoked");
+//     }
+//     void n(){
+//         m(this);
+//     }
+//     public static void main(String[] args) {
+//         jdk obj = new jdk();
+//         obj.n();
+
+//     }
+// }
+
+// class jdk {
+//     index ind; // Changed variable name for clarity
+
+//     // Constructor that takes an index object
+//     jdk(index ind) {
+//         this.ind = ind;
+//     }
+
+//     void Display() {
+//         System.out.println(ind.data);
+//     }
+// }
+
+// class index {
+//     int data = 12;
+
+//     index() {
+//         jdk obj = new jdk(this); // Pass 'this' to the constructor
+//         obj.Display();
+//     }
+
+//     public static void main(String[] args) {
+//         index obj1 = new index();
+//     }
+// }
+
+// types of Inheritence 
+
+// single
+class parent{
+    int x =9;
+    void Display(){
+        System.out.println(" its vj class");
+    }
+    }
+
+    class child1 extends parent{
+    void Dis1(){
+        System.out.println(" its java ");
+    }
+    }
+
+    class ind{
+        public static void main(String[] args) {
+            child1 obj = new child1();
+            obj.Dis();
+            obj.Display();
+            obj.Dis1();
+            System.out.println(obj.x);
+        }
+    }
+
+
+
+
+//multi level
+class parent{
+    int x =9;
+    void Display(){
+        System.out.println(" its vj class");
+    }
+    }
+    
+    
+    class child extends parent{
+    void Dis(){
+        System.out.println(" its java ");
+    }
+    }
+    
+    class child1 extends child{
+    void Dis1(){
+        System.out.println(" its java ");
+    }
+    }
+    class ind{
+        public static void main(String[] args) {
+            child1 obj = new child1();
+            obj.Dis();
+            obj.Display();
+            obj.Dis1();
+            System.out.println(obj.x);
+        }
+    }
+
+
+
+//hierachical
+class parent{
+int x =9;
+void Display(){
+    System.out.println(" its vj class");
+}
+}
+
+
+class child extends parent{
+void Dis(){
+    System.out.println(" its java ");
+}
+}
+
+class child1 extends parent{
+void Dis1(){
+    System.out.println(" its java ");
+}
+}
+class ind{
+    public static void main(String[] args) {
+        child1 obj = new child1();
+        obj.Dis();
+        obj.Display();
+        obj.Dis1();
+        System.out.println(obj.x);
+    }
+}
+
+
