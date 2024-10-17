@@ -18,6 +18,7 @@
         //  System.out.println(x);
         //  byte y = 127;
         //  System.out.println(y);
+        
   /*        
 Data Type    Default Value    Default size
 boolean         false           1 bit

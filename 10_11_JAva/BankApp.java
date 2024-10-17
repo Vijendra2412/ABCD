@@ -1616,93 +1616,152 @@ System.out.println("Invalid month");
 
 // types of Inheritence 
 
-// single
-class parent{
-    int x =9;
-    void Display(){
-        System.out.println(" its vj class");
-    }
-    }
+// // single
+// class parent{
+//     int x =9;
+//     void Display(){
+//         System.out.println(" its vj class");
+//     }
+//     }
 
-    class child1 extends parent{
-    void Dis1(){
-        System.out.println(" its java ");
-    }
-    }
+//     class child1 extends parent{
+//     void Dis1(){
+//         System.out.println(" its java ");
+//     }
+//     }
 
-    class ind{
-        public static void main(String[] args) {
-            child1 obj = new child1();
-            obj.Dis();
-            obj.Display();
-            obj.Dis1();
-            System.out.println(obj.x);
-        }
-    }
-
-
+//     class ind{
+//         public static void main(String[] args) {
+//             child1 obj = new child1();
+//             obj.Dis();
+//             obj.Display();
+//             obj.Dis1();
+//             System.out.println(obj.x);
+//         }
+//     }
 
 
-//multi level
-class parent{
-    int x =9;
-    void Display(){
-        System.out.println(" its vj class");
-    }
-    }
+
+
+// //multi level
+// class parent{
+//     int x =9;
+//     void Display(){
+//         System.out.println(" its vj class");
+//     }
+//     }
     
     
-    class child extends parent{
-    void Dis(){
-        System.out.println(" its java ");
-    }
-    }
+//     class child extends parent{
+//     void Dis(){
+//         System.out.println(" its java ");
+//     }
+//     }
     
-    class child1 extends child{
-    void Dis1(){
-        System.out.println(" its java ");
-    }
-    }
-    class ind{
-        public static void main(String[] args) {
-            child1 obj = new child1();
-            obj.Dis();
-            obj.Display();
-            obj.Dis1();
-            System.out.println(obj.x);
-        }
-    }
+//     class child1 extends child{
+//     void Dis1(){
+//         System.out.println(" its java ");
+//     }
+//     }
+//     class ind{
+//         public static void main(String[] args) {
+//             child1 obj = new child1();
+//             obj.Dis();
+//             obj.Display();
+//             obj.Dis1();
+//             System.out.println(obj.x);
+//         }
+//     }
 
 
 
-//hierachical
-class parent{
-int x =9;
-void Display(){
-    System.out.println(" its vj class");
-}
-}
+// //hierachical
+// class parent{
+// int x =9;
+// void Display(){
+//     System.out.println(" its vj class");
+// }
+// }
 
 
-class child extends parent{
-void Dis(){
-    System.out.println(" its java ");
-}
-}
+// class child extends parent{
+// void Dis(){
+//     System.out.println(" its java ");
+// }
+// }
 
-class child1 extends parent{
-void Dis1(){
-    System.out.println(" its java ");
-}
-}
-class ind{
+// class child1 extends parent{
+// void Dis1(){
+//     System.out.println(" its java ");
+// }
+// }
+// class ind{
+//     public static void main(String[] args) {
+//         child1 obj = new child1();
+//         obj.Dis();
+//         obj.Display();
+//         obj.Dis1();
+//         System.out.println(obj.x);
+//     }
+// }
+
+
+// // Aggregation
+// class Operation{
+//     int square(int n){
+//         return n*n;
+//     }
+// }
+
+// class Cricle{
+//    Operation op; //aggregation
+//    double pi = 3.14;
+
+//    double area(int radius){
+//     op = new Operation();
+//     int rsqr = op.square(radius);
+//     return pi*rsqr;
+//    }
+
+//    public static void main(String[] args) {
+//     circle obj = new circle();
+//     double result = obj.area(3);
+//     System.out.println(result);
+//    }
+// }
+
+
+
+class sac{
     public static void main(String[] args) {
-        child1 obj = new child1();
-        obj.Dis();
-        obj.Display();
-        obj.Dis1();
-        System.out.println(obj.x);
+        // String x = "vijendra";
+        // String y = "vijendra";
+        // String x = new String("vijendra");
+        // System.out.println(x);
+
+        String x = " vijendra";
+        x.concat("Sharma");
+        System.out.println(x);
+
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

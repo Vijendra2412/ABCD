@@ -87,10 +87,52 @@ double -> float -> long -> int -> char -> short -> byte
 //     }
 // }
 
-
+/* 
 class a{
     public static void main(String[] args) {
        int x=9;
         System.out.println(x);
     }
 }
+
+
+// Operator is symbol that is used to perform operations. + - / * 
+
+types of Operator:- 
+// Unary Opearator                postfix:-  var++ , var-- /   prefix:-  --var,++var  ,, ~  ! 
+// arithmetic   Operator                     + - / * %
+// shift Opearator                <<  >>  >>>
+// relational/comparison operator  <,> , <= , >=, ==, !=
+// bitwise operator               bitwise AND , bitwise exclusive OR, bitwise inclusive OR,
+// logical operator               &&  ||   !
+// ternary Opearator              ? :
+// assignment operator            = += ,-=,/=,*=, %=, &=, ^=, |=, <<=,>>=,>>>=
+
+// Unary operator required only one operand. 
+// unary operator are used to perform various operations 
+// increment /deccrement  a value by one 
+// negating an expression
+// inverting the value of a boolean
+    */
+
+    class p{
+        public static void main(String[] args) {
+            
+        //    int a =10;
+        //    int b= -10;
+        //    System.out.println(a+b);
+        //    System.out.println(a-b);
+        //    System.out.println(a*b);
+        //    System.out.println(a/b);
+
+        // System.out.println(10<<2);  // gn1 * 2^gn2
+        // System.out.println(5<<3); //  
+        // System.out.println(10>>2); // gn1 / 2^gn2
+        // System.out.println(5>>3);
+
+        // System.out.println(2==2);
+        
+
+
+        }
+    }
