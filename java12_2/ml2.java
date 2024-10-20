@@ -1102,22 +1102,79 @@
 // }
 
 
-class worker{
-    int square(int r){
-        return r*r;
-    }
-}
+// class worker{
+//     int square(int r){
+//         return r*r;
+//     }
+// }
 
-class circle{
-    // worker wk;
-    double pi = 3.14;
-    double area(int radius){
-        worker wk = new worker();
-        int rsqr = wk.square(radius);
-        return pi*rsqr;
-    }
-    public static void main(String[] args) {
-        circle obj= new circle();
-        System.out.println(obj.area(3));
-    }
-}
+// class circle{
+//     // worker wk;
+//     double pi = 3.14;
+//     double area(int radius){
+//         worker wk = new worker();
+//         int rsqr = wk.square(radius);
+//         return pi*rsqr;
+//     }
+//     public static void main(String[] args) {
+//         circle obj= new circle();
+//         System.out.println(obj.area(3));
+//     }
+// }
+
+// package ml1;
+// import nml.*;
+
+//  class ml2{
+//     public static void main(String[] args) {
+//         ml obj = new ml();
+//     obj.fgh();
+//     }
+// }
+
+// File: ml1/ml2.java
+
+
+// public class ml2 {
+//     public static void main(String[] args) {
+//         ml obj = new ml();
+//         obj.fgh();
+//     }
+// }
+
+// File: nml/ml.java
+
+// class junaid{
+//     private String name;
+//     public String get(){
+//         return name;
+//     }
+//     public void set(String name){
+//         this.name=name;
+//     }
+//     public static void main(String[] args) {
+//         junaid obj = new junaid();
+//         obj.set("vijendra");
+//         System.out.println(obj.get());
+//     }
+// }
+
+
+/**
+ * ml2
+ */
+// interface ml2 {
+// void prnt();    
+// }
+
+// class a1 implements ml2{
+//     public void prnt(){
+//         System.out.println("vvj");
+//     }
+
+//     public static void main(String[] args) {
+//         a1 obj = new a1();
+//         obj.prnt();
+//     }
+
+// }
