@@ -1,4 +1,5 @@
 
+    
 // public class amit {
 //     public static void main(String[] args) {
 //         // primitive :- int char float double byte long short boolean
@@ -55,10 +56,11 @@ double           0.0d           8 byte
 // ternary operator     ? : 
 // assignment          +=  -= /= *= %=
 
-import java.beans.Statement;
-import java.util.ResourceBundle.Control;
+// import java.beans.Statement;
+// import java.util.ResourceBundle.Control;
+import java.util.Scanner;
 
-class amit {
+public class ps {
     public static void main(String[] args) {
         // int x =11;
         // System.out.println(x++);//11
@@ -262,9 +264,84 @@ Check for Alphabet or Not
 Write a program that checks whether a given character is an alphabet or not.
 
 */
+Scanner sc = new Scanner(System.in);
 
 
+// System.out.println("enter ur pin");
+// int x = sc.nextInt();
+// System.out.println("enter ur name");
+// String y = sc.next();
+// System.out.println("ur pin is " + x);
+// System.out.println("your name is " + y);
 
+
+// System.out.println("enter ur character:- ");
+// char ch = sc.next().charAt(0);
+// if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'){
+// System.out.println(ch + " is a vowel");
+// }
+// else{
+//     System.out.println(ch+" is a consonant");
+// }
+
+// System.out.println("Enter three number");
+// int num1=sc.nextInt();
+// int num2=sc.nextInt();
+// int num3=sc.nextInt();
+
+
+// if(num1>=num2 && num1>=num3){
+//     System.out.println(num1+ " is greater");
+// }else if(num2>=num1 && num2>=num3){
+// System.out.println(num2 + " is greater ");
+// }
+// else{
+//     System.out.println(num3 + "  is greater");
+// }
+
+// System.out.println("Enter ur temperature ");
+// double Celsius = sc.nextDouble();
+// double Fahrenheit = (Celsius*9/5) + 32;
+// System.out.println("Temp is " + Fahrenheit +"F");
+// if(Celsius<10){
+//     System.out.println(" its cold");
+// }else if(Celsius<=30){
+//     System.out.println("normal");
+// }
+// else{
+//     System.out.println(" hot");
+// }
+
+// System.out.println(" Enter ur character");
+// char ch = sc.next().charAt(0);
+// if(Character.isDigit(ch)){
+//     System.out.println(ch+" its digit");
+// }
+// else if(Character.isUpperCase(ch)){
+//     System.out.println("its uppercase");
+// }
+// else if(Character.isLowerCase(ch)){
+//     System.out.println("its Lowercase");
+// }
+// else{
+//     System.out.println("Invalid input");
+// }
+
+System.out.println("Enter ur Unit::- ");
+int units = sc.nextInt();
+int bill = 0;
+if(units<=100){
+    bill=units*5;
+}else if(units<=200){
+    bill = (100*5) + ((units-100)*7);
+}
+else{
+    bill=(100*5) + ((units-100)*7) + ((units-200) * 10);
+}
+System.out.println("Electricity bill is:- " + bill);
 
     }
 }
+
+
+
